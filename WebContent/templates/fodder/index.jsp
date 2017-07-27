@@ -69,7 +69,7 @@ $(window).load(function(){
 						</ul>
 					</div>
 					<div class="col-md-9 banner-right">
-						<a href="index.html"><h1>Rôtisserie du jet d'eau</h1></a>
+						<a href="${path}"><h1>Rôtisserie du jet d'eau</h1></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
