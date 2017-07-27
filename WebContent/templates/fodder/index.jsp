@@ -38,7 +38,6 @@ $(window).load(function(){
 </script>
 <!-- start-smoth-scrolling -->
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
@@ -59,7 +58,6 @@ $(window).load(function(){
 						 <ul class="menu">
 							<li class="item1">
 								<ul class="cute">
-									<li><a href="${path}" class="active">Home</a></li>
 									<li><a href="#about" class="scroll">À PROPOS</a></li>
 									<li><a href="#menu" class="scroll">Menu</a></li>
 									<li><a href="#reservation" class="scroll">Réservation</a></li>
