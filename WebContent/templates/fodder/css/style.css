@@ -502,11 +502,13 @@ h2.resp-accordion {
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
+	border : 2px solid;
 }
 
 .book_table input[type="submit"]:hover {
     background:#fff;
 	color:#ff4d00;
+	border : 2px solid;
 }
 
 .tabe:before {
@@ -595,11 +597,13 @@ h2.resp-accordion {
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
+	border : 2px solid;
 }
 
 .inp-form input[type="submit"]:hover {
     background:#fff;
 	color:#ff4d00;
+	border : 2px solid;
 }
 
 .map-grids h4{
