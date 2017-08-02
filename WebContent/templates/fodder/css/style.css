@@ -241,7 +241,7 @@ ul.social li a.g{
 }
 .about-main h3,.menu1 h3,.book_table h3,.map-grids h3{
 	text-align: center;
-    color: #000;
+    color: #ff4d00;
     font-size: 2em;
     margin: 0 auto;
     padding: .5em 0em;
@@ -437,9 +437,9 @@ h2.resp-accordion {
 	outline:none;
 	padding:12px 10px;
 	width:47.66%;
-	background:#5b4f46;
+	background:#fff;
 	font-size:14px;
-	color:#fff;
+	color:#000;
 	border:none;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -465,11 +465,11 @@ h2.resp-accordion {
 }
 .section_room{
 	float:right;
-	width: 47.66%;
+	width: 48.9%;
 	margin:1.5em 0;
 }
 .section_room select{
-	width:100% !important;
+	width:97.5%;
 }
 .book_table input[type="text"]:nth-child(2){
 	margin:0 0 0em 2em;
@@ -538,7 +538,7 @@ h2.resp-accordion {
 	position:relative;
 }
 .inp-form{
-	margin:5em 0 0;
+	margin:4em 0 0;
 }
 .inp-form textarea{
 	width:100% !important;
@@ -550,9 +550,9 @@ h2.resp-accordion {
 	outline:none;
 	padding:12px 10px;
 	width:47.66%;
-	background:#5b4f46;
+	background:#fff;
 	font-size:14px;
-	color:#fff;
+	color:#000;
 	border:none;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -588,9 +588,9 @@ h2.resp-accordion {
 
 .map-grids h4{
 	text-align:center;
-	color:#fff;
+	color:#ff4d00;
 	margin:4em 0 .5em;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Pacifico', sans-serif;
 	font-size:1.6em;
 }
 .map-grids p{
@@ -680,10 +680,6 @@ h2.resp-accordion {
 	margin:5em 0 0;
 }
 
-.footer h4 {
-	font-size : 1em;
-}
-
 .footer-left{
 	float:left;
 }
@@ -704,7 +700,7 @@ h2.resp-accordion {
 	font-style:normal;
 }
 .footer-left p a{
-	color:#fff;
+	color:#ff4d00;
 }
 .footer-left p a:hover{
 	color:#fff;

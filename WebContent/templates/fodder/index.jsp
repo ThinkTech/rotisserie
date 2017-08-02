@@ -323,7 +323,6 @@ $(window).load(function(){
 																 </div>
 															</li>
 														</ul>
-															<div id="loadMore">Voir Plus</div>
 													</div>
 												</div>
 												<div class="tab-1 resp-tab-content">								
@@ -473,7 +472,7 @@ $(window).load(function(){
 										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 									</div>
 									<div class="footer-right">
-									    <h4>Dites-le à vos ami(e)s</h4>
+									    <h4>Partager</h4>
 										<div class="sharethis-inline-share-buttons"></div>
 									</div>
 									<div class="clearfix"> </div>
