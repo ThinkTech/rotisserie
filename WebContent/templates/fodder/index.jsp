@@ -466,7 +466,7 @@ $(window).load(function(){
 										<input type="submit" value="Envoyer">
 									</form>
 								</div>
-								<h4>Abonnez-vous aux nouvelles</h4>
+								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-vous aux nouvelles</h4>
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
@@ -479,7 +479,7 @@ $(window).load(function(){
 										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 									</div>
 									<div class="footer-right">
-									    <h4>Partager</h4>
+									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partager</h4>
 										<div class="sharethis-inline-share-buttons"></div>
 									</div>
 									<div class="clearfix"> </div>

@@ -287,6 +287,10 @@ h3 .fa {
 	font-size : 1.3em;
 }
 
+h4 .fa {
+	margin-right : 5px;
+}
+
 .about-main:before{
 	background: url(../images/7.png) no-repeat 0px 0px;
     display: block;
