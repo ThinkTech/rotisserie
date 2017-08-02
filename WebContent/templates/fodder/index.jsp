@@ -173,9 +173,6 @@ $(window).load(function(){
 									ullamcolaborisnisi ut aliquipexeacommodo consequat.
 							</fieldset>
 						</form>
-						<ul class="social">
-							<li><a href="#" class="facebook"> </a></li>
-						</ul>
 					</div>
 					<!-- menu -->
 						<div id="menu" class="menu1">
