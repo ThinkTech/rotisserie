@@ -67,7 +67,10 @@ $(window).load(function(){
 						</ul>
 					</div>
 					<div class="col-md-9 banner-right">
-						<a href="${path}"><h1>Rôtisserie du jet d'eau</h1></a>
+					  <h1>Bienvenue À</h1></a>
+						<a href="${path}">
+						<img src="templates/fodder/images/logo.png"/>
+						<h1>du jet d'eau</h1></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -182,10 +185,9 @@ $(window).load(function(){
 									<div class="sap_tabs">			
 										<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 											<ul class="resp-tabs-list">
-												<li class="resp-tab-item"><span>Dinner</span></li>
-												<li class="resp-tab-item"><span>Pizza</span></li>
-												<li class="resp-tab-item"><span>burger</span></li>
-												<li class="resp-tab-item"><span>chicken roast & salad</span></li>					
+												<li class="resp-tab-item"><span>Rôtisserie</span></li>
+												<li class="resp-tab-item"><span>Crêperie</span></li>
+												<li class="resp-tab-item"><span>Boissons</span></li>					
 											</ul>	
 											<div class="clearfix"> </div>	
 											<div class="resp-tabs-container">
@@ -385,60 +387,6 @@ $(window).load(function(){
 														<div class="clearfix"> </div>
 													</div>      					 
 												</div>
-												<div class="tab-1 resp-tab-content">
-													<div class="tab_img">
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/2-.jpg">
-																<img src="templates/fodder/images/2.jpg" class="img-responsive" alt="" />
-																<h4>dinner</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/3-.jpg">
-																<img src="templates/fodder/images/3.jpg" class="img-responsive" alt="" />
-																<h4>roast & salad</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/4-.jpg">
-																<img src="templates/fodder/images/4.jpg" class="img-responsive" alt="" />
-																<h4>Chicken roast</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="clearfix"> </div>
-													</div>
-													<div class="tab_img">
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/5-.jpg">
-																<img src="templates/fodder/images/5.jpg" class="img-responsive" alt="" />
-																<h4>burger</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/6-.jpg">
-																<img src="templates/fodder/images/6.jpg" class="img-responsive" alt="" />
-																<h4>Chicken roast</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="col-md-4 img-top">
-															<div class="img-top1">
-															   <a href="templates/fodder/images/7-.jpg">
-																<img src="templates/fodder/images/7.jpg" class="img-responsive" alt="" />
-																<h4>pizza</h4>
-															   </a>
-															</div>
-														</div>
-														<div class="clearfix"> </div>
 													</div>	
 												</div>	
 											</div>		

@@ -20,7 +20,7 @@ body a:hover{
 /*-- banner-body --*/
 .banner-body{
 	padding:2.5em 0;
-	background:#a5ad7a;
+	background:#042f11;
 }
 /*-- //banner-body --*/
 /*-- banner --*/
@@ -28,15 +28,30 @@ body a:hover{
 	padding:0;
 }
 
-.banner-right h1{
-	color : #fff;
+.banner-right img {
+	width : 100%;
+	height : 300px;
+	margin-top : -60px;
+}
+
+.banner-right  h1{
+	color : #004815;
 	font-family : Pacifico;
-	font-size: 4em;
-    line-height: 1.5em;
+	font-size: 6em;
+    text-align : center;   
+    margin-top : 40px; 
+}
+
+.banner-right a h1{
+	color : #004815;
+	font-family : Pacifico;
+	font-size: 2.5em;
+    margin-top: -10px;
+    margin-left : -180px;
 }
 .banner-left{
 	height: 580px;
-    background: #E49B24;
+    background: #ff6600;
 }
 .menu {
 	width: auto;
@@ -71,13 +86,13 @@ ul.cute li{
     width: 100%;
     display: block;
     position: relative;
-    color: #f7e2dd;
+    color: #000000;
     text-decoration: none;
     line-height: 1.8em;
     text-transform: uppercase;
     letter-spacing: .5px;
-    font-weight: 300;
-	font-size: 1em;
+    font-weight: bold;
+    font-size: 1em;
 }
 .menu ul li a:hover,.menu ul li a.active{
 	color:#fff;
@@ -89,7 +104,8 @@ li.item1 {
     padding: 3em 0 0 6em;
 }
 .banner-right{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background-image : url(../images/grid.jpg);
+	background-color:#fff;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -101,7 +117,6 @@ li.item1 {
 	display: block;
     text-align: center;
     padding: 5em 0 0;
-    width: 35%;
     margin: 0 auto;
 }
 /*-- //banner --*/
@@ -406,16 +421,6 @@ h2.resp-accordion {
 .tabe{
 	text-align:center;
 	position:relative;
-}
-.reserve:before{
-	background: url(../images/12.png) no-repeat 0px 0px;
-    display: block;
-    height:272px;
-    width:159px;
-    content: '';
-    position: absolute;
-	top: -6%;
-    left: -7%;
 }
 .book_table{
 	background:#373f1b;
