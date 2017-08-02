@@ -31,7 +31,7 @@ body a:hover{
 .banner-right img {
 	width : 100%;
 	height : 300px;
-	margin-top : -60px;
+	margin-top : -40px;
 	filter : saturate(1.5);
 }
 
@@ -114,7 +114,7 @@ li.item1 {
     padding: 0em 0 0 2em;
 }
 .banner-right{
-	background-image : url(../images/grid.jpg);
+	background-image : url(../images/grid2.png);
 	background-color:#fff;
 	background-size:cover;
 	-webkit-background-size:cover;
