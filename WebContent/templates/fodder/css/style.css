@@ -172,7 +172,8 @@ li.item1 {
 /*-- about --*/
 .about{
 	padding:4em;
-	background:#fff;
+	background-image : url(../images/grid.jpg);
+	background-color:#fff;
 }
 
 ul.social {
@@ -244,8 +245,7 @@ ul.social li a.g{
     color: #ff4d00;
     font-size: 2em;
     margin: 0 auto;
-    padding: .5em 0em;
-    background: #fff;
+    padding: 1em 0em;
     width: 30%;
 }
 .about-main:before{
@@ -270,7 +270,6 @@ ul.social li a.g{
 }
 .cook{
 	text-align:center;
-	margin: 3em 0 0;
 }
 .cook img{
 	margin:0 auto;
@@ -334,6 +333,7 @@ fieldset:before{
 /******** SAP ************/
 .sap_tabs{
 	clear:both;
+	margin-top : -3em;
 }
 .tab_box{
 	background:#fd926d;
@@ -430,7 +430,7 @@ h2.resp-accordion {
     position: relative;
 }
 .book_table form{
-	margin:4em auto 0;
+	margin:0.5em auto 0;
 	width:70%;
 }
 .book_table input[type="text"],select,.book_table input[type="email"],.book_table input[type="date"],.book_table textarea,.book_table input[type="time"]{
@@ -526,19 +526,23 @@ h2.resp-accordion {
     position: absolute;
     top: 0%;
     left: 0%;
-    background:#373f1b;
+    background-image : url(../images/grid.jpg);
+	background-color:#fff;
 }
 .map-grids {
     position: absolute;
     top: 0%;
     left: 13%;
     width: 75%;
+    background-color:#042f11;
 }
 .contact{
 	position:relative;
 }
 .inp-form{
-	margin:4em 0 0;
+	margin:0em 0 0;
+	padding: 4em;
+    padding-top: 0em;
 }
 .inp-form textarea{
 	width:100% !important;
@@ -677,7 +681,8 @@ h2.resp-accordion {
 /*-- //load-more --*/
 /*-- footer --*/
 .footer{
-	margin:5em 0 0;
+	margin: 3em 0 0;
+    padding: 3em;
 }
 
 .footer-left{
