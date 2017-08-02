@@ -110,14 +110,20 @@ ul.cute li{
     font-weight: bold;
     font-size: 1em;
 }
-.menu ul li a:before {
-    content: ".";
-    font-size: 6em;
-    margin-right: 1px;
+.menu ul li a i {
+    font-size: 3em;
+    margin-right: 6px;
     position: relative;
-    top: 1px;
-    color : #000;
+    top: 9px;
+    color: #000;
+    display : inline-block;
+    width : 50px;
 }
+
+.menu ul li a span {
+	display : inline-block;
+}
+
 .menu ul li a:hover,.menu ul li a.active{
 	color:#fff;
 }
@@ -273,7 +279,14 @@ ul.social li a.g{
     width: 30%;
     font-family : Pacifico;
     text-transform : uppercase;
+    white-space : nowrap;
 }
+
+h3 .fa {
+	margin-right : 5px;
+	font-size : 1.3em;
+}
+
 .about-main:before{
 	background: url(../images/7.png) no-repeat 0px 0px;
     display: block;
@@ -747,30 +760,15 @@ h2.resp-accordion {
 
 /*-- //footer --*/
 /*-- to-top --*/
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 20px;
-	right: 2%;
-	overflow: hidden;
-	z-index: 999; 
-	width: 32px;
-	height: 32px;
-	border: none;
-	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+
+.scrollToTop {
+	background : #ff4d00;
 }
-#toTopHover {
-	width: 32px;
-	height: 32px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+
+.scrollToTop:hover, .scrollToTop:focus {
+	background : #000;
 }
+
 /*-- //to-top --*/
 /*-- services --*/
 .ser {

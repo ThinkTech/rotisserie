@@ -27,7 +27,6 @@ $(window).load(function(){
 </script>
 <!-- //FlexSlider -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="templates/fodder/js/move-top.js"></script>
 <script type="text/javascript" src="templates/fodder/js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
@@ -50,6 +49,9 @@ $(window).load(function(){
 </head>
 	
 <body>
+<!-- scroll to top  -->   
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  
 <!-- banner-body -->
 	<div class="banner-body">
 		<div class="container">
@@ -63,16 +65,16 @@ $(window).load(function(){
 						 <ul class="menu">
 							<li class="item1">
 								<ul class="cute">
-									<li><a href="#about" class="scroll">À PROPOS</a></li>
-									<li><a href="#menu" class="scroll">Menu</a></li>
-									<li><a href="#reservation" class="scroll">Réservation</a></li>
-									<li><a href="#contact" class="scroll">Contact</a></li>
+									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
+									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Réservation</span></a></li>
+									<li><a href="#contact" class="scroll"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Contact</span></a></li>
 								</ul>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-9 banner-right">
-					  <h1>Bienvenue À</h1></a>
+					  <h1><i class="fa fa-magic" aria-hidden="true"></i>Bienvenue À</h1></a>
 						<a href="${path}">
 						<img src="templates/fodder/images/logo.png"/>
 						<h1>du jet d'eau</h1></a>
@@ -166,7 +168,7 @@ $(window).load(function(){
 			<!-- about -->
 				<div class="about">
 					<div id="about" class="about-main">
-						<h3>À PROPOS</h3>
+						<h3><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						<div class="cook">
 							<img src="templates/fodder/images/1.jpg" alt=" " class="img-responsive" />
 						</div>
@@ -182,7 +184,7 @@ $(window).load(function(){
 					<!-- menu -->
 						<div id="menu" class="menu1">
 							<div class="mnu1">
-							<h3>Menu</h3>
+							<h3><i class="fa fa-bars" aria-hidden="true"></i>Menu</h3>
 								<div class="gallery">
 									<div class="sap_tabs">			
 										<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
@@ -419,7 +421,7 @@ $(window).load(function(){
 					<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
-								<h3>Réservation</h3>
+								<h3><i class="fa fa-shopping-cart" aria-hidden="true"></i>Réservation</h3>
 								<form>
 									<input type="text" placeholder="Nom Complet" required/>
 									<input type="text" placeholder="Téléphone"  required/>
@@ -455,7 +457,7 @@ $(window).load(function(){
 							<div class="map-color">
 							</div>
 							<div class="map-grids">
-								<h3>Contact</h3>
+								<h3><i class="fa fa-info" aria-hidden="true"></i>Contact</h3>
 								<div class="inp-form">
 									<form>
 									   	<input type="text" placeholder="Nom Complet"  required>
@@ -491,12 +493,8 @@ $(window).load(function(){
 		</div>
 	</div>
 <!-- //banner-body -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
+<script type="text/javascript" src="js/metamorphosis.js"></script>
+	
 <!-- //here ends scrolling icon -->
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons" async defer></script>
 
