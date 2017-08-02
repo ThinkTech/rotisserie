@@ -32,6 +32,7 @@ body a:hover{
 	width : 100%;
 	height : 300px;
 	margin-top : -60px;
+	filter : saturate(1.5);
 }
 
 .banner-right  h1{
@@ -39,19 +40,20 @@ body a:hover{
 	font-family : Pacifico;
 	font-size: 6em;
     text-align : center;   
-    margin-top : 40px; 
+    margin-top : 25px; 
 }
 
 .banner-right a h1{
 	color : #004815;
 	font-family : Pacifico;
-	font-size: 2.5em;
-    margin-top: -10px;
+	font-size: 4em;
+    margin-top: -5px;
     margin-left : -180px;
 }
 .banner-left{
 	height: 580px;
     background: #ff6600;
+    border-right : 20px solid #000;
 }
 .menu {
 	width: auto;
@@ -66,7 +68,7 @@ body a:hover{
     text-indent: 1.2em;
     display: block;
     position: relative;
-    color: #3e3f3f;
+    color: #004815;
     font-size: 15px;
     text-decoration: none;
     font-weight: 800;
@@ -86,13 +88,21 @@ ul.cute li{
     width: 100%;
     display: block;
     position: relative;
-    color: #000000;
+    color: #004815;
     text-decoration: none;
-    line-height: 1.8em;
+    line-height: 0.4em;
     text-transform: uppercase;
     letter-spacing: .5px;
     font-weight: bold;
     font-size: 1em;
+}
+.menu ul li a:before {
+    content: ".";
+    font-size: 6em;
+    margin-right: 1px;
+    position: relative;
+    top: 1px;
+    color : #000;
 }
 .menu ul li a:hover,.menu ul li a.active{
 	color:#fff;
@@ -101,7 +111,7 @@ ul.cute li{
 	border-bottom: none;
 }
 li.item1 {
-    padding: 3em 0 0 6em;
+    padding: 0em 0 0 2em;
 }
 .banner-right{
 	background-image : url(../images/grid.jpg);
@@ -247,6 +257,8 @@ ul.social li a.g{
     margin: 0 auto;
     padding: 1em 0em;
     width: 30%;
+    font-family : Pacifico;
+    text-transform : uppercase;
 }
 .about-main:before{
 	background: url(../images/7.png) no-repeat 0px 0px;
@@ -292,7 +304,7 @@ fieldset{
     width: 68%;
     position: relative;
     margin: 4em auto 0;
-    border: 2px solid #fff;
+    border: 2px solid #ff4d00;
 }
 fieldset:before{
 	background: url(../images/9.png) no-repeat 0px 0px;
@@ -411,6 +423,7 @@ h2.resp-accordion {
 }
 .img-top1{
 	background:#fff;
+	border:2px solid #ff4d00;
 }
 /*--//gallery--*/
 /*-- reserve --*/
@@ -440,7 +453,7 @@ h2.resp-accordion {
 	background:#fff;
 	font-size:14px;
 	color:#000;
-	border:none;
+	border:2px solid #ff4d00;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -453,7 +466,7 @@ h2.resp-accordion {
     margin: 0 0 0 2em;
 }
 .book_table textarea{
-	width:100% !important;
+	width:99% !important;
 	margin:1.5em 0;
 	resize:none;
 	min-height:150px;
@@ -475,8 +488,8 @@ h2.resp-accordion {
 	margin:0 0 0em 2em;
 }
 .book_table input[type="submit"]{
-	background:#9A9794;
-	padding: 10px 0px;
+	background:#ff4d00;
+	padding: 12px 0px;
 	width:30%;
 	margin:0 auto;
 	color:#fff;
@@ -492,8 +505,8 @@ h2.resp-accordion {
 }
 
 .book_table input[type="submit"]:hover {
-    background:#f17c5e;
-	color:#fff;
+    background:#fff;
+	color:#ff4d00;
 }
 
 .tabe:before {
@@ -526,7 +539,6 @@ h2.resp-accordion {
     position: absolute;
     top: 0%;
     left: 0%;
-    background-image : url(../images/grid.jpg);
 	background-color:#fff;
 }
 .map-grids {
@@ -545,7 +557,7 @@ h2.resp-accordion {
     padding-top: 0em;
 }
 .inp-form textarea{
-	width:100% !important;
+	width:99% !important;
 	min-height:200px;
 	resize:none;
 	margin:0 0 1.5em;
@@ -557,18 +569,19 @@ h2.resp-accordion {
 	background:#fff;
 	font-size:14px;
 	color:#000;
-	border:none;
+	border:2px solid #ff4d00;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
+	margin-bottom : 15px;
 }
 .inp-form input[type="email"]{
 	margin:0 0 0 2em;
 }
 .inp-form input[type="submit"]{
-	background: #9A9794;
+	background: #ff4d00;
     padding: 12px 0px;
     width: 30%;
     margin: 0 auto;
@@ -582,12 +595,11 @@ h2.resp-accordion {
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
-	margin:1.5em 0 0;
 }
 
 .inp-form input[type="submit"]:hover {
-    background:#f17c5e;
-	color:#fff;
+    background:#fff;
+	color:#ff4d00;
 }
 
 .map-grids h4{
@@ -703,6 +715,7 @@ h2.resp-accordion {
 	color:#fff;
 	margin:.5em 0 0;
 	font-style:normal;
+	font-family : Pacifico;
 }
 .footer-left p a{
 	color:#ff4d00;

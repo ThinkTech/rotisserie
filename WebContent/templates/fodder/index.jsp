@@ -416,21 +416,21 @@ $(window).load(function(){
 							<div class="book_table">
 								<h3>Réservation</h3>
 								<form>
-									<input type="text" value="Nom Complet" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-									<input type="text" value="Téléphone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
-									<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+									<input type="text" placeholder="Nom Complet" required/>
+									<input type="text" placeholder="Téléphone"  required/>
+									<input type="email" placeholder="Email" required/>
 									<div class="section_room">
 										<select id="country" onchange="change_country(this.value)" class="frm-field required">
 												<option value="null">Nombre de Personnes</option>
-												<option value="null">2</option>         
-												<option value="AX">3</option>
+												<option value="2">2</option>         
+												<option value="3">3</option>
 												<option value="AX">Plus</option>
 										</select>
 									</div>
 									<div class="clearfix"> </div>
-									<input class="date" id="datepicker" type="text" value="5/11/2015" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '5/11/2015';}" required="">
-									<input type="time" value="3:30 PM" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '3:30 PM';}" required="">
-									<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
+									<input type="time" placeholder="3:30 PM" required/>
+									<textarea placeholder="Message"></textarea>
 									<input type="submit" value="Réserver">
 								</form>
 									<!---strat-date-piker---->
@@ -453,16 +453,16 @@ $(window).load(function(){
 								<h3>Contact</h3>
 								<div class="inp-form">
 									<form>
-										<textarea onfocus="this.value = '';"  required="">Message</textarea>
-										<input type="text" value="Nom Complet" onfocus="this.value = '';"  required="">
-										<input type="email" value="Email" onfocus="this.value = '';"  required="">
+									   	<input type="text" placeholder="Nom Complet"  required>
+										<input type="email" placeholder="Email" required>
+										<textarea placeholder="Message"  required></textarea>
 										<input type="submit" value="Envoyer">
 									</form>
 								</div>
 								<h4>Abonnez-vous aux nouvelles</h4>
 								<div class="mail-sub">
 									<form>
-										<input type="email" value="Email" onfocus="this.value = '';"  required="">
+										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
 										<input type="submit" value="">
 										<div class="clearfix"> </div>
 									</form>
