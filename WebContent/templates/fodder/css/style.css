@@ -22,6 +22,20 @@ body a:hover{
 	padding:2.5em 0;
 	background:#042f11;
 }
+
+.user {
+	position: absolute;
+    top: 9px;
+    right: 93px;
+}
+
+.user a, .user a:visited {
+	color : #fff;
+	font-size : 14px;
+	padding-right : 10px;
+	font-family : Pacifico;
+}
+
 /*-- //banner-body --*/
 /*-- banner --*/
 .banner-left,.banner-right{
@@ -503,6 +517,7 @@ h2.resp-accordion {
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 	border : 2px solid;
+	height : auto;
 }
 
 .book_table input[type="submit"]:hover {
@@ -598,6 +613,7 @@ h2.resp-accordion {
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 	border : 2px solid;
+	height : auto;
 }
 
 .inp-form input[type="submit"]:hover {
@@ -651,6 +667,7 @@ h2.resp-accordion {
     -moz-transition: .5s all;
     -o-transition: .5s all;
     -ms-transition: .5s all;
+    height : auto;
 }
 .mail-sub input[type="submit"]:hover{
 	background: url(../images/17.png) no-repeat 38px 15px #fff;

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="rôtisserie" />
+<link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
@@ -54,6 +55,10 @@ $(window).load(function(){
 		<div class="container">
 			<!-- banner -->
 				<div class="banner">
+				    <div class="user">
+				       <a><span><i class="fa fa-id-card" aria-hidden="true"></i>Connexion</span></a>
+				       <a><span><i class="fa fa-user" aria-hidden="true"></i>Inscription</span></a>
+				    </div>
 					<div class="col-md-3 banner-left">
 						 <ul class="menu">
 							<li class="item1">
