@@ -187,6 +187,7 @@ li.item1 {
     margin-bottom : 8px;
     margin-top : 20px;
     background : #fff;
+    filter : saturate(6);
 }
 
 h5 .fa {
@@ -476,6 +477,7 @@ h2.resp-accordion {
 	background: #ff3d00;
 	min-height:633px;
 }
+
 .menu1 {
     position: relative;
 }
@@ -549,11 +551,11 @@ h2.resp-accordion {
 	border : 2px solid;
 }
 
-.book_table .fa{
-   position: relative;
+.book_table form .fa{
+    position: absolute;
     margin-left: -193px;
-    margin-top: 15.2px;
-    color: #fff;
+    margin-top: 16px;
+    font-size: 1.2em;
 }
 
 .tabe:before {
@@ -647,10 +649,10 @@ h2.resp-accordion {
 }
 
 .inp-form .fa{
-   position: relative;
-    margin-left: -175px;
+   position: absolute;
+    margin-left: -187px;
     margin-top: 16px;
-    color: #fff;
+    font-size : 1.2em;
 }
 .inp-form input[type="submit"]:hover {
     background:#fff;
@@ -661,7 +663,7 @@ h2.resp-accordion {
 .map-grids h4{
 	text-align:center;
 	color:#ff4d00;
-	margin:1.7em;
+	margin:1.5em;
 	font-size:1.6em;
 }
 .map-grids p{
@@ -708,10 +710,10 @@ h2.resp-accordion {
 }
 
 .mail-sub .fa{
-   position: relative;
-    margin-left: -116px;
+   position: absolute;
+    margin-left: -117px;
     margin-top: 14px;
-    color: #fff;
+    font-size : 1.2em;
 }
 .mail-sub input[type="submit"]:hover{
 	background: #fff;

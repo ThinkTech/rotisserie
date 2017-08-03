@@ -453,7 +453,7 @@ $(window).load(function(){
 									   	<input type="text" placeholder="Nom Complet"  required>
 										<input type="email" placeholder="Email" required>
 										<textarea placeholder="Message"  required></textarea>
-										<input type="submit" value="Envoyer"><i class="fa fa-info" aria-hidden="true"></i></input>
+										<input type="submit" value="Envoyer"><i class="fa fa-envelope" aria-hidden="true"></i></input>
 									</form>
 								</div>
 								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-vous aux nouvelles</h4>
