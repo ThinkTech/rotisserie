@@ -182,6 +182,7 @@ li.item1 {
 	font-size: 1.8em;
 	position:relative;
 	font-family : Ubuntu;
+	font-weight : bold;
 }
 .banner-bottom-right{
 	text-align: center;
