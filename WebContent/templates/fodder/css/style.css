@@ -215,7 +215,7 @@ h5 .fa {
 	padding:4em;
 	background-color: #fff;
 	background-image : url(../images/logo.png);
-    background-position : center 36%;
+    background-position : center 35%;
     background-repeat : no-repeat;
 }
 
@@ -347,7 +347,7 @@ fieldset{
 	line-height: 1.8em;
 	width: 68%;
 	position: relative;
-	margin: 4em auto 0;
+	margin: 2em auto 0;
 	border: 2px solid #ff4d00;
 }
 fieldset:before{
@@ -487,7 +487,7 @@ h2.resp-accordion {
 
 .menu1 {
     position: relative;
-    margin-top : 350px;
+    margin-top : 360px;
 }
 .book_table form{
 	margin:0.5em auto 0;
