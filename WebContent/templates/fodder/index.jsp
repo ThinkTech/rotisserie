@@ -109,13 +109,13 @@ $(window).load(function(){
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/1.png" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/3.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
 											<h5>Le Premier Drive au Sénégal</h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+											<p>Dans un soucis d'innovation, nous vous proposons un service de qualité et ce qui se fait de mieux dans le monde.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -124,13 +124,13 @@ $(window).load(function(){
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/3.png" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/6.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>100% Bio</h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+											<h5>Cuisine Bio</h5>
+											<p>Une alimentation saine peut être délicieuse! Venez déguster des recettes simples et nutritives.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -139,13 +139,13 @@ $(window).load(function(){
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/4.png" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/5.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
 											<h5>Une Cuisine de Rêve</h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+											<p>Notre cuisiniers avec leur savoir-faire vous promettent une experience unique et inoubliable.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
