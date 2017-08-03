@@ -44,8 +44,7 @@ body a:hover{
 }
 
 .banner-right img {
-	width: 65%;
-	margin-top: -80px;
+	width: 80%;
 	filter : saturate(1.5);
 }
 
@@ -53,8 +52,8 @@ body a:hover{
 	color: #ff3d00;
 	font-family: Ubuntu;
 	font-style: italic;
-	font-size: 5em;
-	margin-top: 0px;
+	font-size: 6em;
+	margin-top: -30px;
 	margin-left : -180px;
 	font-weight: bold;
 }
@@ -100,7 +99,7 @@ ul.cute li{
     line-height: 0.4em;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 13px;
 }
 .menu ul li a i {
     font-size: 3em;
@@ -115,6 +114,11 @@ ul.cute li{
 .menu ul li .fa-lock {
 	margin-left : 3px;
 	margin-right : 3px;
+}
+
+.menu ul li .fa-map-marker {
+	margin-left : 4px;
+	margin-right : 2px;
 }
 
 .menu ul li .fa-info-circle {
@@ -186,7 +190,7 @@ li.item1 {
     border-radius : 15px;
     margin-bottom : 8px;
     margin-top : 20px;
-    background : #fff;
+    background : #ffa709;
     filter : saturate(6);
 }
 
@@ -210,6 +214,9 @@ h5 .fa {
 .about{
 	padding:4em;
 	background-color: #fff;
+	background-image : url(../images/logo.png);
+    background-position : center 36%;
+    background-repeat : no-repeat;
 }
 
 ul.social {
@@ -480,6 +487,7 @@ h2.resp-accordion {
 
 .menu1 {
     position: relative;
+    margin-top : 350px;
 }
 .book_table form{
 	margin:0.5em auto 0;
@@ -664,6 +672,7 @@ h2.resp-accordion {
 	text-align:center;
 	color:#ff4d00;
 	margin:1.5em;
+	margin-bottom:0.5em;
 	font-size:1.6em;
 }
 .map-grids p{

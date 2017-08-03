@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Rôtisserie du jet d'eau</title>
+<title>La Rotisserie</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="rôtisserie" />
+<meta name="keywords" content="rotisserie" />
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -42,8 +42,8 @@ $(window).load(function(){
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
-<meta property="og:title" content="Rôtisserie du jet d'eau - Site Officiel"/>
-<meta property="og:description" content="Bienvenue sur le site officiel de la Rôtisserie du jet d'eau"/>
+<meta property="og:title" content="La Rotisserie - Site Officiel"/>
+<meta property="og:description" content="Bienvenue sur le site officiel de la Rôtisserie"/>
 <meta property="og:image" content="${baseUrl}/templates/fodder/images/banner.jpg"/>
 
 </head>
@@ -66,8 +66,9 @@ $(window).load(function(){
 							<li class="item1">
 								<ul class="cute">
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
-									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a></li>
+									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Notre Menu</span></a></li>
 									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
 									<li><a href="#contact" class="scroll"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Contact</span></a></li>
 								</ul>
 							</li>
@@ -75,8 +76,8 @@ $(window).load(function(){
 					</div>
 					<div class="col-md-9 banner-right">
 					 	<a href="${path}">
-						<img src="templates/fodder/images/logo.png"/>
-						<h1>du jet d'eau</h1></a>
+					 	  <h1>La Rotisserie</h1>
+						</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -124,7 +125,7 @@ $(window).load(function(){
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/6.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/4.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -159,9 +160,6 @@ $(window).load(function(){
 				<div class="about">
 					<div id="about" class="about-main">
 						<h3><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
-						<div class="cook">
-							<img src="templates/fodder/images/1.jpg" alt=" " class="img-responsive" />
-						</div>
 						<form>
 							<fieldset>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididuntseddo eiusmod tempor incididunt 
@@ -174,7 +172,7 @@ $(window).load(function(){
 					<!-- menu -->
 						<div id="menu" class="menu1">
 							<div class="mnu1">
-							<h3><i class="fa fa-bars" aria-hidden="true"></i>Menu</h3>
+							<h3><i class="fa fa-bars" aria-hidden="true"></i>Notre Menu</h3>
 								<div class="gallery">
 									<div class="sap_tabs">			
 										<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
@@ -428,7 +426,7 @@ $(window).load(function(){
 									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
 									<input type="time" placeholder="3:30 PM" required/>
 									<textarea placeholder="Message"></textarea>
-									<input type="submit" value="Réserver"><i class="fa fa-lock" aria-hidden="true"></i></input>
+									<input type="submit" value="Réserver">
 								</form>
 									<!---strat-date-piker---->
 									<link rel="stylesheet" href="templates/fodder/css/jquery-ui.css" />
@@ -453,22 +451,21 @@ $(window).load(function(){
 									   	<input type="text" placeholder="Nom Complet"  required>
 										<input type="email" placeholder="Email" required>
 										<textarea placeholder="Message"  required></textarea>
-										<input type="submit" value="Envoyer"><i class="fa fa-envelope" aria-hidden="true"></i></input>
+										<input type="submit" value="Envoyer">
 									</form>
 								</div>
-								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-vous aux nouvelles</h4>
+								<h4><i class="fa fa-envelope" aria-hidden="true"></i>abonnez-vous aux nouvelles</h4>
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
-										<input type="submit" value="Abonner"><i class="fa fa-envelope" aria-hidden="true"></i></input>
+										<input type="submit" value="Abonner">
 										<div class="clearfix"> </div>
 									</form>
 								</div>
 								<div class="footer">
 									<div class="footer-left">
 									    <div>
-										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Adresse</h4>
-										  <p>Rond Point Jet D'eau Sicap. Dakar, Sénégal </p>
+										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
 										  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 										  <p><span>Mobile :</span> +221 77 845 46 85</p>
 										  <p><span>Email :</span> info@rotisseriedujetdeau.com</p>
@@ -486,9 +483,6 @@ $(window).load(function(){
 					<!-- //contact -->
 				</div>
 			<!-- //about -->
-			
-		</div>
-	</div>
 <!-- //banner-body -->
 <script type="text/javascript" src="js/metamorphosis.js"></script>
 	
