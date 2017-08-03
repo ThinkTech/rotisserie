@@ -74,8 +74,7 @@ $(window).load(function(){
 						</ul>
 					</div>
 					<div class="col-md-9 banner-right">
-					  <h1><i class="fa fa-magic" aria-hidden="true"></i>Bienvenue À</h1></a>
-						<a href="${path}">
+					 	<a href="${path}">
 						<img src="templates/fodder/images/logo.png"/>
 						<h1>du jet d'eau</h1></a>
 					</div>
@@ -470,7 +469,7 @@ $(window).load(function(){
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
-										<input type="submit" value="">
+										<input type="submit" value="Abonner">
 										<div class="clearfix"> </div>
 									</form>
 								</div>
