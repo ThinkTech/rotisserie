@@ -38,7 +38,6 @@ $(window).load(function(){
 </script>
 <!-- start-smoth-scrolling -->
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -67,7 +66,7 @@ $(window).load(function(){
 								<ul class="cute">
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
 									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Réservation</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
 									<li><a href="#contact" class="scroll"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Contact</span></a></li>
 								</ul>
 							</li>
@@ -420,7 +419,7 @@ $(window).load(function(){
 					<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
-								<h3><i class="fa fa-shopping-cart" aria-hidden="true"></i>Réservation</h3>
+								<h3><i class="fa fa-lock" aria-hidden="true"></i>Réservation</h3>
 								<form>
 									<input type="text" placeholder="Nom Complet" required/>
 									<input type="text" placeholder="Téléphone"  required/>
