@@ -50,14 +50,13 @@ body a:hover{
 }
 
 .banner-right a h1{
-	color: #ea950a;
+	color: #ff3d00;
 	font-family: Ubuntu;
 	font-style: italic;
 	font-size: 5em;
 	margin-top: 0px;
 	margin-left : -180px;
 	font-weight: bold;
-	filter : saturate(4);
 }
 .banner-left{
 	height: 390px;
@@ -176,15 +175,24 @@ li.item1 {
 	width:50%;
 }
 .banner-bottom-right h5{
-    color: #fff;
+    color: #ff8500;
     margin: 0em 0 0;
     line-height: 1.8em;
-    font-size: 2.2em;
+    font-size: 2em;
     position: relative;
     font-family: Ubuntu;
     font-weight: bold;
     white-space: nowrap;
+    border-radius : 15px;
+    margin-bottom : 8px;
+    margin-top : 20px;
+    background : #fff;
 }
+
+h5 .fa {
+	margin-right : 8px;
+}
+
 .banner-bottom-right{
 	text-align: center;
 }
@@ -193,14 +201,14 @@ li.item1 {
 	font-size: 14px;
 	margin:0 auto;
 	line-height: 1.8em;
-	width: 50%;
+	width: 75%;
 	font-family : Ubuntu;
 }
 /*-- //banner-bottom --*/
 /*-- about --*/
 .about{
 	padding:4em;
-	background-color: #efe2e2;
+	background-color: #fff;
 }
 
 ul.social {
@@ -541,6 +549,13 @@ h2.resp-accordion {
 	border : 2px solid;
 }
 
+.book_table .fa{
+   position: relative;
+    margin-left: -193px;
+    margin-top: 15.2px;
+    color: #fff;
+}
+
 .tabe:before {
     background: url(../images/15.png) no-repeat 0px 0px;
     display: block;
@@ -631,6 +646,12 @@ h2.resp-accordion {
 	height : auto;
 }
 
+.inp-form .fa{
+   position: relative;
+    margin-left: -175px;
+    margin-top: 16px;
+    color: #fff;
+}
 .inp-form input[type="submit"]:hover {
     background:#fff;
 	color:#ff4d00;
@@ -640,7 +661,7 @@ h2.resp-accordion {
 .map-grids h4{
 	text-align:center;
 	color:#ff4d00;
-	margin:4em 0 .5em;
+	margin:1.7em;
 	font-size:1.6em;
 }
 .map-grids p{
@@ -684,6 +705,13 @@ h2.resp-accordion {
 	-ms-transition: .5s all;
 	height : auto;
 	border : 2px solid;
+}
+
+.mail-sub .fa{
+   position: relative;
+    margin-left: -116px;
+    margin-top: 14px;
+    color: #fff;
 }
 .mail-sub input[type="submit"]:hover{
 	background: #fff;
@@ -748,15 +776,19 @@ h2.resp-accordion {
     margin : 1em;	
 }
 
-.footer-left p{
+.share-this {
+	height : 50px;
+}
+
+.footer-left p,.footer-right p{
 	font-size:12px;
 	color: #000;
 	margin:.5em 0 0;
 }
-.footer-left p a{
+.footer-left p a,.footer-right p a{
 	color:#ff4d00;
 }
-.footer-left p a:hover{
+.footer-left p a:hover,.footer-right p a:hover{
 	color:#fff;
 }
 

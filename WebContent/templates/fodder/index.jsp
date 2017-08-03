@@ -114,8 +114,8 @@ $(window).load(function(){
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>Le Premier Drive au Sénégal</h5>
-											<p>Dans un soucis d'innovation, nous vous proposons un service de qualité et ce qui se fait de mieux dans le monde.</p>
+											<h5><i class="fa fa-car" aria-hidden="true"></i>Le Premier Drive au Sénégal</h5>
+											<p>Dans un soucis d'innovation, nous vous proposons un service de qualité et ce qui se fait de mieux actuellement.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -129,7 +129,7 @@ $(window).load(function(){
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>Cuisine Bio</h5>
+											<h5><i class="fa fa-balance-scale" aria-hidden="true"></i>Cuisine Bio</h5>
 											<p>Une alimentation saine peut être délicieuse! Venez déguster des recettes simples et nutritives.</p>
 										</div>
 										<div class="clearfix"> </div>
@@ -144,7 +144,7 @@ $(window).load(function(){
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>Une Cuisine de Rêve</h5>
+											<h5><i class="fa fa-magic" aria-hidden="true"></i>Une Cuisine de Rêve</h5>
 											<p>Notre cuisiniers avec leur savoir-faire vous promettent une experience unique et inoubliable.</p>
 										</div>
 										<div class="clearfix"> </div>
@@ -428,7 +428,7 @@ $(window).load(function(){
 									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
 									<input type="time" placeholder="3:30 PM" required/>
 									<textarea placeholder="Message"></textarea>
-									<input type="submit" value="Réserver">
+									<input type="submit" value="Réserver"><i class="fa fa-lock" aria-hidden="true"></i></input>
 								</form>
 									<!---strat-date-piker---->
 									<link rel="stylesheet" href="templates/fodder/css/jquery-ui.css" />
@@ -453,24 +453,31 @@ $(window).load(function(){
 									   	<input type="text" placeholder="Nom Complet"  required>
 										<input type="email" placeholder="Email" required>
 										<textarea placeholder="Message"  required></textarea>
-										<input type="submit" value="Envoyer">
+										<input type="submit" value="Envoyer"><i class="fa fa-info" aria-hidden="true"></i></input>
 									</form>
 								</div>
 								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-vous aux nouvelles</h4>
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
-										<input type="submit" value="Abonner">
+										<input type="submit" value="Abonner"><i class="fa fa-envelope" aria-hidden="true"></i></input>
 										<div class="clearfix"> </div>
 									</form>
 								</div>
 								<div class="footer">
 									<div class="footer-left">
-										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
+									    <div>
+										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Adresse</h4>
+										  <p>Rond Point Jet D'eau Sicap. Dakar, Sénégal </p>
+										  <p><span>Téléphone :</span> +221 33 825 95 49</p>
+										  <p><span>Mobile :</span> +221 77 845 46 85</p>
+										  <p><span>Email :</span> info@rotisseriedujetdeau.com</p>
+										</div>
 									</div>
 									<div class="footer-right">
 									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partager</h4>
-										<div class="sharethis-inline-share-buttons"></div>
+										<div class="share-this sharethis-inline-share-buttons"></div>
+										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
