@@ -38,6 +38,7 @@ $(window).load(function(){
 </script>
 <!-- start-smoth-scrolling -->
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -107,16 +108,13 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
-											<div class="banner-bottom-left1">
-												<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
-											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/1.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>New Style In Cooking</h5>
+											<h5>Le Premier Drive au Sénégal</h5>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 										</div>
 										<div class="clearfix"> </div>
@@ -125,16 +123,13 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
-											<div class="banner-bottom-left1">
-												<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
-											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/3.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>New Style In Cooking</h5>
+											<h5>100% Bio</h5>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 										</div>
 										<div class="clearfix"> </div>
@@ -143,16 +138,13 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
-											<div class="banner-bottom-left1">
-												<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
-											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/4.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
 										<div class="col-md-6 banner-bottom-right">
-											<h5>New Style In Cooking</h5>
+											<h5>Une Cuisine de Rêve</h5>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 										</div>
 										<div class="clearfix"> </div>

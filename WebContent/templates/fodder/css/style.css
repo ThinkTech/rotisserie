@@ -34,6 +34,7 @@ body a:hover{
 	font-size: 0.9em;
 	font-weight: bold;
 	padding-right : 10px;
+	font-family : Ubuntu;
 }
 
 /*-- //banner-body --*/
@@ -48,22 +49,15 @@ body a:hover{
 	filter : saturate(1.5);
 }
 
-.banner-right  h1{
-	color: #ff3d00;
-	font-family: Montserrat;
-	font-size: 6em;
-	text-align : center;
-	margin-top : 25px;
-}
-
 .banner-right a h1{
 	color: #ea950a;
-	font-family: Montserrat;
+	font-family: Ubuntu;
 	font-style: italic;
-	font-size: 3em;
+	font-size: 5em;
 	margin-top: 0px;
 	margin-left : -180px;
 	font-weight: bold;
+	filter : saturate(4);
 }
 .banner-left{
 	height: 380px;
@@ -122,10 +116,12 @@ ul.cute li{
 
 .menu ul li .fa-lock {
 	margin-left : 3px;
+	margin-right : 3px;
 }
 
 .menu ul li .fa-info-circle {
 	margin-left : -2px;
+	margin-right : 9px;
 }
 
 .menu ul li a span {
@@ -149,19 +145,21 @@ li.item1 {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	height: 380px;
+	overflow : hidden;
 }
 .banner-right a{
 	display: block;
     text-align: center;
     padding: 5em 0 0;
     margin: 0 auto;
+    width : 96%;
 }
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom{
 	padding-top : 20px;
 	background: #ff3d00;
-	height : 241px;
+	height : 242px;
 }
 .banner-bottom-left1{
 	float:left;
@@ -181,18 +179,9 @@ li.item1 {
 	color: #fff;
 	margin:2em 0 0;
 	line-height: 1.8em;
-	font-size: 1.3em;
+	font-size: 1.8em;
 	position:relative;
-}
-.banner-bottom-right h5:before{
-	content: '';
-    background: url(../images/2.png) no-repeat 0px 0px;
-    display: block;
-    height: 23px;
-    width: 28px;
-    position: absolute;
-    top: 22%;
-    left: 18%;
+	font-family : Ubuntu;
 }
 .banner-bottom-right{
 	text-align: center;
@@ -208,7 +197,7 @@ li.item1 {
 /*-- about --*/
 .about{
 	padding:4em;
-	background-color: #f5f5f5;
+	background-color: #efe2e2;
 }
 
 ul.social {
