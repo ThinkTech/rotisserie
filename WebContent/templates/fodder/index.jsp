@@ -444,7 +444,7 @@ $(window).load(function(){
 							<div class="map-color">
 							</div>
 							<div class="map-grids">
-								<h3><i class="fa fa-info" aria-hidden="true"></i>Contact</h3>
+								<h3><i class="fa fa-info-circle" aria-hidden="true"></i>Contact</h3>
 								<div class="inp-form">
 									<form>
 									   	<input type="text" placeholder="Nom Complet"  required>

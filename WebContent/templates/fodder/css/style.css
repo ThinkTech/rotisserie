@@ -298,6 +298,8 @@ ul.social li a.g{
 h3 .fa {
 	margin-right : 5px;
 	font-size : 1.3em;
+	position: relative;
+    top: 3px;
 }
 
 h4 .fa {
