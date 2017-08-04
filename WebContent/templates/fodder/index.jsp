@@ -190,7 +190,7 @@ $(window).load(function(){
 										</div>
 										<div class="col-md-6 banner-bottom-right">
 											<h5><i class="fa fa-magic" aria-hidden="true"></i>Une Cuisine de Rêve</h5>
-											<p>Notre cuisiniers avec leur savoir-faire vous promettent une experience unique et inoubliable.</p>
+											<p>Nos cuisiniers avec leur savoir-faire vous promettent une experience unique et inoubliable.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
