@@ -37,20 +37,6 @@ body a:hover{
 	cursor : pointer;
 }
 
-.social {
-	position: absolute;
-    top: 9px;
-    left: 24.4em;
-}
-
-.social a, .social a:visited {
-	color: #ff3d00;
-	font-size: 1em;
-	font-weight: bold;
-	padding-right : 10px;
-	cursor : pointer;
-}
-
 /*-- //banner-body --*/
 /*-- banner --*/
 .banner-left,.banner-right{
@@ -795,6 +781,19 @@ h2.resp-accordion {
 	padding-top : 20px;
 	width : 50%;
 }
+
+.social {
+	margin-top : 30px;
+}
+
+.social a, .social a:visited {
+	color: #ff3d00;
+	font-size: 5em;
+	font-weight: bold;
+	padding-right : 10px;
+	cursor : pointer;
+}
+
 
 .footer-right h4 {
     margin : 1em;	
