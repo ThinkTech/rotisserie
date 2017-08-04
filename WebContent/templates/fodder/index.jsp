@@ -38,7 +38,7 @@ $(window).load(function(){
 </script>
 <!-- start-smoth-scrolling -->
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Satisfy:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -472,7 +472,7 @@ $(window).load(function(){
 										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
 										  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 										  <p><span>Mobile :</span> +221 77 845 46 85</p>
-										  <p><span>Email :</span> info@rotisseriedujetdeau.com</p>
+										  <p><span>Email :</span> info@rotisserie.com</p>
 										</div>
 									</div>
 									<div class="footer-right">

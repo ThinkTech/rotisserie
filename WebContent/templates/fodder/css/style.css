@@ -34,7 +34,6 @@ body a:hover{
 	font-size: 0.9em;
 	font-weight: bold;
 	padding-right : 10px;
-	font-family : Play;
 	cursor : pointer;
 }
 
@@ -49,7 +48,6 @@ body a:hover{
 	font-size: 1em;
 	font-weight: bold;
 	padding-right : 10px;
-	font-family : Play;
 	cursor : pointer;
 }
 
@@ -66,12 +64,12 @@ body a:hover{
 
 .banner-right a h1{
 	color: #ff3d00;
-	font-family: Play;
-	font-style: italic;
-	font-size: 6em;
+	font-family: Satisfy;
+	font-size: 7.5em;
 	margin-top: -30px;
-	margin-left : -180px;
+	margin-left : -160px;
 	font-weight: bold;
+	font-style : italic;
 }
 .banner-left{
 	height: 390px;
@@ -200,7 +198,7 @@ li.item1 {
     line-height: 1.8em;
     font-size: 2em;
     position: relative;
-    font-family: Play;
+    font-family: Satisfy;
     font-weight: bold;
     white-space: nowrap;
     border-radius : 15px;
@@ -223,7 +221,6 @@ h5 .fa {
 	margin:0 auto;
 	line-height: 1.8em;
 	width: 75%;
-	font-family : Play;
 }
 /*-- //banner-bottom --*/
 /*-- about --*/
