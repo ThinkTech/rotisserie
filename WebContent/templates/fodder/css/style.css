@@ -273,6 +273,7 @@ h5 .fa {
 
 .about img {
 	width : 100%;
+	filter: saturate(3);
 }
 
 ul.social {
