@@ -37,8 +37,8 @@ $(window).load(function(){
 	});
 </script>
 <!-- start-smoth-scrolling -->
-<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -57,6 +57,11 @@ $(window).load(function(){
 		<div class="container">
 			<!-- banner -->
 				<div class="banner">
+				    <div class="social">
+				       <a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				       <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				       <a><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				    </div>
 				    <div class="user">
 				       <a><span><i class="fa fa-id-card" aria-hidden="true"></i>Connexion</span></a>
 				       <a><span><i class="fa fa-user" aria-hidden="true"></i>Inscription</span></a>
@@ -160,14 +165,13 @@ $(window).load(function(){
 				<div class="about">
 					<div id="about" class="about-main">
 						<h3><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
-						<form>
-							<fieldset>
+						  <fieldset>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididuntseddo eiusmod tempor incididunt 
 									ut labore etdoloremagna aliqua.Ut enim ad minim veniam, quis nostrudcommodo exercitation 
 									ullamco laboris nisi ut aliquipexeacommodo consequat.Ut enim ad minim veniamquisadminim nostrudcommodo exercitation 
 									ullamcolaborisnisi ut aliquipexeacommodo consequat.
-							</fieldset>
-						</form>
+						 </fieldset>
+						<img src="templates/fodder/images/logo.png">
 					</div>
 					<!-- menu -->
 						<div id="menu" class="menu1">
