@@ -45,9 +45,18 @@ body a:hover{
     right:3%;
 }
 
+.banner .social {
+	position: absolute;
+    top: 9px;
+    left: 102px;
+    margin-top : 0;
+}
 
-
-
+.banner > .social a,.banner > .social a:visited {
+	font-size : 1em;
+	color : #000;
+	cursor : pointer;
+}
 
 .user {
 	position: absolute;
@@ -247,7 +256,7 @@ h5 .fa {
 	color: #ffffff;
 	font-size: 14px;
 	margin:0 auto;
-	line-height: 1.8em;
+	line-height: 2em;
 	width: 75%;
 }
 /*-- //banner-bottom --*/

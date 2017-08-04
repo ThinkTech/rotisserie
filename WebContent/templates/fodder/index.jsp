@@ -57,6 +57,11 @@ $(window).load(function(){
 		<div class="container">
 			<!-- banner -->
 				<div class="banner">
+				    <div class="social">
+    				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					   <a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					   <a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				    </div>
 				    <div class="user">
 				       <a><span><i class="fa fa-id-card" aria-hidden="true"></i>Connexion</span></a>
 				       <a><span><i class="fa fa-user" aria-hidden="true"></i>Inscription</span></a>
