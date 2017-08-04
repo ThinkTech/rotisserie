@@ -206,8 +206,13 @@ li.item1 {
 
 .banner-bottom-left1 p {
 	color : #000;
-	font-size : 0.8em;
+	font-size : 0.9em;
 	padding-left : 32px;
+	font-family : Satisfy;
+}
+
+.banner-bottom-left1 .social {
+	margin-top : 18.5px;
 }
 
 .banner-bottom-left1 .social a, .banner-bottom-left1 .social a:visited {
@@ -220,7 +225,7 @@ li.item1 {
 
 .banner-bottom-left1 h4{
 	color: #ffffff;
-	line-height: 1.8em;
+	line-height: 2.1em;
 	font-size: 1.4em;
 }
 .banner-bottom-left2{
@@ -228,7 +233,7 @@ li.item1 {
 	width:50%;
 }
 .banner-bottom-right h5 {
-    color: #ff8500;
+    color: #ff3d00;
     margin: 0em 0 0;
     line-height: 1.8em;
     padding-top: 6px;
@@ -689,6 +694,11 @@ h2.resp-accordion {
 .inp-form input[type="email"]{
 	margin:0 0 0 2em;
 }
+.inp-form .subject{
+	width: 99% !important;
+    margin: 0 0 1.5em;
+}
+
 .inp-form input[type="submit"]{
 	background: #ff4d00;
 	padding: 12px 0px;

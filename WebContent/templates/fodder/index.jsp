@@ -493,6 +493,7 @@ $(window).load(function(){
 									<form>
 									   	<input type="text" placeholder="Nom Complet"  required>
 										<input type="email" placeholder="Email" required>
+										<input type="text" placeholder="Sujet" class="subject" required>
 										<textarea placeholder="Message"  required></textarea>
 										<input type="submit" value="Envoyer">
 									</form>
@@ -520,7 +521,7 @@ $(window).load(function(){
 				    						</div>
 									</div>
 									<div class="footer-right">
-									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partager</h4>
+									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partagez</h4>
 										<div class="share-this sharethis-inline-share-buttons"></div>
 										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 									</div>
