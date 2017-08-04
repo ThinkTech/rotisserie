@@ -168,11 +168,25 @@ li.item1 {
 	float:left;
 	width:45%;
 }
+
+.banner-bottom-left1 p {
+	color : #000;
+	font-size : 0.8em;
+	padding-left : 32px;
+}
+
+.banner-bottom-left1 .social a, .banner-bottom-left1 .social a:visited {
+    color: #fff;
+    font-size: 5em;
+    font-weight: bold;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
 .banner-bottom-left1 h4{
 	color: #ffffff;
-	margin: 2.3em 0 0;
 	line-height: 1.8em;
-	font-size: 1em;
+	font-size: 1.4em;
 }
 .banner-bottom-left2{
 	float:right;
@@ -212,7 +226,7 @@ h5 .fa {
 /*-- about --*/
 .about{
 	padding:4em;
-	background-color: #fff;
+	background-color: #000;
 }
 
 .about img {

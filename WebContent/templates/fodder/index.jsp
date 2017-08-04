@@ -109,6 +109,19 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
+										    <div class="banner-bottom-left1">
+												<div>
+												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
+												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Email :</span> info@rotisserie.com</p>
+												</div>
+										  		<div class="social">
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				    							</div>
+											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/3.jpg" alt=" " class="img-responsive" />
 											</div>
@@ -124,6 +137,19 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
+										    <div class="banner-bottom-left1">
+												<div>
+												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
+												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Email :</span> info@rotisserie.com</p>
+												</div>
+										  		<div class="social">
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				    							</div>
+											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/4.jpg" alt=" " class="img-responsive" />
 											</div>
@@ -139,6 +165,19 @@ $(window).load(function(){
 								<li>
 									<div class="banner-bottom-grids">
 										<div class="col-md-6 banner-bottom-left">
+										   <div class="banner-bottom-left1">
+												<div>
+												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
+												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Email :</span> info@rotisserie.com</p>
+												</div>
+										  		<div class="social">
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				    							</div>
+											</div>
 											<div class="banner-bottom-left2">
 												<img src="templates/fodder/images/5.jpg" alt=" " class="img-responsive" />
 											</div>
@@ -474,7 +513,6 @@ $(window).load(function(){
 				        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 				        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 				    						</div>
-				  
 									</div>
 									<div class="footer-right">
 									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partager</h4>
