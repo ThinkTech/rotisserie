@@ -498,7 +498,7 @@ $(window).load(function(){
 										<input type="submit" value="Envoyer">
 									</form>
 								</div>
-								<h4><i class="fa fa-envelope" aria-hidden="true"></i>abonnez-vous aux nouvelles</h4>
+								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-vous aux nouvelles</h4>
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
