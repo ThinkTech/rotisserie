@@ -23,6 +23,32 @@ body a:hover{
 	background: #ffa709;
 }
 
+.banner-body:before{
+	background: url(../images/7.png) no-repeat 0px 0px;
+    display: block;
+    height: 129px;
+    width: 66px;
+    content: '';
+    position: absolute;
+    top:5%;
+    left:0%;
+}
+
+.banner-body:after{
+	background: url(../images/7.png) no-repeat 0px 0px;
+    display: block;
+    height: 129px;
+    width: 66px;
+    content: '';
+    position: absolute;
+    top:26%;
+    right:3%;
+}
+
+
+
+
+
 .user {
 	position: absolute;
     top: 9px;
