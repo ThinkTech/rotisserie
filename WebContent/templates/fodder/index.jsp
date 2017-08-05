@@ -6,12 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="rotisserie" />
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fodder/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fodder/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="templates/fodder/css/jquery-ui.css" />									
-<link rel="stylesheet" href="templates/fodder/css/chocolat.css" type="text/css" media="screen">
-<link rel="stylesheet" href="templates/fodder/css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="templates/fodder/css/animate.min.css" type="text/css" media="screen" />
+<link href="templates/fodder/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Satisfy:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
@@ -48,8 +43,8 @@
 								<ul class="cute">
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
 									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Notre Carte</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
 									<li><a href="#shopping" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commande</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
 									<li><a href="#places" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
 									<li><a href="#schedules" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
 									<li><a href="#partners" class="scroll"><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Nos Partenaires</span></a></li>
@@ -375,7 +370,10 @@
 							</div>
 						</div>
 					<!-- //menu -->
-					<!-- reserve -->
+					<div id="shopping" class="shopping">
+					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Commande</h3>
+					</div>
+							<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
 								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver une table</h3>
@@ -405,10 +403,7 @@
 								</form>
 							</div>
 						</div>
-					<!-- //reserve -->
-					<div id="shopping" class="shopping">
-					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Commande</h3>
-					</div>
+					<!-- //reserve -->	
 					<div id="places" class="places">
 					   <h3 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i>Nos Emplacements</h3>
 					</div>
@@ -459,11 +454,7 @@
 				</div>
 			<!-- //about -->
 <!-- //banner-body -->
-<script src="templates/fodder/js/jquery-1.11.1.min.js"></script>
-<script defer src="templates/fodder/js/jquery.flexslider.js"></script>
-<script src="templates/fodder/js/easyResponsiveTabs.js"></script>
-<script src="templates/fodder/js/jquery.chocolat.js"></script>
-<script src="templates/fodder/js/jquery-ui.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/metamorphosis.js"></script>
 <script type="text/javascript" src="templates/fodder/js/template.js"></script>
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons" async defer></script>
