@@ -119,7 +119,7 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
@@ -147,7 +147,7 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
@@ -175,7 +175,7 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										   <div class="banner-bottom-left1">
 												<div>
-												<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
+												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
