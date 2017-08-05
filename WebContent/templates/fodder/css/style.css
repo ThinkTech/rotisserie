@@ -139,19 +139,19 @@ ul.cute li{
     position: relative;
     color: #ffffff;
     text-decoration: none;
-    line-height: 0.6em;
+    line-height: 0.4em;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
 }
 .menu ul li a i {
-    font-size: 2.6em;
+    font-size: 2.5em;
     margin-right: 0px;
     position: relative;
     top: 6px;
     color: #fff;
     display : inline-block;
-    width : 50px;
+    width : 44px;
 }
 
 .menu ul li .fa-lock {
@@ -179,6 +179,11 @@ ul.cute li{
 	margin-right : 7px;
 }
 
+.menu ul li .fa-handshake-o {
+	font-size: 2.2em;
+	margin-left : -5px;
+	margin-right : 10px;
+}
 
 .menu ul li a span {
 	display : inline-block;
@@ -214,7 +219,7 @@ li.item1 {
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom{
-	padding-top : 11px;
+	padding-top : 6px;
 	background: #ff3d00;
 	height : 242px;
 }
@@ -236,7 +241,7 @@ li.item1 {
 
 .banner-bottom-left1 .social a, .banner-bottom-left1 .social a:visited {
     color: #fff;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: bold;
     padding-right: 10px;
     cursor: pointer;
@@ -291,6 +296,7 @@ h5 .fa {
 .about{
 	padding:4em;
 	background-color: #000;
+	margin-top : 3em;
 }
 
 .about img {
@@ -362,7 +368,7 @@ ul.social li a.g{
 	background: #ffa709;
 	position:relative;
 }
-.about-main h3,.menu1 h3,.book_table h3,.map-grids h3{
+h3.title{
 	text-align: center;
 	color: #ffffff;
 	font-size: 2em;
@@ -552,10 +558,14 @@ h2.resp-accordion {
 	border:2px solid #ff4d00;
 }
 /*--//gallery--*/
+
+
 /*-- reserve --*/
 .reserve{
 	padding: 0em 0;
+	padding-bottom : 2em;
 	position:relative;
+	margin-top : 3em;
 }
 .tabe{
 	text-align:center;
@@ -563,7 +573,7 @@ h2.resp-accordion {
 }
 .book_table{
 	background: #ff3d00;
-	min-height:633px;
+	padding-bottom:2em;
 }
 
 .menu1 {
@@ -574,10 +584,14 @@ h2.resp-accordion {
 	width:70%;
 }
 .book_table label {
-	width:47.66%;
-	font-size:14px;
-	color:#000;
-	border-radius: 5px;
+	width: 47.66%;
+    font-size: 1em;
+    color: #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 8px;
+    padding-left: 2px;
 }
 .book_table input[type="text"],select,.book_table input[type="email"],.book_table input[type="date"],.book_table textarea,.book_table input[type="time"]{
 	outline:none;
@@ -596,7 +610,6 @@ h2.resp-accordion {
 .book_table input[type="time"]{
 	line-height: 17px;
     padding: 11px 10px;
-    margin: 0 0 0 2em;
 }
 .book_table label.message {
 	width:99% !important;
@@ -604,19 +617,17 @@ h2.resp-accordion {
 }
 .book_table textarea{
 	width:99% !important;
-	margin:1.5em 0;
 	resize:none;
 	min-height:150px;
 }
 .book_table input[type="email"]{
 	float:left;
 	width: 47.66%;
-	margin:1.5em 0;
 }
 .section_room{
-	float:right;
+	float:left;
 	width: 48.9%;
-	margin:1.5em 0;
+	margin-left : 5px;
 }
 .section_room select{
 	width:97.5%;
@@ -628,7 +639,7 @@ h2.resp-accordion {
 	background:#ff4d00;
 	padding: 12px 0px;
 	width:30%;
-	margin:0 auto;
+	margin:10px auto;
 	color:#fff;
 	font-size:1em;
 	outline:none;
@@ -644,8 +655,8 @@ h2.resp-accordion {
 }
 
 .book_table input[type="submit"]:hover {
-    background:#fff;
-	color:#ff4d00;
+    background:#000;
+	color:#fff;
 	border : 2px solid;
 }
 
@@ -677,6 +688,41 @@ h2.resp-accordion {
     left: -8.5%;
 }
 /*-- //reserve --*/
+
+/* commande */
+
+.shopping {
+	min-height : 300px;
+}
+
+/* commande */
+
+/* places */
+
+.places {
+	min-height : 300px;
+	background: #ff3d00;
+}
+
+/* places */
+
+/* schedules */
+
+.schedules {
+	min-height : 300px;
+}
+
+/* schedules */
+
+/* partners */
+
+.partners {
+	min-height : 300px;
+	background: #ff3d00;
+}
+
+/* partners */
+
 /*-- contact --*/
 .contact iframe, .map-color {
     width: 100%;
@@ -686,14 +732,12 @@ h2.resp-accordion {
     position: absolute;
     top: 0%;
     left: 0%;
-    background-color: #ffa709;
 }
 .map-grids {
     position: absolute;
     top: 0%;
     left: 13%;
     width: 75%;
-    background-color: #ffa709;
 }
 .contact{
 	position:relative;
@@ -703,11 +747,22 @@ h2.resp-accordion {
 	padding: 4em;
     padding-top: 0em;
 }
+
+.inp-form label {
+	width: 47.66%;
+    font-size: 1em;
+    color: #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
 .inp-form textarea{
 	width:99% !important;
 	min-height:200px;
 	resize:none;
-	margin:0 0 1.5em;
 }
 .inp-form input[type="text"],.inp-form input[type="email"],.inp-form textarea{
 	outline:none;
@@ -718,18 +773,14 @@ h2.resp-accordion {
 	color:#000;
 	border:2px solid #ff4d00;
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;	
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
-	margin-bottom : 15px;
+	display: inline-block;
 }
-.inp-form input[type="email"]{
-	margin:0 0 0 2em;
-}
-.inp-form .subject{
+.inp-form .subject,.inp-form .subject,.inp-form .message{
 	width: 99% !important;
-    margin: 0 0 1.5em;
 }
 
 .inp-form input[type="submit"]{
@@ -737,6 +788,7 @@ h2.resp-accordion {
 	padding: 12px 0px;
 	width: 30%;
 	margin: 0 auto;
+	margin-top : 10px;
 	color: #fff;
 	font-size:1em;
 	outline:none;
@@ -758,8 +810,8 @@ h2.resp-accordion {
     font-size : 1.2em;
 }
 .inp-form input[type="submit"]:hover {
-    background:#fff;
-	color:#ff4d00;
+    background:#000;
+	color:#fff;
 	border : 2px solid;
 }
 
@@ -820,8 +872,8 @@ h2.resp-accordion {
     font-size : 1.2em;
 }
 .mail-sub input[type="submit"]:hover{
-	background: #fff;
-	color : #ff4d00;
+	background: #000;
+	color : #fff;
 }
 .mail-sub form {
     width: 80%;
@@ -936,12 +988,6 @@ h2.resp-accordion {
 .typo,.blog-page{
 	padding:3em 0 10em;
 	position:relative;
-}
-h3.title,.services-grid h3,.services-overview h3{
-	font-size:2em;
-	color:#f17c5e;
-	margin:0;
-	text-align:center;
 }
 .typo:before{
 	position:absolute;

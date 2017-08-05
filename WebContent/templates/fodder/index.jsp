@@ -73,10 +73,10 @@ $(window).load(function(){
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
 									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Notre Carte</span></a></li>
 									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commande</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
-									<li><a href="#contact" class="scroll"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Contact</span></a></li>
+									<li><a href="#shopping" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commande</span></a></li>
+									<li><a href="#places" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
+									<li><a href="#schedules" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
+									<li><a href="#partners" class="scroll"><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Nos Partenaires</span></a></li>
 								</ul>
 							</li>
 						</ul>
@@ -119,7 +119,6 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
@@ -131,7 +130,7 @@ $(window).load(function(){
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/3.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/slide_1.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -147,7 +146,6 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
@@ -159,7 +157,7 @@ $(window).load(function(){
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/4.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/slide_2.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -175,7 +173,6 @@ $(window).load(function(){
 										<div class="col-md-6 banner-bottom-left">
 										   <div class="banner-bottom-left1">
 												<div>
-												<h4>Contactez-Nous</h4>
 												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
 												  <p><span>Mobile :</span> +221 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
@@ -187,7 +184,7 @@ $(window).load(function(){
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/5.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/slide_3.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -206,7 +203,7 @@ $(window).load(function(){
 			<!-- about -->
 				<div class="about">
 					<div id="about" class="about-main">
-						<h3><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
+						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididuntseddo eiusmod tempor incididunt 
 									ut labore etdoloremagna aliqua.Ut enim ad minim veniam, quis nostrudcommodo exercitation 
@@ -218,7 +215,7 @@ $(window).load(function(){
 					<!-- menu -->
 						<div id="menu" class="menu1">
 							<div class="mnu1">
-							<h3><i class="fa fa-bars" aria-hidden="true"></i>Notre Carte</h3>
+							<h3 class="title"><i class="fa fa-bars" aria-hidden="true"></i>Notre Carte</h3>
 								<div class="gallery">
 									<div class="sap_tabs">			
 										<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
@@ -455,7 +452,7 @@ $(window).load(function(){
 					<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
-								<h3><i class="fa fa-lock" aria-hidden="true"></i>Réservation</h3>
+								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réservation</h3>
 								<form>
 								    <label>Nom Complet</label>
 								    <label>Téléphone</label>
@@ -492,17 +489,33 @@ $(window).load(function(){
 							</div>
 						</div>
 					<!-- //reserve -->
+					<div id="shopping" class="shopping">
+					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commande</h3>
+					</div>
+					<div id="places" class="places">
+					   <h3 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i>Nos Emplacements</h3>
+					</div>
+					<div id="schedules" class="schedules">
+					   <h3 class="title"><i class="fa fa-calendar" aria-hidden="true"></i>Nos Horaires</h3>
+					</div>
+					<div id="partners" class="partners">
+					   <h3 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i>Nos Partenaires</h3>
+					</div>
 					<!-- contact -->
 						<div id="contact" class="contact">
 							<div class="map-color">
 							</div>
 							<div class="map-grids">
-								<h3><i class="fa fa-info-circle" aria-hidden="true"></i>Contact</h3>
+								<h3 class="title"><i class="fa fa-info-circle" aria-hidden="true"></i>Contact</h3>
 								<div class="inp-form">
 									<form>
+									    <label>Nom Complet</label>
+									    <label class="email">Email</label>
 									   	<input type="text" placeholder="Nom Complet"  required>
 										<input type="email" placeholder="Email" required>
+										<label class="subject">Sujet</label>
 										<input type="text" placeholder="Sujet" class="subject" required>
+										<label class="subject">Message</label>
 										<textarea placeholder="Message"  required></textarea>
 										<input type="submit" value="Envoyer">
 									</form>
