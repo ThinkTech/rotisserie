@@ -3,7 +3,9 @@ html, body{
     background: #ffa709;
     font-family: 'Exo', sans-serif;
 }
-
+body{
+	opacity : 0;
+}
 p{
 	margin:0;
 }
@@ -15,6 +17,9 @@ ul,label{
 	padding:0;
 }
 body a:hover{
+	text-decoration:none;
+}
+a:focus {
 	text-decoration:none;
 }
 /*-- banner-body --*/
@@ -219,9 +224,9 @@ li.item1 {
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom{
-	padding-top : 6px;
+	padding-top : 10px;
+	padding-bottom : 50px;
 	background: #ff3d00;
-	height : 242px;
 }
 .banner-bottom-left1{
 	float:left;
@@ -563,7 +568,6 @@ h2.resp-accordion {
 /*-- reserve --*/
 .reserve{
 	padding: 0em 0;
-	padding-bottom : 2em;
 	position:relative;
 	margin-top : 3em;
 }
@@ -616,7 +620,7 @@ h2.resp-accordion {
 	margin:1.5em 0;
 }
 .book_table textarea{
-	width:99% !important;
+	width:95.8% !important;
 	resize:none;
 	min-height:150px;
 }
@@ -726,7 +730,6 @@ h2.resp-accordion {
 /*-- contact --*/
 .contact iframe, .map-color {
     width: 100%;
-    min-height: 950px;
 }
 .map-color {
     position: absolute;
@@ -1678,6 +1681,32 @@ h2.typoh2{
 .services-overview-grids:nth-child(2) {
     margin: 3em 0;
 }
+
+#confirm-dialog-container a, #alert-dialog-container a,#alert-dialog-container span:nth-child(1) {
+	background : #ff3d00;
+	background-color : #ff3d00;
+}
+
+#alert-dialog-container a:hover, #alert-dialog-container a:focus {
+    color: #ff3d00;
+    background-color: #fff;
+    border: 1px solid;
+    text-decoration : none;
+}
+
+#alert-dialog-container > div {
+    border: 1px solid #ff3d00;
+}
+
+#alert-dialog-container span:nth-child(1) {
+    padding-top: 5px;
+}
+
+#loader {
+    border-top: 16px solid #ff3d00;
+    margin : auto;
+}
+
 /*-- //services --*/
 /*-----start-responsive-design------*/
 @media (max-width:1280px){

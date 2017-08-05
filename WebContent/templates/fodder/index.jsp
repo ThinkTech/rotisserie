@@ -8,35 +8,10 @@
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="templates/fodder/js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
+<link rel="stylesheet" href="templates/fodder/css/jquery-ui.css" />									
 <link rel="stylesheet" href="templates/fodder/css/chocolat.css" type="text/css" media="screen">
-<!-- FlexSlider -->
 <link rel="stylesheet" href="templates/fodder/css/flexslider.css" type="text/css" media="screen" />
-<script defer src="templates/fodder/js/jquery.flexslider.js"></script>
-<script type="text/javascript">
-$(window).load(function(){
-  $('.flexslider').flexslider({
-	animation: "slide",
-	start: function(slider){
-	  $('body').removeClass('loading');
-	}
-  });
-});
-</script>
-<!-- //FlexSlider -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="templates/fodder/js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
+<link rel="stylesheet" href="templates/fodder/css/animate.min.css" type="text/css" media="screen" />
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Satisfy:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
@@ -61,6 +36,7 @@ $(window).load(function(){
     				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					   <a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					   <a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					   <a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    </div>
 				    <div class="user">
 				       <a><span>Connexion</span></a>
@@ -89,25 +65,6 @@ $(window).load(function(){
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-					<!--initiate accordion-->
-					<script type="text/javascript">
-						$(function() {
-							var menu_ul = $('.menu > li > ul'),
-								   menu_a  = $('.menu > li > a');
-							menu_a.click(function(e) {
-								e.preventDefault();
-								if(!$(this).hasClass('active')) {
-									menu_a.removeClass('active');
-									menu_ul.filter(':visible').slideUp('normal');
-									$(this).addClass('active').next().stop(true,true).slideDown('normal');
-								} else {
-									$(this).removeClass('active');
-									$(this).next().stop(true,true).slideUp('normal');
-								}
-							});
-						
-						});
-					</script>
 			<!-- //banner -->
 			<!-- banner-bottom -->
 				<div class="banner-bottom">
@@ -127,10 +84,11 @@ $(window).load(function(){
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/slide_1.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/slide_2.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -154,10 +112,11 @@ $(window).load(function(){
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/slide_2.jpg" alt=" " class="img-responsive" />
+												<img src="templates/fodder/images/slide_1.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -181,6 +140,7 @@ $(window).load(function(){
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
@@ -228,21 +188,6 @@ $(window).load(function(){
 											<div class="resp-tabs-container">
 												<div class="tab-1 resp-tab-content">
 													 <div class="load_more">	
-														<script>
-															$(document).ready(function () {
-																size_li = $("#myList li").size();
-																x=2;
-																$('#myList li:lt('+x+')').show();
-																$('#loadMore').click(function () {
-																	x= (x+1 <= size_li) ? x+1 : size_li;
-																	$('#myList li:lt('+x+')').show();
-																});
-																$('#showLess').click(function () {
-																	x=(x-1<0) ? 1 : x-1;
-																	$('#myList li').not(':lt('+x+')').hide();
-																});
-															});
-														</script>
 														<ul id="myList">
 															<li>
 																<div class="l_g">
@@ -426,33 +371,14 @@ $(window).load(function(){
 											</div>		
 										</div>
 									</div>
-								</div>
-								<script src="templates/fodder/js/easyResponsiveTabs.js" type="text/javascript"></script>
-								<script type="text/javascript">
-												$(document).ready(function () {
-													$('#horizontalTab').easyResponsiveTabs({
-														type: 'default', //Types: default, vertical, accordion           
-														width: 'auto', //auto or any width like 600px
-														fit: true   // 100% fit in a container
-													});
-												});
-												
-								</script>
-				<!--script-->
-					<script src="templates/fodder/js/jquery.chocolat.js"></script>		
-					<!--light-box-files -->
-					<script type="text/javascript">
-					$(function() {
-								$('.img-top a').Chocolat({overlayColor:'#000',leftImg:'templates/fodder/images/leftw.gif',rightImg:'templates/fodder/images/rightw.gif',closeImg:'templates/fodder/images/closew.gif'});
-							});
-					</script>
+								</div>		
 							</div>
 						</div>
 					<!-- //menu -->
 					<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
-								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réservation</h3>
+								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver une table</h3>
 								<form>
 								    <label>Nom Complet</label>
 								    <label>Téléphone</label>
@@ -477,20 +403,11 @@ $(window).load(function(){
 									<textarea placeholder="Message"></textarea>
 									<input type="submit" value="Réserver">
 								</form>
-									<!---strat-date-piker---->
-									<link rel="stylesheet" href="templates/fodder/css/jquery-ui.css" />
-									<script src="templates/fodder/js/jquery-ui.js"></script>
-									  <script>
-											  $(function() {
-												$( "#datepicker,#datepicker1" ).datepicker();
-											  });
-									  </script>
-								<!---/End-date-piker---->
 							</div>
 						</div>
 					<!-- //reserve -->
 					<div id="shopping" class="shopping">
-					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commande</h3>
+					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Commande</h3>
 					</div>
 					<div id="places" class="places">
 					   <h3 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i>Nos Emplacements</h3>
@@ -506,21 +423,7 @@ $(window).load(function(){
 							<div class="map-color">
 							</div>
 							<div class="map-grids">
-								<h3 class="title"><i class="fa fa-info-circle" aria-hidden="true"></i>Contact</h3>
-								<div class="inp-form">
-									<form>
-									    <label>Nom Complet</label>
-									    <label class="email">Email</label>
-									   	<input type="text" placeholder="Nom Complet"  required>
-										<input type="email" placeholder="Email" required>
-										<label class="subject">Sujet</label>
-										<input type="text" placeholder="Sujet" class="subject" required>
-										<label class="subject">Message</label>
-										<textarea placeholder="Message"  required></textarea>
-										<input type="submit" value="Envoyer">
-									</form>
-								</div>
-								<h4><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-Vous aux nouvelles</h4>
+								<h3 class="title"><i class="fa fa-envelope" aria-hidden="true"></i>Abonnez-Vous</h3>
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
@@ -540,6 +443,7 @@ $(window).load(function(){
 				        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 				        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    						</div>
 									</div>
 									<div class="footer-right">
@@ -555,10 +459,13 @@ $(window).load(function(){
 				</div>
 			<!-- //about -->
 <!-- //banner-body -->
+<script src="templates/fodder/js/jquery-1.11.1.min.js"></script>
+<script defer src="templates/fodder/js/jquery.flexslider.js"></script>
+<script src="templates/fodder/js/easyResponsiveTabs.js"></script>
+<script src="templates/fodder/js/jquery.chocolat.js"></script>
+<script src="templates/fodder/js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/metamorphosis.js"></script>
-	
-<!-- //here ends scrolling icon -->
+<script type="text/javascript" src="templates/fodder/js/template.js"></script>
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons" async defer></script>
-
 </body>
 </html>
