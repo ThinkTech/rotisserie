@@ -63,17 +63,19 @@ $(window).load(function(){
 					   <a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 				    </div>
 				    <div class="user">
-				       <a><span><i class="fa fa-id-card" aria-hidden="true"></i>Connexion</span></a>
-				       <a><span><i class="fa fa-user" aria-hidden="true"></i>Inscription</span></a>
+				       <a><span>Connexion</span></a>
+				       <a><span>Inscription</span></a>
 				    </div>
 					<div class="col-md-3 banner-left">
 						 <ul class="menu">
 							<li class="item1">
 								<ul class="cute">
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
-									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Notre Menu</span></a></li>
+									<li><a href="#menu" class="scroll"><i class="fa fa-bars" aria-hidden="true"></i><span>Notre Carte</span></a></li>
 									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réservation</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commande</span></a></li>
 									<li><a href="#reservation" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
+									<li><a href="#reservation" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
 									<li><a href="#contact" class="scroll"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Contact</span></a></li>
 								</ul>
 							</li>
@@ -215,7 +217,7 @@ $(window).load(function(){
 					<!-- menu -->
 						<div id="menu" class="menu1">
 							<div class="mnu1">
-							<h3><i class="fa fa-bars" aria-hidden="true"></i>Notre Menu</h3>
+							<h3><i class="fa fa-bars" aria-hidden="true"></i>Notre Carte</h3>
 								<div class="gallery">
 									<div class="sap_tabs">			
 										<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
@@ -454,20 +456,26 @@ $(window).load(function(){
 							<div class="book_table">
 								<h3><i class="fa fa-lock" aria-hidden="true"></i>Réservation</h3>
 								<form>
+								    <label>Nom Complet</label>
+								    <label>Téléphone</label>
 									<input type="text" placeholder="Nom Complet" required/>
 									<input type="text" placeholder="Téléphone"  required/>
+									<label>Email</label>
+								    <label>Nombre de Personnes</label>
 									<input type="email" placeholder="Email" required/>
 									<div class="section_room">
-										<select id="country" onchange="change_country(this.value)" class="frm-field required">
-												<option value="null">Nombre de Personnes</option>
+										<select class="frm-field required">
 												<option value="2">2</option>         
 												<option value="3">3</option>
 												<option value="AX">Plus</option>
 										</select>
 									</div>
 									<div class="clearfix"> </div>
+									<label>Date</label>
+								    <label>Heure</label>
 									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
 									<input type="time" placeholder="3:30 PM" required/>
+									<label>Message</label>
 									<textarea placeholder="Message"></textarea>
 									<input type="submit" value="Réserver">
 								</form>
