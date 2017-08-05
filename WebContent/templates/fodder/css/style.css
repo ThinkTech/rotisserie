@@ -84,7 +84,7 @@ body a:hover{
 }
 
 .banner-right a h1{
-	color: #ff3d00;
+	color: #fff;
 	font-family: Satisfy;
 	font-size: 7.5em;
 	margin-top: -30px;
@@ -92,6 +92,16 @@ body a:hover{
 	font-weight: bold;
 	font-style : italic;
 }
+
+.banner-right a h4{
+	color: #fff;
+	font-family: Satisfy;
+	font-size: 5em;
+	margin-top: 30px;
+	font-weight: bold;
+	font-style : italic;
+}
+
 .banner-left{
 	height: 390px;
 	background: #ff3d00;
@@ -132,7 +142,7 @@ ul.cute li{
     line-height: 0.4em;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 .menu ul li a i {
     font-size: 2.6em;
@@ -235,7 +245,8 @@ li.item1 {
 .banner-bottom-left1 h4{
 	color: #ffffff;
 	line-height: 2.1em;
-	font-size: 1.3em;
+	font-size: 1.6em;
+	font-family : Satisfy;
 }
 .banner-bottom-left2{
 	float:right;
@@ -684,7 +695,7 @@ h2.resp-accordion {
 }
 .contact{
 	position:relative;
-}
+}   
 .inp-form{
 	margin:0em 0 0;
 	padding: 4em;

@@ -84,6 +84,7 @@ $(window).load(function(){
 					<div class="col-md-9 banner-right">
 					 	<a href="${path}">
 					 	  <h1>La Rotisserie</h1>
+					 	  <h4>le coin des gourmets</h4>
 						</a>
 					</div>
 					<div class="clearfix"> </div>
