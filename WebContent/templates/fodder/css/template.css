@@ -523,7 +523,7 @@ fieldset:before{
 }
 
 .shopping > div {
-	width : 84.5%;
+	width : 70%;
 	margin : auto;
 }
 
@@ -674,14 +674,13 @@ fieldset:before{
 
 
 .delivery {
-	float : right;
 	position:relative;
       margin-top:40px;
       width : 55%;
       display : inline-block;
       overflow:hidden;
       vertical-align : top;
-      margin-left : 10%;
+      margin-right : 5%;
       -webkit-border-radius:4px 4px 0 0;
          -moz-border-radius:4px 4px 0 0;
               border-radius:4px 4px 0 0;

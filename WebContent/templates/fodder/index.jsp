@@ -314,6 +314,24 @@
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer une Commande</h3>
 					   <p> Faites-Vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
 					   <div>
+					      <div class="delivery">
+						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
+						     <div>Nos frais de livraison suivant votre zone sont les suivants : .<br><br>
+								<b>Zone 1 : Centre ville à Malick Sy : 500  CFA<br>
+								Zone 2 : Malick Sy à Fann : 1000  CFA    <br> 
+								Zone 3 : Point E : 1.500 CFA<br>                       
+								Zone 4 : Fann au Régal de Ouakam : 2000 CFA<br>
+								</b>
+							</div>
+							<div>
+							<br><br>
+							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
+							<div>
+								<b>Du lundi au vendredi 12:00 - 22:00</b><br>
+								<b>Samedi et dimanche 12:00 - 23:00</b>
+							</div>
+						  </div>
+					      </div>
 					      <details class="shoppingCart" open>
 					         <summary>
 					            <h4>Votre Panier</h4>
@@ -337,25 +355,7 @@
 					            <span>Items : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
 					         </p>
 					         <a class="checkout" href="javascript:void(0);">Confirmer</a>
-					      </details>
-						  <div class="delivery">
-						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
-						     <div>Payer uniquement à la livraison ou lors du retrait.<br><br>
-								<b>Zone 1 : Centre ville à Malick Sy : 500  CFA<br>
-								Zone 2 : Malick Sy à Fann : 1000  CFA    <br> 
-								Zone 3 : Point E : 1.500 CFA<br>                       
-								Zone 4 : Fann au Régal de Ouakam : 2000 CFA<br>
-								</b>
-							</div>
-							<div>
-							<br><br>
-							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
-							<div>
-								<b>Du lundi au vendredi 12:00 - 22:00</b><br>
-								<b>Samedi et dimanche 12:00 - 23:00</b>
-							</div>
-						  </div>
-					      </div>    
+					      </details>    
 					   </div>
 					</div>
 							<!-- reserve -->
