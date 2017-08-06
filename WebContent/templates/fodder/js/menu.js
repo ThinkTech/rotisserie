@@ -33,6 +33,7 @@ var Menu = (function() {
 
 				$container.removeClass( 'rm-in' ).children( 'div.rm-modal' ).remove();
 				viewDetails( $( this ) );
+				$('html,body').animate({scrollTop:$container.offset().top+50},600);
 				return false;
 
 			} );

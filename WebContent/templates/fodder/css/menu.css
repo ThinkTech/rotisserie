@@ -69,11 +69,11 @@
 	padding: 30px;
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
-		inset 0 0 0 17px #e6b741, 
+		inset 0 0 0 17px #ffa709, 
 		inset 0 0 0 18px #fff, 
-		inset 0 0 0 19px #e6b741, 
+		inset 0 0 0 19px #ffa709, 
 		inset 0 0 0 20px #fff, 
-		inset 0 0 0 21px #e6b741;
+		inset 0 0 0 21px #ffa709;
 
 }
 
@@ -81,6 +81,10 @@
 .rm-container .rm-back {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+}
+
+.rm-container .rm-front img {
+	margin-top : 90px;
 }
 
 .rm-container .rm-back {
@@ -134,28 +138,31 @@ a.rm-button-open,
 	margin: 20px auto;
 	box-shadow: 
 		0 0 0 3px #fff, 
-		0 0 0 4px #e6b741, 
+		0 0 0 4px #ffa709, 
 		0 0 0 5px #fff, 
-		0 0 0 6px #e6b741, 
+		0 0 0 6px #ffa709, 
 		0 0 0 7px #fff, 
-		0 0 0 8px #e6b741;
+		0 0 0 8px #ffa709;
 }
 
 .rm-content h2 {
 	letter-spacing: 2px;
-	font-size: 26px;
-	text-shadow: 1px 1px 0 #fff, 3px 3px 0 #e6b741;
+    font-size: 34px;
+    color: #ff4d00;
+	text-shadow: 1px 1px 0 #fff, 3px 3px 0 #ffa709;
+	font-family : Tahoma;
+	line-height : 1.9em;
 }
 
 .rm-content h3 {
-	font-size: 13px;
-	margin: 40px 0;
-	padding: 20px 40px;
-	color: #323b4c;
-	font-weight: 500;
-	border-top: 4px double #323b4c;
-	text-transform: uppercase;
-	line-height: 20px;
+	font-size: 27px;
+    margin: 40px 0;
+    padding: 20px 40px;
+    color: #ffa709;
+    font-weight: 500;
+    border-top: 4px double #323b4c;
+    text-transform: uppercase;
+    line-height: 53px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
 }
 
@@ -174,16 +181,21 @@ a.rm-button-open,
 }
 
 a.rm-button-open {
-	color: #323b4c;	
-	font-size: 16px;
+	color: #000;	
+	font-size: 27px;
 	line-height: 45px;
 	margin: 10px auto;
 	display: block;
+	font-family : Tahoma;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	background: #ff4d00;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 2.5em 2em;
 }
 
 a.rm-button-open:hover {
-	color: #e6b741;
+	color: #ffa709;
 }
 
 .rm-info p {
@@ -218,6 +230,10 @@ a.rm-button-open:hover {
 	margin: 20px 0 0;
 }
 
+.rm-order img {
+	margin-top : 200px;
+}
+
 a.rm-viewdetails:before{
 	font-family: 'entypo-selected';
 	content: '\56';
@@ -244,11 +260,11 @@ a.rm-viewdetails:before{
 	background: #fff url(../images/white_paperboard.jpg);
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
-		inset 0 0 0 17px #e6b741, 
+		inset 0 0 0 17px #ffa709, 
 		inset 0 0 0 18px #fff, 
-		inset 0 0 0 19px #e6b741, 
+		inset 0 0 0 19px #ffa709, 
 		inset 0 0 0 20px #fff, 
-		inset 0 0 0 21px #e6b741,
+		inset 0 0 0 21px #ffa709,
 		0 4px 20px rgba(0,0,0,0.4);
 	opacity: 0;
 	pointer-events: none;
@@ -274,18 +290,13 @@ a.rm-viewdetails:before{
 		1px 1px 1px rgba(255,255,255,0.9);
 }
 
-.rm-modal a:after,
-.rm-button-open:after {
-	content: '\2192';
-	display: inline-block;
-	margin-left: 3px;
-	font-family: Arial, sans-serif;
-}
 
 a.rm-viewdetails,
 .rm-modal a {
-	color: #e6b741;
+	color: #ffa709;
 	font-weight: 500;
+	font-family: Tahoma;
+    font-size: 1em;
 }
 
 .rm-modal a {
@@ -299,19 +310,20 @@ a.rm-viewdetails:hover,
 }
 
 .rm-close {
-	background: #e6b741;
+	background: #ffa709;
 	text-transform: uppercase;
 	display: block;
 	position: absolute;
 	color: #fff;
-	font-size: 11px;
+	font-size: 25px;
 	font-weight: 500;
 	line-height: 15px;
 	padding: 2px 5px;
-	top: -19px;
+	top: -29px;
 	opacity: 0;
 	right: 30px;
 	cursor: pointer;
+	font-family : Tahoma;
 }
 
 .rm-close-modal {
@@ -393,8 +405,8 @@ a.rm-viewdetails:hover,
 }
 
 .rm-container.rm-in .rm-wrapper {
-	-webkit-transform: translateZ(-500px);
-	transform: translateZ(-500px);
+	-webkit-transform: translateZ(-180px);
+	transform: translateZ(-180px);
 }
 
 .rm-container.rm-in .rm-cover, 
@@ -430,11 +442,11 @@ a.rm-viewdetails:hover,
 	margin-bottom: 10px;
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
-		inset 0 0 0 17px #e6b741, 
+		inset 0 0 0 17px #ffa709, 
 		inset 0 0 0 18px #fff, 
-		inset 0 0 0 19px #e6b741, 
+		inset 0 0 0 19px #ffa709, 
 		inset 0 0 0 20px #fff, 
-		inset 0 0 0 21px #e6b741,
+		inset 0 0 0 21px #ffa709,
 		0 3px 5px rgba(0,0,0,0.2);
 }
 
@@ -507,11 +519,11 @@ a.rm-viewdetails:hover,
 		margin-bottom: 10px;
 		box-shadow: 
 			inset 0 0 0 16px #fff, 
-			inset 0 0 0 17px #e6b741, 
+			inset 0 0 0 17px #ffa709, 
 			inset 0 0 0 18px #fff, 
-			inset 0 0 0 19px #e6b741, 
+			inset 0 0 0 19px #ffa709, 
 			inset 0 0 0 20px #fff, 
-			inset 0 0 0 21px #e6b741,
+			inset 0 0 0 21px #ffa709,
 			0 3px 5px rgba(0,0,0,0.2);
 	}
 
