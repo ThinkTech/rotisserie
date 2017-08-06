@@ -33,7 +33,7 @@
 html, body{
     font-size: 100%;
     background: #ffa709;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Courgette', sans-serif;
 }
 body{
 	opacity : 0;
@@ -373,14 +373,9 @@ fieldset:before{
     top: 25%;
     left: 32%;
 }
-.mnu1{
-	padding:0 5em 5em;
-	background: #ffa709;
-	margin:4em 0 0;
-}
 /*-- //about --*/
 .mnu1{
-	padding:0 5em 5em;
+	padding:0 1em 0.2em;
 	background: #ffa709;
 	margin:4em 0 0;
 }
@@ -483,7 +478,7 @@ h2.resp-accordion {
 	text-align:center;
 	background:#fff;
 	text-transform:uppercase;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Courgette', sans-serif;
 }
 .img-top1{
 	background:#fff;
@@ -532,6 +527,7 @@ h2.resp-accordion {
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
+	font-family : Tahoma;
 }
 .book_table input[type="time"]{
 	line-height: 17px;
@@ -571,6 +567,7 @@ h2.resp-accordion {
 	-ms-transition:.5s all;
 	border: 2px solid;
 	height : auto;
+	font-family : Tahoma;
 }
 
 .book_table input[type="submit"]:hover {
@@ -664,6 +661,7 @@ h2.resp-accordion {
 	float: left;
 	border-radius: 5px;
 	border : 2px solid #ff4d00;
+	font-family : Tahoma;
 }
 
 .mail-sub input[type="submit"]{
@@ -683,6 +681,7 @@ h2.resp-accordion {
 	-ms-transition: .5s all;
 	height : auto;
 	border : 2px solid;
+	font-family : Tahoma;
 }
 .mail-sub input[type="submit"]:hover{
 	background: #000;
