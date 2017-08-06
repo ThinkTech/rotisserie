@@ -43,8 +43,7 @@
 							<li class="item1">
 								<ul class="cute">
 									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
-									<li><a href="#menu" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
-									<li><a href="#shopping" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Passer une Commande</span></a></li>
+									<li><a href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
 									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver une table</span></a></li>
 									<li><a href="#places" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
 									<li><a href="#schedules" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
@@ -313,6 +312,51 @@
 					<!-- //menu -->
 					<div id="shopping" class="shopping">
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer une Commande</h3>
+					   <p> Faites-Vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
+					   <div>
+					      <details class="shoppingCart" open>
+					         <summary>
+					            <h4>Votre Panier</h4>
+					            <span class="arrow"></span>
+					         </summary>
+					         <ul>
+					            <li>
+					               <span>2x <a href="javascript:void(0);">Bottle of Awesomesauce</a></span> <strong>10000 CFA</strong>
+					            </li>
+					            <li>
+					               <span>1x <a href="javascript:void(0);">Stainless 12" frying pan</a></span> <strong>15000 CFA</strong>
+					            </li>
+					            <li>
+					               <span>4x <a href="javascript:void(0);">Super sausages</a></span> <strong>5000 CFA</strong>
+					            </li>
+					            <li>
+					               <span>1x <a href="javascript:void(0);">Stainless frying spoon</a></span> <strong>2500 CFA</strong>
+					            </li>
+					         </ul>
+					         <p>
+					            <span>Items : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
+					         </p>
+					         <a class="checkout" href="javascript:void(0);">Confirmer</a>
+					      </details>
+						  <div class="delivery">
+						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
+						     <div>Payer uniquement à la livraison ou lors du retrait.<br><br>
+								<b>Zone 1 : Centre ville à Malick Sy : 500  CFA<br>
+								Zone 2 : Malick Sy à Fann : 1000  CFA    <br> 
+								Zone 3 : Point E : 1.500 CFA<br>                       
+								Zone 4 : Fann au Régal de Ouakam : 2000 CFA<br>
+								</b>
+							</div>
+							<div>
+							<br><br>
+							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
+							<div>
+								<b>Du lundi au vendredi 12:00 - 22:00</b><br>
+								<b>Samedi et dimanche 12:00 - 23:00</b>
+							</div>
+						  </div>
+					      </div>    
+					   </div>
 					</div>
 							<!-- reserve -->
 						<div id="reservation" class="reserve">
@@ -330,14 +374,19 @@
 										<select class="frm-field required">
 												<option value="2">2</option>         
 												<option value="3">3</option>
-												<option value="AX">Plus</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="-1">Plus</option>
 										</select>
 									</div>
 									<div class="clearfix"> </div>
 									<label>Date</label>
 								    <label>Heure</label>
 									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
-									<input type="time" placeholder="3:30 PM" required/>
+									<input type="time" placeholder="17:30 GMT " required/>
 									<label>Message</label>
 									<textarea placeholder="Message"></textarea>
 									<input type="submit" value="Réserver">
