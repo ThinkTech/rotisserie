@@ -113,21 +113,36 @@ a:focus {
 
 .banner-right a h1{
 	color: #fff;
-	font-family: Satisfy;
-	font-size: 7.5em;
-	margin-top: -30px;
-	margin-left : -160px;
-	font-weight: bold;
-	font-style : italic;
+    font-family: Satisfy;
+    font-size: 6.5em;
+    margin-top: -54px;
+    margin-left: -160px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .banner-right a h4{
 	color: #fff;
-	font-family: Satisfy;
-	font-size: 5em;
-	margin-top: 30px;
-	font-weight: bold;
-	font-style : italic;
+    font-family: Satisfy;
+    font-size: 5em;
+    margin-top: 65px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner-right a.scroll {
+	font-size: 1.1em;
+    padding: 9px;
+    color: #fefefe;
+    width: 197px;
+    margin-top: 49px;
+    float: right;
+    right: 16px;
+    top: -25px;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 38px;
+    background: #ff3d00;
 }
 
 .banner-left{

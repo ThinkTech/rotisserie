@@ -58,6 +58,7 @@
 					 	  <h1>La Rotisserie</h1>
 					 	  <h4>le coin des gourmets</h4>
 						</a>
+						<a href="#rm-container" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
