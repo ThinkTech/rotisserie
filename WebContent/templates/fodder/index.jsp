@@ -326,6 +326,7 @@
 								 <li><b>Wari</b></li>
 								</ul>
 					         </div>
+					         <br>
 						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
 						     <div>
 						     Nos frais de livraison suivant votre zone sont les suivants :
@@ -400,7 +401,7 @@
 									<label>Date</label>
 								    <label>Heure</label>
 									<input class="date" id="datepicker" type="text" placeholder="5/11/2015"  required/>
-									<input type="time" placeholder="17:30 GMT " required/>
+									<input type="time" value="17:30" required/>
 									<label>Message</label>
 									<textarea placeholder="Message"></textarea>
 									<input type="submit" value="Réserver">

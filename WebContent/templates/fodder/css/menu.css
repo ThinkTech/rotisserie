@@ -195,6 +195,7 @@ a.rm-button-open {
 
 a.rm-button-open:hover {
 	color: #ffa709;
+	font-weight : normal;
 }
 
 .rm-info p {

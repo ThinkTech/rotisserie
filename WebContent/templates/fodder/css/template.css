@@ -558,7 +558,7 @@ fieldset:before{
 .shoppingCart h4{
       float:left;
       color:#fff;
-      margin-right: 10px;
+      margin-right: 12px;
       cursor : pointer;
 }
 .shoppingCart:hover h4{
@@ -595,10 +595,10 @@ fieldset:before{
        overflow:hidden;
        height:0px;
        background:#fff;
-       -webkit-transition:all 0.3s;
-       -moz-transition:all 0.3s;
-       -o-transition:all 0.3s;
-       transition:all 0.3s;
+       -webkit-transition:all 0.1s;
+       -moz-transition:all 0.1s;
+       -o-transition:all 0.1s;
+       transition:all 0.1s;
        font-family : Tahoma;
        font-size : 13px;
 }
@@ -620,6 +620,7 @@ fieldset:before{
 
 .shoppingCart li a {
 	color: #495860;
+	font-size : 12px;
 	text-decoration: none;
 	border-color: #666;
 	border-bottom: 1px dotted rgba(0, 0, 0, 0.6);
@@ -637,6 +638,7 @@ fieldset:before{
 .shoppingCart li strong {
 	display: block;
 	float: right;
+	font-size : 12px;
 }
 
 .shoppingCart p {
@@ -693,6 +695,16 @@ fieldset:before{
               transition:all 0.4s;
 }
 
+.delivery ul {
+	list-style-type: square;
+    color : #ffa709;
+}
+
+.delivery h3 .fa {
+	color : #ffa709;
+	margin-right : 10px;
+}
+
 .delivery h3 {
 	color : #fff;
 	margin-bottom : 15px;
@@ -734,24 +746,14 @@ fieldset:before{
 	transition: opacity 0.6s;
 }
 
+.checkout:focus {
+	color : #fff;
+}
 .checkout:hover {
 	background: #222;
 	color : #fff;
 }
 
-.checkout:active {
-	text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
-	background: #009c58;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #009c58),
-		color-stop(1, #00cc73));
-	background: -webkit-linear-gradient(top, #009c58 20%, #00cc73 100%);
-	background: -moz-linear-gradient(top, #009c58 20%, #00cc73 100%);
-	background: -o-linear-gradient(top, #009c58 20%, #00cc73 100%);
-	background: linear-gradient(top, #009c58 20%, #00cc73 100%);
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
-}
 
 .shoppingCart:hover .checkout {
 	opacity: 1;
