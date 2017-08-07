@@ -359,16 +359,16 @@
 					         </summary>
 					         <ul>
 					            <li>
-					               <span>2x <a href="javascript:void(0);">Bottle of Awesomesauce</a></span> <strong>10000 CFA</strong>
+					               <span>2x Bottle of Awesomesauce <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>10000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>1x <a href="javascript:void(0);">Stainless 12" frying pan</a></span> <strong>15000 CFA</strong>
+					               <span>1x Stainless 12" frying pan <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>15000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>4x <a href="javascript:void(0);">Super sausages</a></span> <strong>5000 CFA</strong>
+					               <span>4x Super sausages <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>5000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>1x <a href="javascript:void(0);">Stainless frying spoon</a></span> <strong>2500 CFA</strong>
+					               <span>1x Stainless frying spoon <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>2500 CFA</strong>
 					            </li>
 					         </ul>
 					         <p>

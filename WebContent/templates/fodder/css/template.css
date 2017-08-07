@@ -654,7 +654,6 @@ fieldset:before{
 	font-size : 12px;
 	text-decoration: none;
 	border-color: #666;
-	border-bottom: 1px dotted rgba(0, 0, 0, 0.6);
 }
 
 .shoppingCart li a:hover {
@@ -664,6 +663,7 @@ fieldset:before{
 .shoppingCart li span {
 	display: block;
 	float: left;
+	font-size : 12px;
 }
 
 .shoppingCart li strong {
