@@ -114,6 +114,10 @@ a:focus {
 	cursor : pointer;
 }
 
+.user span {
+	font-family : Tahoma;
+}
+
 /*-- //banner-body --*/
 /*-- banner --*/
 .banner-left,.banner-right{
