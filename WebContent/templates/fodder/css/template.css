@@ -170,6 +170,9 @@ a:focus {
     list-style: none;
     margin-top : 20px;
 }
+ul.cute {
+	margin-left: -10px;
+}
 ul.cute li{
 	list-style-type:none;
 	margin:0 0 .5em;
