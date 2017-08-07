@@ -292,6 +292,7 @@ a.rm-viewdetails:before{
 	float: right;
     width: 46px;
     font-size: 1em;
+    font-family : monospace;
 }
 
 .rm-modal .rm-thumb {
