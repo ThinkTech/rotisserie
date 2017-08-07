@@ -309,14 +309,14 @@
 							</div>
 								<div class="cart">
 			                      <a href="#shopping" class="scroll" title="passer votre commande"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-			                     <span>4</span>
+			                      <a href="#cart" class="scroll" title="voir votre panier"><span>4</span></a>
 			                  </div>
 							</div>
 						</div>
 					<!-- //menu -->
 					<div id="shopping" class="shopping">
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer Votre Commande</h3>
-					   <p> Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
+					   <p>Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
 					   <div>
 					      <div class="delivery">
 					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
@@ -353,7 +353,7 @@
 							</div>
 						  </div>
 					      </div>
-					      <details class="shoppingCart" open>
+					      <div id="cart" class="shoppingCart" open>
 					         <summary>
 					            <h4>Votre Panier</h4>
 					            <span class="arrow"></span>
@@ -376,7 +376,7 @@
 					            <span>Articles : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
 					         </p>
 					         <a title="confirmer votre commande" class="checkout" href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer</a>
-					      </details>    
+					      </div>    
 					   </div>
 					</div>
 							<!-- reserve -->

@@ -77,4 +77,10 @@ jQuery(document).ready(function($) {
 $(function() {
 	$("#datepicker").attr("placeholder",new Date().toLocaleDateString("fr"));
 	$( "#datepicker" ).datepicker();
+	$(".trash").click(function(){
+		const message = "voulez-vous supprimer cet article?";
+		confirm(message, function() {
+			console.log("suppression");
+		});
+	});
 });
