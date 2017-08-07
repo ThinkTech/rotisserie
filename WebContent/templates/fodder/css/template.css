@@ -559,8 +559,9 @@ fieldset:before{
 }
 
 .shopping p {
-	text-align : center;
-	font-size : 1.1em;
+	text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px
 }
 
 .shopping > div {
@@ -585,12 +586,7 @@ fieldset:before{
            -o-transition:all 0.4s;
               transition:all 0.4s;
 }
-.shoppingCart:hover{
-         color:#495860;
-         -webkit-box-shadow:0 2px 4px 1px rgba(0,0,0,0.1);
-            -moz-box-shadow:0 2px 4px 1px rgba(0,0,0,0.1);
-                 box-shadow:0 2px 4px 1px rgba(0,0,0,0.1);
-}
+
 .shoppingCart summary{
          padding:12px 16px 14px 16px;
          overflow:hidden;
@@ -716,8 +712,10 @@ fieldset:before{
 }
 
 .scroll .fa-gift {
-	font-size : 2em;
-	color : #fff;
+	font-size: 2em;
+    color: #fff;
+    position: relative;
+    top: -10px;
 }
 
 .delivery {
@@ -757,7 +755,6 @@ fieldset:before{
 	color : #fff;
 	margin-bottom : 15px;
 	font-size : 1.5em;
-	margin-top : 15px;
 }
 
 .delivery > h3:first-of-type {
@@ -771,6 +768,12 @@ fieldset:before{
 	margin-left : 50px;
 }
 
+.delivery p {
+	text-align: left;
+    margin-bottom: 10px;
+    margin-top: 21px;
+}
+
 .checkout {
 	opacity: 0;
 	display: block;
@@ -778,7 +781,7 @@ fieldset:before{
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	bottom: 6px;
+	bottom: 17px;
 	left: 6px;
 	padding: 6px 14px 8px 14px;
 	background: #ff3d00;

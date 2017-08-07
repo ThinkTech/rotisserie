@@ -317,12 +317,12 @@
 					<div id="shopping" class="shopping">
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer Votre Commande</h3>
 					   <p>Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
+					   <p>Identifier vous rapidement avec les réseaux sociaux ou avec votre compte pour une historique de vos commandes.</p>
 					   <div>
 					      <div class="delivery">
 					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
 					         <div>
-					         Regler votre facture en utilisant la méthode de paiement la plus appropriée. 
-					         <br><br>
+					         <p>Regler votre facture en utilisant la méthode de paiement la plus appropriée.</p> 
 					            <ul>
 								 <li><b>MasterCard</b></li>
 								 <li><b>Visa</b></li> 
@@ -333,8 +333,7 @@
 					         <br>
 						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
 						     <div>
-						     Nos frais de livraison varient suivant votre zone de domiciliation.
-						      <br><br>
+						     <p>Nos frais de livraison varient suivant votre zone de domiciliation.</p>
 								<ul>
 								 <li><b>Zone 1 : Centre ville à Malick Sy : 500 CFA</b></li>
 								 <li><b>Zone 2 : Malick Sy à Fann : 1000 CFA</b></li> 
