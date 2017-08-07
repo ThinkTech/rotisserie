@@ -426,9 +426,9 @@ fieldset:before{
 
 .cart {
 	position: relative;
-    margin-top: -346px;
+    margin-top: -415px;
     float: right;
-    right: 103px;
+    right: 125px;
     font-family: Tahoma;
     font-weight: bold;
 }
@@ -559,14 +559,14 @@ fieldset:before{
 }
 
 .shopping > div {
-	width : 70%;
+	width : 75%;
 	margin : auto;
 }
 
 .shoppingCart{
       position:relative;
       margin-top:40px;
-      width : 35%;
+      width : 38%;
       display : inline-block;
       overflow:hidden;
       -webkit-border-radius:4px 4px 0 0;
@@ -710,11 +710,15 @@ fieldset:before{
 	float: right;
 }
 
+.scroll .fa-gift {
+	font-size : 2em;
+	color : #fff;
+}
 
 .delivery {
 	position:relative;
       margin-top:40px;
-      width : 55%;
+      width : 52%;
       display : inline-block;
       overflow:hidden;
       vertical-align : top;
