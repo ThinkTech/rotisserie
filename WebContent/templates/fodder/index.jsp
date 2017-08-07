@@ -36,6 +36,7 @@
 				    </div>
 				    <div class="user">
 				       <a><span>Connexion</span></a>
+				       <span>|</span>
 				       <a><span>Inscription</span></a>
 				    </div>
 					<div class="col-md-3 banner-left">
