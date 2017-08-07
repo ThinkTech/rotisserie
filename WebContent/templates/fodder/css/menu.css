@@ -295,6 +295,10 @@ a.rm-viewdetails:before{
     font-family : monospace;
 }
 
+.rm-modal a { 
+	cursor : pointer;
+}
+
 .rm-modal .rm-thumb {
 	width: 90px;
 	height: 90px;

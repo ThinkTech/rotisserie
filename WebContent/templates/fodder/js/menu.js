@@ -55,7 +55,7 @@ var Menu = (function() {
 				img = recipe.data( 'thumb' ),
 				description = recipe.parent().next().text();
 
-			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><input type="number" value="1"/><a><i class="fa fa-shopping-cart"></i>Commander</a><span class="rm-close-modal">x</span></div>');
+			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><input type="number" value="1"/><a title="commander"><i class="fa fa-shopping-cart"></i>Commander</a><span class="rm-close-modal">x</span></div>');
 
 			$modal.appendTo( $container );
 

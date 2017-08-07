@@ -45,7 +45,7 @@
 								<ul class="cute">
 									<li><a href="#about" title="à propos" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
 									<li><a href="#rm-container" title="notre carte" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
-									<li><a href="#reservation" title="réserver une table" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver une table</span></a></li>
+									<li><a href="#reservation" title="réserver une table" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver votre table</span></a></li>
 									<li><a href="#places" title="nos emplacements" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
 									<li><a href="#schedules" title="nos horaires" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
 									<li><a href="#partners" title="nos partenaires" class="scroll"><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Nos Partenaires</span></a></li>
@@ -276,7 +276,7 @@
 							</div>
 
 							<div class="rm-back">
-								<span class="rm-close">X</span>
+								<span title="fermer la carte" class="rm-close">X</span>
 								<div class="rm-content">
 									<h4>Desserts</h4>
 									<dl>
@@ -360,16 +360,16 @@
 					         </summary>
 					         <ul>
 					            <li>
-					               <span>2x Bottle of Awesomesauce <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>10000 CFA</strong>
+					               <span>2x Bottle of Awesomesauce <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>10000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>1x Stainless 12" frying pan <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>15000 CFA</strong>
+					               <span>1x Stainless 12" frying pan <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>15000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>4x Super sausages <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>5000 CFA</strong>
+					               <span>4x Super sausages <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>5000 CFA</strong>
 					            </li>
 					            <li>
-					               <span>1x Stainless frying spoon <a class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>2500 CFA</strong>
+					               <span>1x Stainless frying spoon <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>2500 CFA</strong>
 					            </li>
 					         </ul>
 					         <p>
@@ -382,7 +382,7 @@
 							<!-- reserve -->
 						<div id="reservation" class="reserve">
 							<div class="book_table">
-								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver une table</h3>
+								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver votre table</h3>
 								<form>
 								    <label>Nom Complet</label>
 								    <label>Téléphone</label>
