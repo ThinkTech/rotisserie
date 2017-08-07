@@ -312,12 +312,12 @@
 					<!-- //menu -->
 					<div id="shopping" class="shopping">
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer une Commande</h3>
-					   <p> Faites-Vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
+					   <p> Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
 					   <div>
 					      <div class="delivery">
 					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
 					         <div>
-					         Selon votre choix, utiliser la méthode de paiement appropriée : 
+					         Regler votre facture en utilisant la méthode de paiement la plus appropriée. 
 					         <br><br>
 					            <ul>
 								 <li><b>MasterCard</b></li>
@@ -329,7 +329,7 @@
 					         <br>
 						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
 						     <div>
-						     Nos frais de livraison suivant votre zone sont les suivants :
+						     Nos frais de livraison varient suivant votre zone de domiciliation.
 						      <br><br>
 								<ul>
 								 <li><b>Zone 1 : Centre ville à Malick Sy : 500 CFA</b></li>
@@ -342,8 +342,10 @@
 							<br>
 							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
-								<b>Du lundi au vendredi 12:00 - 22:00</b><br>
-								<b>Samedi et dimanche 12:00 - 23:00</b>
+								<ul>
+								  <li><b>Du lundi au vendredi 12:00 - 22:00</b></li>
+								  <li><b>Samedi et dimanche 12:00 - 23:00</b></li>
+								</ul>
 							</div>
 						  </div>
 					      </div>
@@ -367,7 +369,7 @@
 					            </li>
 					         </ul>
 					         <p>
-					            <span>Items : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
+					            <span>Articles : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
 					         </p>
 					         <a class="checkout" href="javascript:void(0);">Confirmer</a>
 					      </details>    
