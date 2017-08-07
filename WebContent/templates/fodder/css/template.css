@@ -421,11 +421,11 @@ fieldset:before{
 
 .cart {
 	position: relative;
-    margin-top: -142px;
+    margin-top: -346px;
     float: right;
-    right: 75px;
-    font-family : Tahoma;
-    font-weight : bold;
+    right: 103px;
+    font-family: Tahoma;
+    font-weight: bold;
 }
 
 .cart .fa {
@@ -438,7 +438,7 @@ fieldset:before{
 }
 
 .cart span {
-	padding: 12px;
+	padding: 13px;
     padding-right: 15px;
     background: #ff4d00;
     font-size: 11px;
