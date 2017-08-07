@@ -315,16 +315,30 @@
 					   <p> Faites-Vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
 					   <div>
 					      <div class="delivery">
+					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
+					         <div>
+					         Selon votre choix, utiliser la méthode de paiement appropriée : 
+					         <br><br>
+					            <ul>
+								 <li><b>MasterCard</b></li>
+								 <li><b>Visa</b></li> 
+								 <li><b>Orange Money</b></li>                       
+								 <li><b>Wari</b></li>
+								</ul>
+					         </div>
 						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
-						     <div>Nos frais de livraison suivant votre zone sont les suivants : .<br><br>
-								<b>Zone 1 : Centre ville à Malick Sy : 500  CFA<br>
-								Zone 2 : Malick Sy à Fann : 1000  CFA    <br> 
-								Zone 3 : Point E : 1.500 CFA<br>                       
-								Zone 4 : Fann au Régal de Ouakam : 2000 CFA<br>
-								</b>
+						     <div>
+						     Nos frais de livraison suivant votre zone sont les suivants :
+						      <br><br>
+								<ul>
+								 <li><b>Zone 1 : Centre ville à Malick Sy : 500 CFA</b></li>
+								 <li><b>Zone 2 : Malick Sy à Fann : 1000 CFA</b></li> 
+								 <li><b>Zone 3 : Point E : 1500 CFA</b></li>                       
+								 <li><b>Zone 4 : Fann  : 2000 CFA</b></li>
+								</ul>
 							</div>
 							<div>
-							<br><br>
+							<br>
 							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
 								<b>Du lundi au vendredi 12:00 - 22:00</b><br>

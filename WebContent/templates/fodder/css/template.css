@@ -512,7 +512,7 @@ fieldset:before{
 
 .shopping {
 	margin-top : 3em;
-	min-height : 700px;
+	min-height : 800px;
 	background: #ff3d00;
 	color : #222;
 }
@@ -697,8 +697,12 @@ fieldset:before{
 	color : #fff;
 	margin-bottom : 15px;
 	font-size : 1.5em;
+	margin-top : 15px;
 }
 
+.delivery > h3:first-of-type {
+	margin-top : 0px;
+}
 .delivery b {
 	color : #fff;
 }
