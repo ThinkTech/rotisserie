@@ -116,6 +116,7 @@ a:focus {
 
 .user span {
 	font-family : Tahoma;
+	font-size: 80%;
 }
 
 /*-- //banner-body --*/
@@ -220,6 +221,7 @@ ul.cute li{
 
 .menu ul li a span {
 	display : inline-block;
+	font-size: 135%;
 }
 
 .menu ul li a:hover{
@@ -343,10 +345,10 @@ h3.title{
 }
 
 h3 .fa {
-	margin-right : 5px;
-	font-size : 1.3em;
+	margin-right: 10px;
+	font-size: 1em;
 	position: relative;
-    top: 3px;
+	top: 0px;
 }
 
 h3 .fa-shopping-cart {
@@ -737,8 +739,10 @@ fieldset:before{
 
 .delivery ul {
 	list-style-type: square;
-    color : #ffa709;
-    line-height : 2em;
+	color : #ffa709;
+	line-height : 2em;
+	font-family: tahoma;
+	font-size: 90%;
 }
 
 .delivery h3 .fa {
@@ -944,6 +948,7 @@ fieldset:before{
 .footer .social {
 	margin-top : 30px;
 	margin-bottom : 30px;
+	text-align: center;
 }
 
 .footer .social a, .social a:visited {
@@ -1525,4 +1530,3 @@ fieldset:before{
 		font-size: 1.3em;
 	}
 }
-
