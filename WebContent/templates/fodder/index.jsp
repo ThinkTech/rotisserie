@@ -374,7 +374,7 @@
 					         <p>
 					            <span>Articles : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
 					         </p>
-					         <a title="confirmer votre commande" class="checkout" href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer</a>
+					         <a title="Procéder à la commande" class="checkout" href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
 					      </div>
 					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    
 					   </div>
