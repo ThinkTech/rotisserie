@@ -407,6 +407,7 @@ fieldset:before{
 	margin:0;
 	text-align:center;
 }
+
 .garlic:before{
 	background: url(../images/11.png) no-repeat 0px 0px;
     display: block;
@@ -417,6 +418,36 @@ fieldset:before{
 	top: 425%;
     right: -5%;
 }
+
+.cart {
+	position: relative;
+    margin-top: -142px;
+    float: right;
+    right: 75px;
+    font-family : Tahoma;
+    font-weight : bold;
+}
+
+.cart .fa {
+	font-size : 4em;
+}
+
+.cart a,.cart a:visited {
+	color : #222;
+	cursor : pointer;
+}
+
+.cart span {
+	padding: 12px;
+    padding-right: 15px;
+    background: #ff4d00;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: -9px;
+}
+
 /*-- //about --*/
 
 /*-- reserve --*/
@@ -885,17 +916,28 @@ fieldset:before{
 .footer-left{
 	float:left;
 }
+
+.footer-left p a,.footer-left p a:visited{
+	color:#ff4d00;
+	cursor : pointer;
+}
+
+.footer-left p a:hover{
+	color:#fff;
+}
+
 .footer-right{
 	float:right;
 	padding-top : 20px;
 	width : 50%;
 }
 
-.social {
+.footer .social {
 	margin-top : 30px;
+	margin-bottom : 30px;
 }
 
-.social a, .social a:visited {
+.footer .social a, .social a:visited {
 	color: #ff3d00;
 	font-size: 3em;
 	font-weight: bold;

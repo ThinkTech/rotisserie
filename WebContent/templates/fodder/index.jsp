@@ -29,10 +29,10 @@
 			<!-- banner -->
 				<div class="banner">
 				    <div class="social">
-    				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-					   <a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-					   <a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-					   <a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					   <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					   <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					   <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    </div>
 				    <div class="user">
 				       <a><span>Connexion</span></a>
@@ -42,12 +42,12 @@
 						 <ul class="menu">
 							<li class="item1">
 								<ul class="cute">
-									<li><a href="#about" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
-									<li><a href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
-									<li><a href="#reservation" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver une table</span></a></li>
-									<li><a href="#places" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
-									<li><a href="#schedules" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
-									<li><a href="#partners" class="scroll"><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Nos Partenaires</span></a></li>
+									<li><a href="#about" title="à propos" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
+									<li><a href="#rm-container" title="notre carte" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
+									<li><a href="#reservation" title="réserver une table" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver une table</span></a></li>
+									<li><a href="#places" title="nos emplacements" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
+									<li><a href="#schedules" title="nos horaires" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>
+									<li><a href="#partners" title="nos partenaires" class="scroll"><i class="fa fa-handshake-o" aria-hidden="true"></i><span>Nos Partenaires</span></a></li>
 								</ul>
 							</li>
 						</ul>
@@ -57,7 +57,7 @@
 					 	  <h1>La Rotisserie</h1>
 					 	  <h4>le coin des gourmets</h4>
 						</a>
-						<a href="#rm-container" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
+						<a href="#rm-container" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -77,10 +77,10 @@
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
-						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+												    <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												    <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+												    <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
@@ -105,10 +105,10 @@
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
-						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+												    <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												    <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+												    <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
@@ -133,10 +133,10 @@
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
-						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-						        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+												    <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												    <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+												    <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
@@ -186,7 +186,7 @@
 									<h2>La Rotisserie</h2>
 									<h3>le coin des gourmets</h3>
 
-									<a href="#" class="rm-button-open">Voir la Carte</a>
+									<a href="#" title="voir la carte" class="rm-button-open">Voir la Carte</a>
 									
                                  <img src="templates/fodder/images/logo.png">
                                  
@@ -301,17 +301,20 @@
 
 						</div><!-- /rm-right -->
 					</div><!-- /rm-wrapper -->
-
 				</div><!-- /rm-container -->
 
 			</section>
 							</div>		
 							</div>
+								<div class="cart">
+			                      <a href="#shopping" class="scroll" title="passer votre commande"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			                     <span>4</span>
+			                  </div>
 							</div>
 						</div>
 					<!-- //menu -->
 					<div id="shopping" class="shopping">
-					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer une Commande</h3>
+					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer Votre Commande</h3>
 					   <p> Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
 					   <div>
 					      <div class="delivery">
@@ -371,7 +374,7 @@
 					         <p>
 					            <span>Articles : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
 					         </p>
-					         <a class="checkout" href="javascript:void(0);">Confirmer</a>
+					         <a title="confirmer votre commande" class="checkout" href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer</a>
 					      </details>    
 					   </div>
 					</div>
@@ -406,7 +409,7 @@
 									<input type="time" value="17:30" required/>
 									<label>Message</label>
 									<textarea placeholder="Message"></textarea>
-									<input type="submit" value="Réserver">
+									<input title="réserver" type="submit" value="Réserver">
 								</form>
 							</div>
 						</div>
@@ -429,7 +432,7 @@
 								<div class="mail-sub">
 									<form>
 										<input type="email" placeholder="Email" onfocus="this.value = '';"  required="">
-										<input type="submit" value="Abonner">
+										<input type="submit" value="Abonner" title="abonner">
 										<div class="clearfix"> </div>
 									</form>
 								</div>
@@ -441,12 +444,13 @@
 										  <p><span>Mobile :</span> +221 77 845 46 85</p>
 										  <p><span>Email :</span> info@rotisserie.com</p>
 										</div>
-										  <div class="social">
-				        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				        					<a target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				        					<a target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-				        					<a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				    						</div>
+										<div class="social">
+				        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+										    <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										    <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+										    <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				    				   </div>
+				    				   <p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
 									</div>
 									<div class="footer-right">
 									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partagez</h4>
