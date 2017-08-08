@@ -336,7 +336,7 @@
 					   <p>Pour une historique de vos commandes, identifier vous rapidement avec les réseaux sociaux ou avec votre compte client.</p>
 					   <div>
 					      <div class="delivery">
-					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
+					         <h3><i class="fa fa-credit-card" aria-hidden="true"></i>Payer en ligne</h3>
 					         <div>
 					         <p>Regler votre facture en utilisant la méthode de paiement la plus appropriée.</p> 
 					            <ul>
@@ -347,7 +347,7 @@
 								</ul>
 					         </div>
 					         <br>
-						     <h3><i class="fa fa-money" aria-hidden="true"></i>Payer à la livraison</h3>
+						     <h3><i class="fa fa-motorcycle" aria-hidden="true"></i>Payer à la livraison</h3>
 						     <div>
 						     <p>Nos frais de livraison varient suivant votre zone de domiciliation.</p>
 								<ul>
@@ -362,8 +362,8 @@
 							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
 								<ul>
-								  <li><b>lundi au vendredi 12:00 - 22:00</b></li>
-								  <li><b>samedi et dimanche 12:00 - 23:00</b></li>
+								  <li><b>lundi au jeudi  : 10:00 - 22:00</b></li>
+								  <li><b>vendredi et samedi : 10:00 - 23:00</b></li>
 								</ul>
 							</div>
 						  </div>
@@ -380,7 +380,7 @@
 					         </div>
 					         <div>
 					           <p>
-					             <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
+					             <span>Produits : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
 					           </p>
 					         </div>
 					         <a title="Procéder à la commande" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
@@ -393,7 +393,7 @@
 							<div class="book_table">
 								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver votre table</h3>
 								<p>Nous vous invitons à utiliser le formulaire ci-dessous pour réserver votre table.</p>
-					            <p>Celle-ci est réservée pour l'heure indiquée et ce pendant 15 minutes, sinon passé ce délai votre réservation est annulée.</p>
+					            <p>Celle-ci est réservée pour l'heure indiquée et ce pendant 30 minutes, sinon passé ce délai, votre réservation est annulée.</p>
 								<form>
 								    <label>Nom Complet</label>
 								    <label>Téléphone</label>
