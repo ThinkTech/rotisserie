@@ -226,6 +226,18 @@ a.rm-button-open:hover {
 	color: #333;
 }
 
+.rm-content dl dd.price {
+	font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    top: -5px;
+    position: relative;
+    padding-bottom: 11px;
+    line-height: 0px;
+    letter-spacing : 0.5px;
+}
+
 .rm-order p{
 	padding: 10px;
 	background: rgba(213, 193, 154, 0.2);
@@ -328,6 +340,10 @@ a.rm-viewdetails,
     padding: 6px;
     color: #fff;
     font-size: 13px;
+}
+
+a.rm-viewdetails {
+	cursor : pointer;
 }
 
 a.rm-viewdetails:hover,

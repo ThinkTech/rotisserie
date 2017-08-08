@@ -52,9 +52,11 @@ var Menu = (function() {
 		viewDetails = function( recipe ) {
 
 			var title = recipe.text(),
-				img = recipe.data( 'thumb' ),
+				img = recipe.data('thumb'),
+				id = recipe.data('id'),
+				price = recipe.data('price'),
 				description = recipe.parent().next().text();
-
+                console.log("id "+id);
 			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><input type="number" min="1" value="1"/><a title="commander"><i class="fa fa-shopping-cart"></i>Commander</a><span class="rm-close-modal">x</span></div>');
 
 			$modal.appendTo( $container );
@@ -67,16 +69,36 @@ var Menu = (function() {
 				$container.addClass( 'rm-in rm-nodelay' );
 
 				$modal.find( 'span.rm-close-modal' ).on( 'click', function() {
-
 					$container.removeClass( 'rm-in' );
-
-				} );
+				});
 				
 				$modal.find( 'a' ).on( 'click', function() {
-
 					$container.removeClass( 'rm-in' );
-
-				} );
+					var total = 0;
+					const ul = $("#cart ul");
+					const li = $('<li><span><span>1x Stainless frying spoon</span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+					var number = $modal.find('input').val();
+                    li.find('span span').html(number+" "+title);
+                    li.find('.price').html(number * parseInt(price));
+                    li.find(".trash").click(function(){
+                    	const message = "voulez-vous supprimer cet article?";
+                		confirm(message, function() {
+                			li.remove();
+                			$(".article-count").html(ul.find("li").length);
+                			total = 0;
+                			$.each($("li .price",ul),function(index,element){
+                            	total += parseInt($(element).html());
+                            });
+                            $(".total").html(total);
+                		});
+                	});
+                    ul.append(li);
+                    $(".article-count").html(ul.find("li").length);
+                    $.each($("li .price",ul),function(index,element){
+                    	total += parseInt($(element).html());
+                    });
+                    $(".total").html(total);
+				});
 			
 			}, 0 );
 

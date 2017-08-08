@@ -198,34 +198,38 @@
 								<div class="rm-content">
 									<h4>Appetizers</h4>
 									<dl>
-										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="1" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
 										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										
-										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
+										<dd class="price">3000 CFA</dd>
+										  
+										<dt><a  class="rm-viewdetails" data-id="2" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
 										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="3" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
 										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
 										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										
+										<dd class="price">3000 CFA</dd>
 									</dl>
 
 									<h4>Salads &amp; More</h4>
 									<dl>
-										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="5" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
 										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="6" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
 										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="7" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
 										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
-										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										
+
 									</dl>
 								</div><!-- /rm-content -->
 								<div class="rm-overlay"></div>
@@ -239,30 +243,37 @@
 								<div class="rm-content">
 									<h4>Main Courses</h4>
 									<dl>
-										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="9" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
 										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="10" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
 										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="11" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
 										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="12" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
 										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="13" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
 										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										
-										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
+										<dd class="price">3000 CFA</dd>
+										 
+										<dt><a  class="rm-viewdetails" data-id="14" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
 										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="15" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
 										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="16" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
 										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										
+										<dd class="price">3000 CFA</dd>
 									</dl>
 								</div><!-- /rm-content -->
 								<div class="rm-overlay"></div>
@@ -280,17 +291,22 @@
 								<div class="rm-content">
 									<h4>Desserts</h4>
 									<dl>
-										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="rm-viewdetails" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
+										<dt><a class="rm-viewdetails" data-id="17" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
 										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
+										<dd class="price">3000 CFA</dd>
+						
 										
-										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
+										<dt><a class="rm-viewdetails" data-id="18" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
 										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dt><a class="rm-viewdetails" data-id="19" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
 										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										<dd class="price">3000 CFA</dd>
 										
-										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="rm-viewdetails" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
+										<dt><a class="rm-viewdetails" data-id="20" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
 										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
+										<dd class="price">3000 CFA</dd>
 										
 									</dl>
 									<div class="rm-order">
@@ -309,7 +325,7 @@
 							</div>
 								<div class="cart">
 			                      <a href="#shopping" class="scroll" title="passer votre commande"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-			                      <a href="#cart" class="scroll" title="voir votre panier"><span>4</span></a>
+			                      <a href="#cart" class="scroll" title="voir panier"><span class="article-count">0</span></a>
 			                  </div>
 							</div>
 						</div>
@@ -358,23 +374,12 @@
 					            <span class="arrow"></span>
 					         </summary>
 					         <ul>
-					            <li>
-					               <span>2x Bottle of Awesomesauce <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>10000 CFA</strong>
-					            </li>
-					            <li>
-					               <span>1x Stainless 12" frying pan <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>15000 CFA</strong>
-					            </li>
-					            <li>
-					               <span>4x Super sausages <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>5000 CFA</strong>
-					            </li>
-					            <li>
-					               <span>1x Stainless frying spoon <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong>2500 CFA</strong>
-					            </li>
+					            
 					         </ul>
 					         <p>
-					            <span>Articles : <strong>4</strong></span> <span>Total : <strong>32500 CFA</strong></span>
+					            <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
 					         </p>
-					         <a title="Procéder à la commande" class="checkout" href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
+					         <a title="Procéder à la commande" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
 					      </div>
 					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    
 					   </div>
