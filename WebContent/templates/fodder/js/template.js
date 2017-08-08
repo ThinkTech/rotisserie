@@ -62,6 +62,7 @@ $(window).ready(function(){
   $('.flexslider').flexslider({
 	animation: "fade",
 	controlNav : true,
+	pauseOnAction : false,
 	start: function(slider){
 		$('body').animate({opacity:1},2000,function(){
 			page.release();

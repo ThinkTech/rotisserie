@@ -358,10 +358,10 @@
 								</ul>
 							</div>
 							<div>
-							<br>
+							<p>Notre équipe de livreurs de par leur experience, vous promettent un service de qualité.</p>
 							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
-								<ul>
+							  <ul>
 								  <li><b>lundi au jeudi  : 10:00 - 22:00</b></li>
 								  <li><b>vendredi et samedi : 10:00 - 23:00</b></li>
 								</ul>
