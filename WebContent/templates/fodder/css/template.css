@@ -838,7 +838,7 @@ fieldset:before{
 	float: left;
 	font-weight: bold;
     font-size: 13px;
-    font-family : monospace;
+    font-family : Arial;
 }
 
 .shoppingCart:hover p span:first-child {
@@ -878,7 +878,7 @@ fieldset:before{
 .delivery ul {
 	list-style-type: square;
 	color : #ffa709;
-	line-height : 2em;
+	line-height : 2.1em;
 	font-family: tahoma;
 	font-size: 90%;
 }
@@ -917,6 +917,7 @@ fieldset:before{
 	text-align: left;
     margin-bottom: 10px;
     margin-top: 21px;
+    line-height : 1.6em;
 }
 
 .checkout {

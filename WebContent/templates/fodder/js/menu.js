@@ -76,9 +76,9 @@ var Menu = (function() {
 					$container.removeClass( 'rm-in' );
 					var total = 0;
 					const ul = $("#cart ul");
-					const li = $('<li><span><span>1x Stainless frying spoon</span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 					var number = $modal.find('input').val();
-                    li.find('span span').html(number+" "+title);
+                    li.find('span span').html(number+" "+title).attr("title","prix : "+price);
                     li.find('.price').html(number * parseInt(price));
                     li.find(".trash").click(function(){
                     	const message = "voulez-vous supprimer cet article?";

@@ -362,8 +362,8 @@
 							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
 								<ul>
-								  <li><b>Du lundi au vendredi 12:00 - 22:00</b></li>
-								  <li><b>Samedi et dimanche 12:00 - 23:00</b></li>
+								  <li><b>lundi au vendredi 12:00 - 22:00</b></li>
+								  <li><b>samedi et dimanche 12:00 - 23:00</b></li>
 								</ul>
 							</div>
 						  </div>
