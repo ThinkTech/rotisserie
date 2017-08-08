@@ -242,6 +242,7 @@ a.rm-button-open:hover {
 	padding: 10px;
 	background: rgba(213, 193, 154, 0.2);
 	margin: 20px 0 0;
+	font-size : 14px;
 }
 
 .rm-order img {

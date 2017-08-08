@@ -61,6 +61,7 @@ $(window).ready(function(){
 	$(".banner-right h4").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
   $('.flexslider').flexslider({
 	animation: "fade",
+	controlNav : true,
 	start: function(slider){
 		$('body').animate({opacity:1},2000,function(){
 			page.release();

@@ -31,8 +31,124 @@
     border: 1px solid #000;
 }
 
-.flex-container a:active,.flex-container a:focus,.flexslider a:active,.flexslider a:focus{outline:0}.flex-control-nav,.flex-direction-nav,.slides{margin:0;padding:0;list-style:none}.flexslider .slides>li{display:none;-webkit-backface-visibility:hidden}.flex-direction-nav a,.no-js .slides>li:first-child,.slides:after,html[xmlns] .slides{display:block}.flexslider .slides img{width:100%;display:block;filter:saturate(1.5)}.flex-pauseplay span{text-transform:capitalize}.slides:after{content:".";clear:both;visibility:hidden;line-height:0;height:0}* html .slides{height:1%}.flexslider{border:0;position:relative;zoom:1}.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease}.loading .flex-viewport{max-height:300px}.flexslider .slides{zoom:1}.carousel li{margin-right:5px}.flex-direction-nav a{width:30px;height:30px;margin:-20px 0 0;position:absolute;top:55%;z-index:10;cursor:pointer;text-indent:-9999px;opacity:0;-webkit-transition:all .3s ease}.flex-direction-nav .flex-next{background-position:100% 0}.flex-direction-nav .flex-prev{left:-36px}.flexslider:hover .flex-next{opacity:.8;right:5px}.flexslider:hover .flex-prev{opacity:.8;left:5px}.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover{opacity:1}.flex-direction-nav .flex-disabled{opacity:.3!important;filter:alpha(opacity=30);cursor:default}.flex-control-nav{position:absolute;left:47.3%;margin-left:0;top:122%;display:none}.flex-control-nav li{margin:0 6px;display:inline-block;zoom:1}.flex-control-paging li a{width:10px;height:10px;display:block;background:#45AED6;cursor:pointer;text-indent:-9999px;border-radius:10px}.flex-control-paging li a.flex-active{background:#F26F62;cursor:default}.flex-control-thumbs{margin:5px 0 0;position:static;overflow:hidden}.flex-control-thumbs li{width:25%;float:left;margin:0}.flex-control-thumbs img{width:100%;display:block;opacity:.7;cursor:pointer}.flex-control-thumbs img:hover{opacity:1}.flex-control-thumbs .flex-active{opacity:1;cursor:default}@media screen and (max-width:768px){.flex-control-nav{top:110%}}@media screen and (max-width:480px){section.slider{padding-top:0}.flexslider{padding:0}.flex-control-paging li a{width:10px;height:10px}.flex-control-nav{top:113%;left:43.3%}}@media screen and (max-width:320px){section.slider{padding-top:0}.flex-direction-nav a{top:63%}.flex-control-nav{top:105%;left:37.3%}}
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
 
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;filter : saturate(1.5);}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+	border: 0px;
+	position: relative;
+	zoom: 1;
+}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+.carousel li {margin-right: 5px}
+
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; position: absolute; top: 55%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+.flex-direction-nav .flex-next {background-position: 100% 0;}
+.flex-direction-nav .flex-prev {left: -36px;}
+.flexslider:hover .flex-next {opacity: 0.8; right: 5px;}
+.flexslider:hover .flex-prev {opacity: 0.8; left: 5px;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+/* Control Nav */
+.flex-control-nav {
+	position: absolute;
+    left: 51.3%;
+    margin-left: 0;
+    top: 78%;
+}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {
+	width: 35px;
+    height: 35px;
+    display: block;
+    background: #ffa709;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-radius: 10px;
+}
+.flex-control-paging li a.flex-active { background:#fff; cursor: default;}
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 768px) {
+	.flex-control-nav {
+		top: 110%;
+	}
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 480px) {
+	section.slider {
+		padding-top: 0%;
+	}
+	.flexslider {
+		padding: 0px 0px;
+		}
+	.flex-control-paging li a {
+	  width: 10px;
+	  height: 10px;
+	}
+	.flex-control-nav {
+		top: 113%;
+		left: 43.3%;
+	}
+}
+@media screen and (max-width: 320px) {
+	section.slider {
+		padding-top: 0%;
+	}	
+	.flex-direction-nav a {
+		top: 63%;
+	}
+	.flex-control-nav {
+		top: 105%;
+		left: 37.3%;
+	}
+}
 
 html, body{
     font-size: 100%;
@@ -41,9 +157,11 @@ html, body{
 }
 body{
 	opacity : 0;
+	 
 }
 p{
 	margin:0;
+	font-family : Tahoma;
 }
 h1,h3,h4,h5,a{
 	margin:0;
@@ -317,6 +435,7 @@ h5 .fa {
 	line-height: 2em;
 	width: 75%;
 	font-weight : bold;
+	font-family : Courgette;
 }
 /*-- //banner-bottom --*/
 /*-- about --*/
@@ -465,6 +584,13 @@ fieldset:before{
 	padding: 0em 0;
 	position:relative;
 }
+
+.reserve p {
+	text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px
+}
+
 .book_table{
 	padding-bottom:2em;
 }
@@ -473,13 +599,14 @@ fieldset:before{
     position: relative;
 }
 .book_table form{
-	margin:0.5em auto 0;
-	width:70%;
+	margin: 2.5em auto auto;
+    padding-left: 2em;
+    width: 65%;
 }
 .book_table label {
 	width: 47.66%;
     font-size: 1em;
-    color: #222;
+    color: #d25119;
     border-radius: 5px;
     display: inline-block;
     padding: 5px;
@@ -554,7 +681,7 @@ fieldset:before{
 .shopping {
 	margin-top : 3em;
 	min-height : 900px;
-	background: #ff3d00;
+	background-color: #ff3d00;
 	color : #222;
 }
 
@@ -602,8 +729,8 @@ fieldset:before{
       color: #fff;
       margin-right: 12px;
       cursor: pointer;
-      font-family: Tahoma;
-      font-size: 1em;
+      font-family: Satisfy;
+      font-size: 1.3em;
       font-weight: bold;
 }
 .shoppingCart:hover h4{
@@ -764,9 +891,14 @@ fieldset:before{
 .delivery h3 {
 	color : #fff;
 	margin-bottom : 15px;
-	font-size : 1.5em;
+	font-size : 1.4em;
 	font-family : Tahoma;
 	font-weight : bold;
+}
+
+.delivery h3.calendar {
+	font-size : 1.3em;
+	margin-top : 5px;
 }
 
 .delivery > h3:first-of-type {
@@ -774,6 +906,7 @@ fieldset:before{
 }
 .delivery b {
 	color : #fff;
+	font-family : Arial;
 }
 
 .delivery div {

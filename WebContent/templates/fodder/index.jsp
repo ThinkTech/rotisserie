@@ -333,7 +333,7 @@
 					<div id="shopping" class="shopping">
 					   <h3 class="title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Passer Votre Commande</h3>
 					   <p>Faites-vous livrer à domicile, au bureau ou retirer au restaurant le meilleur de notre cuisine.</p>
-					   <p>Identifier vous rapidement avec les réseaux sociaux ou avec votre compte pour une historique de vos commandes.</p>
+					   <p>Pour une historique de vos commandes, identifier vous rapidement avec les réseaux sociaux ou avec votre compte client.</p>
 					   <div>
 					      <div class="delivery">
 					         <h3><i class="fa fa-money" aria-hidden="true"></i>Payer en ligne</h3>
@@ -359,7 +359,7 @@
 							</div>
 							<div>
 							<br>
-							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
+							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
 								<ul>
 								  <li><b>Du lundi au vendredi 12:00 - 22:00</b></li>
@@ -392,6 +392,8 @@
 						<div id="reservation" class="reserve">
 							<div class="book_table">
 								<h3 class="title"><i class="fa fa-lock" aria-hidden="true"></i>Réserver votre table</h3>
+								<p>Nous vous invitons à utiliser le formulaire ci-dessous pour réserver votre table.</p>
+					            <p>Celle-ci est réservée pour l'heure indiquée et ce pendant 15 minutes, sinon passé ce délai votre réservation est annulée.</p>
 								<form>
 								    <label>Nom Complet</label>
 								    <label>Téléphone</label>
