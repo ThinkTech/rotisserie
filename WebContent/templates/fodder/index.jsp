@@ -370,15 +370,19 @@
 					      </div>
 					      <div id="cart" class="shoppingCart" open>
 					         <summary>
-					            <h4>Votre Panier</h4>
+					            <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
 					            <span class="arrow"></span>
 					         </summary>
-					         <ul>
+					         <div>
+					           <ul>
 					            
-					         </ul>
-					         <p>
-					            <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
-					         </p>
+					           </ul>
+					         </div>
+					         <div>
+					           <p>
+					             <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
+					           </p>
+					         </div>
 					         <a title="Procéder à la commande" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
 					      </div>
 					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    

@@ -575,6 +575,7 @@ fieldset:before{
       width : 38%;
       display : inline-block;
       overflow:hidden;
+      background : #eee;
       -webkit-border-radius:4px 4px 0 0;
          -moz-border-radius:4px 4px 0 0;
               border-radius:4px 4px 0 0;
@@ -588,15 +589,22 @@ fieldset:before{
 }
 
 .shoppingCart summary{
-         padding:12px 16px 14px 16px;
-         overflow:hidden;
-         background:#ffa709;
+      padding:12px 16px 14px 4px;
+      overflow:hidden;
+      background:#ffa709;
+}
+
+.shoppingCart > div:first-of-type {
+	margin-bottom : 50px;
 }
 .shoppingCart h4{
-      float:left;
-      color:#fff;
+      float: left;
+      color: #fff;
       margin-right: 12px;
-      cursor : pointer;
+      cursor: pointer;
+      font-family: Tahoma;
+      font-size: 1em;
+      font-weight: bold;
 }
 .shoppingCart:hover h4{
        color:#fff;
@@ -636,7 +644,7 @@ fieldset:before{
        -moz-transition:all 0.1s;
        -o-transition:all 0.1s;
        transition:all 0.1s;
-       font-family : Tahoma;
+       font-family : monospace;
        font-size : 13px;
 }
 .shoppingCart:hover li{
@@ -676,7 +684,8 @@ fieldset:before{
 }
 
 .shoppingCart p {
-	padding: 15px 10px;
+	padding: 13px 10px;
+    padding-bottom: 0px;
 	overflow: hidden;
 	background: #eee;
 	-webkit-transition: background 0.2s;
@@ -702,6 +711,7 @@ fieldset:before{
 	float: left;
 	font-weight: bold;
     font-size: 13px;
+    font-family : monospace;
 }
 
 .shoppingCart:hover p span:first-child {
@@ -710,13 +720,12 @@ fieldset:before{
 
 .shoppingCart p span:last-child {
 	float: right;
+	font-family : monospace;
 }
 
 .scroll .fa-gift {
 	font-size: 2em;
     color: #fff;
-    position: relative;
-    top: -10px;
 }
 
 .delivery {
@@ -756,6 +765,8 @@ fieldset:before{
 	color : #fff;
 	margin-bottom : 15px;
 	font-size : 1.5em;
+	font-family : Tahoma;
+	font-weight : bold;
 }
 
 .delivery > h3:first-of-type {
@@ -782,7 +793,7 @@ fieldset:before{
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	bottom: 17px;
+	bottom: 4px;
 	left: 6px;
 	padding: 6px 14px 8px 14px;
 	background: #ff3d00;
