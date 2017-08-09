@@ -160,6 +160,7 @@ a.rm-button-open,
     letter-spacing: 2px;
     font-family: Courgette;
     background: #ffa709;
+    border : 1px solid;
 }
 
 .rm-content h4:not(:first-child) {
