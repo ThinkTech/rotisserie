@@ -115,7 +115,6 @@
 }
 
 .rm-content {
-	padding: 20px;
 	padding-top : 0px;
 }
 
@@ -166,17 +165,17 @@ a.rm-button-open,
 }
 
 .rm-content h4 {
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 	font-size: 16px;
 	padding-bottom: 10px;
 	color: #323b4c;
-	border-bottom: 4px double #323b4c;
+	border-bottom: 4px double #ff4d00;
 	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #E6B741;
 	letter-spacing: 2px;
 }
 
 .rm-content h4:not(:first-child) {
-	margin-top: 35px;
+	margin-top: 13px;
 }
 
 a.rm-button-open {
@@ -216,7 +215,14 @@ a.rm-button-open:hover {
 
 .rm-content dl dt {
 	font-weight: 500;
-	text-transform: uppercase;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 13px;
+    display: inline-block;
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
 }
 
 .rm-content dl dd {
@@ -227,15 +233,16 @@ a.rm-button-open:hover {
 }
 
 .rm-content dl dd.price {
-	font-family: tahoma;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 5px;
-    top: -5px;
+	font-family: monospace;
+    top: 3px;
     position: relative;
-    padding-bottom: 11px;
-    line-height: 0px;
-    letter-spacing : 0.5px;
+    line-height: 4px;
+    font-size: 13px;
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    text-shadow: 0 0 black;
+    text-align: right;
 }
 
 .rm-order p{
@@ -247,22 +254,6 @@ a.rm-button-open:hover {
 
 .rm-order img {
 	margin-top : 200px;
-}
-
-a.rm-viewdetails:before{
-	font-family: 'entypo-selected';
-	content: '\56';
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
-	display: inline-block;
-	text-decoration: inherit;
-	width: 15px;
-	margin-right: 4px;
-	text-align: center;
-	opacity: 0.7;
-	line-height: 16px;
-	text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
 }
 
 .rm-modal {
@@ -327,9 +318,9 @@ a.rm-viewdetails:before{
 
 a.rm-viewdetails,
 .rm-modal a {
-	color: #ffa709;
+	color: #331001;
 	font-weight: 500;
-	font-family: Tahoma;
+	font-family: monospace;
     font-size: 1em;
 }
 
@@ -349,7 +340,7 @@ a.rm-viewdetails {
 
 a.rm-viewdetails:hover,
 .rm-modal a:hover {
-	color: #000;
+	color: #ffad00;
 }
 
 .rm-close {

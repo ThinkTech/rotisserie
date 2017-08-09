@@ -458,14 +458,14 @@ h5 .fa {
 }
 h3.title{
 	text-align: center;
-	color: #ffffff;
-	font-size: 2em;
-	margin: 0 auto;
-	padding: 1em 0em;
-	width: 30%;
-	text-transform : uppercase;
-	white-space : nowrap;
-	font-weight: bold;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 1em 0em;
+    width: 50%;
+    white-space: nowrap;
+    font-weight: bold;
+    text-transform : uppercase;
 }
 
 h3 .fa {
@@ -676,7 +676,7 @@ fieldset{
 
 .shopping {
 	margin-top : 3em;
-	min-height : 910px;
+	min-height : 970px;
 	background-color: #ff3d00;
 	color : #111;
 }
@@ -884,15 +884,16 @@ fieldset{
 }
 
 .delivery h3 {
-	color : #fff;
-	margin-bottom : 15px;
-	font-size : 1.4em;
-	font-family : Tahoma;
-	font-weight : bold;
+	color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-family: Satisfy;
+    font-weight: bold;
 }
 
 .delivery h3.calendar {
-	font-size : 1.1em;
+	font-size : 1.6em;
+	margin-top : 15px;
 }
 
 .delivery > h3:first-of-type {
@@ -911,8 +912,12 @@ fieldset{
 .delivery p {
 	text-align: left;
     margin-bottom: 10px;
-    margin-top: 21px;
+    margin-top: 10px;
     line-height : 1.6em;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #ff4d00;
 }
 
 .checkout {

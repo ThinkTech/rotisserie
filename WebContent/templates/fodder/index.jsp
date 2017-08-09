@@ -196,40 +196,104 @@
 
 							<div class="rm-back">
 								<div class="rm-content">
-									<h4>Appetizers</h4>
+									<h4>Petit Déjeuner</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="1" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
-										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="1" data-price="3000" data-thumb="templates/fodder/images/5.jpg">Café expresso</a></dt>
+										<dd class="price">1000</dd>
 										  
-										<dt><a  class="rm-viewdetails" data-id="2" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
-										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="2" data-price="500" data-thumb="templates/fodder/images/6.jpg">Café expresso</a></dt>
+										<dd class="price">500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="3" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
-										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="3" data-price="500" data-thumb="templates/fodder/images/12.jpg">Chocolat chaud</a></dt>
+										<dd class="price">500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
-										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Omelette au jambon</a></dt>
+										<dd class="price">1500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Omelette au fromage</a></dt>
+										<dd class="price">1000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Omelette végétarienne</a></dt>
+										<dd class="price">1500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Oeuf au fromage jambon</a></dt>
+										<dd class="price">1500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="400" data-thumb="templates/fodder/images/10.jpg">Croissant au beurre</a></dt>
+										<dd class="price">400</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="500" data-thumb="templates/fodder/images/10.jpg">Croissant au jambon</a></dt>
+										<dd class="price">500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="500" data-thumb="templates/fodder/images/10.jpg">Pain au chocolat</a></dt>
+										<dd class="price">500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="500" data-thumb="templates/fodder/images/10.jpg">Pain raisin</a></dt>
+										<dd class="price">500</dd>
+										
 									</dl>
 
-									<h4>Salads &amp; More</h4>
+									<h4>Entrées</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="5" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
-										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade pasta et chicken</a></dt>
+										<dd class="price">1500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="6" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
-										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Salade la rotisserie</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="7" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
-										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade piémontaise</a></dt>
+										<dd class="price">1500</dd>
 										
-
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade meli melo</a></dt>
+										<dd class="price">1500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade fattouch</a></dt>
+										<dd class="price">1500</dd>
+										
+									</dl>
+									
+									<h4>Pasta</h4>
+									<dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Spaghetti bolognaise</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pate au fromage</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Penne vegetariana</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Penne au poulet</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Penne au fromage</a></dt>
+										<dd class="price">2000</dd>
+										
+									</dl>
+									
+									<h4>Accompagnements</h4>
+									<dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Frites</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Potatoes</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Nuggets</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pommes noisettes</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Légumes sautées</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Riz blanc</a></dt>
+										<dd class="price">2000</dd>
+									    
+									    <dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Sauce au choix</a></dt>
+										<dd class="price">2000</dd>
+										
 									</dl>
 								</div><!-- /rm-content -->
 								<div class="rm-overlay"></div>
@@ -241,39 +305,95 @@
 						<div class="rm-middle">
 							<div class="rm-inner">
 								<div class="rm-content">
-									<h4>Main Courses</h4>
+									<h4>Plats Chauds</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="9" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
-										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="5000" data-thumb="templates/fodder/images/10.jpg">Filet de boeuf rôti</a></dt>
+										<dd class="price">5000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="10" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
-										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Emincé de boeuf</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="11" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
-										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Wok de boeuf </a></dt>
+										<dd class="price">2500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="12" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
-										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Poulet rôti</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="13" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
-										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										<dd class="price">3000 CFA</dd>
-										 
-										<dt><a  class="rm-viewdetails" data-id="14" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
-										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">1/2 poulet</a></dt>
+										<dd class="price">3000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="15" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
-										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="5500" data-thumb="templates/fodder/images/10.jpg">poulet entier</a></dt>
+										<dd class="price">5500</dd>
+									    
+									    <dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Emincé de poulet</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="16" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
-										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Pilon de poulet panné</a></dt>
+										<dd class="price">2500</dd>
+										
+									</dl>
+									<h4>Pizzas</h4>
+									<dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza margarita</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza reine</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza bolognaise</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza aux 3 fromages</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza la rotisserie</a></dt>
+										<dd class="price">2000</dd>
+										
+									</dl>
+									<h4>Sandwichs Specials</h4>
+									<dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Breakfast</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Rotis'burger</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chicken lover</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chickennita</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Meatlover</a></dt>
+										<dd class="price">2000</dd>
+										
+									</dl>
+									<h4>FastFood</h4>
+									<dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Fataya Complet</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chawarma Viande</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chawarma Poulet</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Hamburgers</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Double Burger</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Sandwich steak</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Sandwich Poulet</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Hotdog</a></dt>
+										<dd class="price">2000</dd>
+										
 									</dl>
 								</div><!-- /rm-content -->
 								<div class="rm-overlay"></div>
@@ -289,27 +409,55 @@
 							<div class="rm-back">
 								<span title="fermer la carte" class="rm-close">X</span>
 								<div class="rm-content">
-									<h4>Desserts</h4>
-									<dl>
-										<dt><a class="rm-viewdetails" data-id="17" data-price="3000" data-thumb="templates/fodder/images/5.jpg">French Plum Crepes</a></dt>
-										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
-										<dd class="price">3000 CFA</dd>
-						
+									   <h4>Enfants</h4>
+									   <dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Crêpes</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a class="rm-viewdetails" data-id="18" data-price="3000" data-thumb="templates/fodder/images/6.jpg">Butterscotch Pudding</a></dt>
-										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Biscuits</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a class="rm-viewdetails" data-id="19" data-price="3000" data-thumb="templates/fodder/images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
-										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Gaufres</a></dt>
+										<dd class="price">2000</dd>
 										
-										<dt><a class="rm-viewdetails" data-id="20" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
-										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
-										<dd class="price">3000 CFA</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Cup cake</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Cheese cake</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Tartes miniatures</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Miniatures gâteaux</a></dt>
+										<dd class="price">2000</dd>
 										
 									</dl>
-									<div class="rm-order">
+									   <h4>Desserts</h4>
+									      <dl>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Coupe de glace</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Salade de fruits</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Profiterol</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">rôti au chocolat</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">feuilletée de pommes</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">fondant nutella</a></dt>
+										<dd class="price">2000</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">summer sensation</a></dt>
+										<dd class="price">2000</dd>
+										
+									</dl>
+								<div class="rm-order">
 										<p><strong>Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser.</strong></p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
@@ -380,7 +528,7 @@
 					         </div>
 					         <div>
 					           <p>
-					             <span>Produits : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
+					             <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
 					           </p>
 					         </div>
 					         <a title="Procéder à la commande" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Procéder</a>
