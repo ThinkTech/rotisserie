@@ -390,6 +390,12 @@ li.item1 {
 	font-family : Satisfy;
 }
 
+.banner-bottom-left1 p span { 
+	display : inline-block;
+	width : 70px;
+	text-align : right;
+}
+
 .banner-bottom-left1 .social {
 	margin-top : 5px;
 }
@@ -1126,6 +1132,7 @@ fieldset{
 	color: #111;
 	margin:.5em 0 0;
 }
+
 .footer-right p a{
 	color:#ff4d00;
 }

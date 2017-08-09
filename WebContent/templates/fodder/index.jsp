@@ -73,8 +73,8 @@
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
-												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Téléphone :</span> 33 825 95 49</p>
+												  <p><span>Mobile :</span> 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
@@ -101,8 +101,8 @@
 										<div class="col-md-6 banner-bottom-left">
 										    <div class="banner-bottom-left1">
 												<div>
-												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
-												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Téléphone :</span> 33 825 95 49</p>
+												  <p><span>Mobile :</span> 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
@@ -129,8 +129,8 @@
 										<div class="col-md-6 banner-bottom-left">
 										   <div class="banner-bottom-left1">
 												<div>
-												  <p><span>Téléphone :</span> +221 33 825 95 49</p>
-												  <p><span>Mobile :</span> +221 77 845 46 85</p>
+												  <p><span>Téléphone :</span> 33 825 95 49</p>
+												  <p><span>Mobile :</span> 77 845 46 85</p>
 												  <p><span>Email :</span> info@rotisserie.com</p>
 												</div>
 										  		<div class="social">
@@ -459,8 +459,8 @@
 									</dl>
 								<div class="rm-order">
 										<p><strong>Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser.</strong>
-										  <span><span>Téléphone :</span> +221 33 825 95 49</span>
-										  <span><span>Mobile :</span> +221 77 845 46 85</span>
+										  <span><span>Téléphone :</span> 33 825 95 49</span>
+										  <span><span>Mobile :</span> 77 845 46 85</span>
 										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
@@ -603,8 +603,8 @@
 									<div class="footer-left">
 									    <div>
 										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
-										  <p><span>Téléphone :</span> +221 33 825 95 49</p>
-										  <p><span>Mobile :</span> +221 77 845 46 85</p>
+										  <p><span>Téléphone :</span> 33 825 95 49</p>
+										  <p><span>Mobile :</span> 77 845 46 85</p>
 										  <p><span>Email :</span> info@rotisserie.com</p>
 										</div>
 										<div class="social">
