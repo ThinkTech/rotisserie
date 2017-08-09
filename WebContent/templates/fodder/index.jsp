@@ -379,11 +379,11 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Chawarma Poulet</a></dt>
 										<dd class="price">1500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Hamburgers</a></dt>
-										<dd class="price">1000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Hamburger</a></dt>
+										<dd class="price">1500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Double Burger</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Double Burger</a></dt>
+										<dd class="price">2500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Sandwich steak</a></dt>
 										<dd class="price">1000</dd>
@@ -458,7 +458,10 @@
 										
 									</dl>
 								<div class="rm-order">
-										<p><strong>Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser.</strong></p>
+										<p><strong>Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser.</strong>
+										  <span><span>Téléphone :</span> +221 33 825 95 49</span>
+										  <span><span>Mobile :</span> +221 77 845 46 85</span>
+										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
 								</div><!-- /rm-content -->
