@@ -352,8 +352,8 @@
 									</dl>
 									<h4>Sandwichs Specials</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Breakfast</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Breakfast</a></dt>
+										<dd class="price">1500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Rotis'burger</a></dt>
 										<dd class="price">2000</dd>
@@ -361,8 +361,8 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chicken lover</a></dt>
 										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chickennita</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Chickennita</a></dt>
+										<dd class="price">1500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Meatlover</a></dt>
 										<dd class="price">2000</dd>
@@ -370,29 +370,29 @@
 									</dl>
 									<h4>FastFood</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Fataya Complet</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="600" data-thumb="templates/fodder/images/10.jpg">Fataya Complet</a></dt>
+										<dd class="price">600</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chawarma Viande</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1200" data-thumb="templates/fodder/images/10.jpg">Chawarma Viande</a></dt>
+										<dd class="price">1200</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Chawarma Poulet</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Chawarma Poulet</a></dt>
+										<dd class="price">1500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Hamburgers</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Hamburgers</a></dt>
+										<dd class="price">1000</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Double Burger</a></dt>
 										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Sandwich steak</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Sandwich steak</a></dt>
+										<dd class="price">1000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Sandwich Poulet</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Sandwich Poulet</a></dt>
+										<dd class="price">1000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Hotdog</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="800" data-thumb="templates/fodder/images/10.jpg">Hotdog</a></dt>
+										<dd class="price">800</dd>
 										
 									</dl>
 								</div><!-- /rm-content -->
@@ -435,26 +435,26 @@
 									</dl>
 									   <h4>Desserts</h4>
 									      <dl>
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Coupe de glace</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Coupe de glace</a></dt>
+										<dd class="price">1000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Salade de fruits</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade de fruits</a></dt>
+										<dd class="price">1500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Profiterol</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Profiterol</a></dt>
+										<dd class="price">3000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">rôti au chocolat</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="3500" data-thumb="templates/fodder/images/10.jpg">rôti au chocolat</a></dt>
+										<dd class="price">3500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">feuilletée de pommes</a></dt>
 										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">fondant nutella</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">fondant nutella</a></dt>
+										<dd class="price">2500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">summer sensation</a></dt>
-										<dd class="price">2000</dd>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">summer sensation</a></dt>
+										<dd class="price">2500</dd>
 										
 									</dl>
 								<div class="rm-order">
