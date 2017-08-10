@@ -152,6 +152,7 @@ $(function() {
 	    beforeSubmit: function(wizardObj) {
 	    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
 	    		$("form",wizard).easyWizard('goToStep', 1);
+	    		alert("votre commande est en cours de livraison.");
 	    	});
 	    	return false;
 	    }
