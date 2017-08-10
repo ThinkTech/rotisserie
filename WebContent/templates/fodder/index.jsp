@@ -164,7 +164,7 @@
 						  <fieldset>
 								<p>
 								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française avec une expérience gastronomique rapide et décontractée, nous rendons la nourriture audacieuse, moderne et accueillante pour tous.
-								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez également réserver une table dans un de nos emplacements. Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser. 
+								 Tous nos plats sont disponibles pour une commande, comme vous pouvez également réserver une table en ligne dans un de nos emplacements. Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser. 
 								</p>
 						 </fieldset>
 						<img src="templates/fodder/images/logo.png">
