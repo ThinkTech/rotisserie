@@ -718,6 +718,7 @@ fieldset {
 
 .shopping {
 	margin-top : 3em;
+	padding-bottom: 50px;
 	min-height : 990px;
 	background-color: #ff3d00;
 	color : #111;
