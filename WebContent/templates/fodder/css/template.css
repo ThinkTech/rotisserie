@@ -1106,10 +1106,11 @@ h4 .fa {
     border-radius: 2px;
     margin-top: 15px;
     margin-bottom: 10px;
-    border: 2px solid #ff3d00;
+    border: 2px solid #fff;
+    border-radius: 5px;
     background: #ff4d00;
     color: white;
-    height: 34px;
+    padding: 9px;
     width : 100px;
     font-family: Tahoma;
     font-size: 16px;
@@ -1123,10 +1124,11 @@ h4 .fa {
 	border-radius : 2px;
 	margin-top : 15px;
 	margin-bottom : 10px;
-	border: 2px solid #ff3d00;
+	border: 2px solid #fff;
+    border-radius: 5px;
     background: #ff4d00;
     color: white;
-    height: 34px;
+    padding: 9px;
     width : 100px;
     font-family: Tahoma;
     font-size: 16px;
