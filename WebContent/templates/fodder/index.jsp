@@ -538,6 +538,15 @@
 					      </div>
 					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    
 					   </div>
+					   <div id="checkout-wizard">
+					     <div class="checkout-wizard-content">
+					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer Votre Commande</h4>
+					        <span title="fermer l'assistant" class="wizard-close">X</span>	
+					         <div class="checkout-wizard-steps">
+					           
+					         </div>
+					      </div>
+					   </div>
 					</div>
 							<!-- reserve -->
 						<div id="reservation" class="reserve">

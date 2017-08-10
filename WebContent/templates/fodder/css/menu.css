@@ -60,7 +60,6 @@
 		inset 0 0 0 19px #ffa709, 
 		inset 0 0 0 20px #fff, 
 		inset 0 0 0 21px #ffa709;
-
 }
 
 .rm-container .rm-front,
@@ -352,7 +351,6 @@ a.rm-viewdetails:hover,
 }
 
 .rm-close {
-	background: #ffa709;
 	text-transform: uppercase;
 	display: block;
 	position: absolute;
@@ -360,12 +358,14 @@ a.rm-viewdetails:hover,
 	font-size: 25px;
 	font-weight: 500;
 	line-height: 15px;
-	padding: 2px 5px;
-	top: -29px;
+	top: -40px;
 	opacity: 0;
-	right: 30px;
+	right: -1px;
 	cursor: pointer;
 	font-family : Arial Black;
+	background: #000;
+    padding: 9px;
+    border-radius: 10px;
 }
 
 .rm-close-modal {
