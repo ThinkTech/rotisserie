@@ -1065,7 +1065,7 @@ fieldset{
     margin-right: 0px;
     font-family: Tahoma;
 }
-.easyWizardSteps li.current {color:rgb(234, 133, 17)}
+.easyWizardSteps li.current {color:#ff8d00}
 .easyWizardButtons {overflow:hidden;}
 .easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
 .easyWizardButtons .prev {
