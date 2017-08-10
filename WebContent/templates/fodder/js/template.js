@@ -85,12 +85,83 @@ $(function() {
 		if(!count) {
 			alert(message);
 		}else {
-			const wizard = $("#checkout-wizard").show();
-			wizard.css("top",$("#cart").position().top);
+		    const wizard = $("#checkout-wizard").show();
+		    wizard.css("top",$("#cart").position().top);
+			$('html,body').animate({scrollTop:wizard.offset().top-5},600);
 		}
 	});
 	
 	$(".wizard-close").click(function(){
 		$("#checkout-wizard").fadeOut(1000);
 	});
+	const form = $("#checkout-wizard form");
+	form.easyWizard({
+	    prevButton: "Retour",
+	    nextButton: "Suivant",
+	    submitButtonText: "Confirmer",
+	    before : function(wizardObj,currentStep,nextStep) {
+	    	if(nextStep.index() > currentStep.index()) {
+		    	var valid = true;
+		        $('input[required]',currentStep).each(function(index,element) {
+		        	const val = $(element).val();
+					if(val.trim() == '') {
+						const message = $(this).next().attr("data-info");
+						alert(message,function(){
+							$(element).focus();
+						});
+					    return valid = false;
+					}
+		        });
+		        if(!valid) return valid;
+		        const email = $("input[type=email]",currentStep);
+		        if(email.length) {
+		        	var re = /\S+@\S+\.\S+/;
+			        valid = re.test(email.val());
+			        if(!valid) {
+			        	alert(i18n("email-invalid"),function(){
+							$(email).focus();
+						});
+			        }
+		        }
+		        if(!valid) return valid;
+		        const password = $("#password",currentStep);
+				const confirm = $("#confirm",currentStep);
+				if(password.length && password.val() != confirm.val()) {
+					alert(i18n("password-mismatch"),function(){
+						password.focus();
+					});
+					valid = false;
+				}
+				const value = password.length ? password.val() : null;
+				if(value && (value.length < 8 || value.length >= 100)) {
+					alert(password.next().attr("data-info"),function(){
+						password.focus();
+					});
+					valid = false;
+				}
+		        return valid;
+	    	}
+	    },
+	    after : function(wizardObj,prevStep,currentStep) {
+	    	setTimeout(function(){ 
+	    		var input = currentStep.find("input.error");
+	    		input = input.length ? input : currentStep.find("input:first");
+	    		input.focus(); 
+	    		}, 1000);
+	    },
+	    beforeSubmit: function(wizardObj) {
+	    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
+	    		$("form",wizard).easyWizard('goToStep', 1);
+	    	});
+	    	return false;
+	    }
+	});
+	$.each($(".easyWizardSteps li",form),function(index,li){
+		const section = $("section[data-step="+(index+1)+"]");
+		const title = section.attr("data-step-title");
+		$(li).html("<span>"+(index+1)+"</span> . ");
+		const span = $("<span>"+title+"</span>");
+		$(li).append(span);
+	});
+	$("#checkout-wizard").hide();	
 });

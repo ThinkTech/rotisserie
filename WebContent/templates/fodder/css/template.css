@@ -963,7 +963,6 @@ fieldset{
 }
 
 #checkout-wizard {
-	display : none;
 	width : 100%;
 	position: absolute;
 	margin-top : 15px;
@@ -978,10 +977,42 @@ fieldset{
     padding: 10px;
 }
 
+.checkout-wizard-content p {
+	text-align: left;
+    font-size: 1em;
+    margin: 22px;
+    margin-bottom: 16px;
+}
+
+.checkout-wizard-content fieldset > div {
+	margin-left : 65px;
+	font-size : 1em;
+}
+
+.checkout-wizard-content fieldset > div > span {
+	line-height : 2em;
+}
+
+
+.checkout-wizard-content fieldset span input {
+	margin-right : 6px;
+}
+
+.checkout-wizard-content fieldset label{
+	font-size: 0.8em;
+    position: relative;
+    top: -1px;
+    font-family: verdana;
+    letter-spacing: 0;
+    color : #903417;
+}
+
+
 .checkout-wizard-steps {
 	clear : both;
 	padding : 20px;
 	min-height : 440px;
+	width : 100%;
 	position: relative;
     top: 0px;
 	box-shadow: 
@@ -999,7 +1030,7 @@ fieldset{
     float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 20px;
+    font-size: 1.4em;
     font-family: Tahoma;
     font-weight: bold;
     position: relative;
@@ -1024,6 +1055,53 @@ fieldset{
     padding: 9px;
     border-radius: 10px;
 }
+
+.easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
+.easyWizardSteps li {
+	font-size: 1.3em;
+    display: inline-block;
+    padding: 15px;
+    color: #151514;
+    margin-right: 0px;
+    font-family: Tahoma;
+}
+.easyWizardSteps li.current {color:rgb(234, 133, 17)}
+.easyWizardButtons {overflow:hidden;}
+.easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
+.easyWizardButtons .prev {
+	float: left;
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #ff3d00;
+    background: #ff4d00;
+    color: white;
+    height: 34px;
+    font-family: Tahoma;
+    font-size: 14px;
+} 
+.easyWizardButtons .next, .easyWizardButtons .submit {
+   float:right;
+   position: relative;
+   right: 10%;
+   cursor: pointer;
+	width : 80px;
+	border-radius : 2px;
+	margin-top : 15px;
+	margin-bottom : 10px;
+	border: 2px solid #ff3d00;
+    background: #ff4d00;
+    color: white;
+    height: 34px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+
 
 
 /* commande */

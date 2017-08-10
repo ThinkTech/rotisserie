@@ -543,7 +543,39 @@
 					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer Votre Commande</h4>
 					        <span title="fermer l'assistant" class="wizard-close">X</span>	
 					         <div class="checkout-wizard-steps">
-					           
+					             <form  method="post">
+					             <section class="step" data-step-title="Connexion">
+									 <fieldset>
+										<h3><i class="fa fa-user"></i><span>Connexion</span></h3>
+									    <p>
+									    Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client
+									    </p>
+									    
+									</fieldset>
+									
+									</section> 
+								   <section class="step" data-step-title="Paiement">
+									 <fieldset>
+										<h3><i class="fa fa-money"></i><span>Paiement</span></h3>
+									    <p>
+									    Choisissez la méthode de paiement la plus adéquate.
+									    </p>
+									    <div>
+									        <span><input name="paiement" type="radio"><label>Payer en ligne</label></span><br>
+									        <span><input name="paiement" type="radio" checked><label>Payer à la livraison</label></span>
+									    </div>
+									</fieldset>
+									
+									</section>
+									<section class="step" data-step-title="Confirmation">
+									 <fieldset>
+										<h3><i class="fa fa-check-circle"></i><span>Confirmation</span></h3>
+									    
+									    
+									</fieldset>
+									
+									</section>
+								</form>	             
 					         </div>
 					      </div>
 					   </div>
@@ -641,6 +673,7 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/metamorphosis.js"></script>
 <script type="text/javascript" src="templates/fodder/js/template.js"></script>
+<script type="text/javascript" src="templates/fodder/js/jquery.easyWizard.js"></script>
  <script type="text/javascript" src="templates/fodder/js/menu.js"></script>
 		<script type="text/javascript">
 			$(function() {
