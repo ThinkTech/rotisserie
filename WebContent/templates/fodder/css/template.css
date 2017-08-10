@@ -512,7 +512,7 @@ h4 .fa {
 .about-main fieldset{
 	padding: 2.5em;
     color: #111000;
-    width: 80%;
+    width: 86%;
     position: relative;
     margin: auto;
     margin-bottom: 1em;
@@ -527,6 +527,26 @@ h4 .fa {
 		inset 0 0 0 21px #ffa709;
 }
 
+.about-main fieldset div{ 
+	width: 300px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ffa709;
+    padding: 20px;
+    border-radius : 10px;
+}
+.about-main fieldset div p{
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1.7em;
+}
+
+.about-main fieldset div p span {
+	display : inline-block;
+	width : 100px;
+	text-align : right;
+}
 .about-main fieldset p {
    font-family: Courgette;
    line-height: 2.2em;

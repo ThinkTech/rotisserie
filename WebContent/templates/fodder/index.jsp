@@ -164,8 +164,13 @@
 						  <fieldset>
 								<p>
 								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française avec une expérience gastronomique rapide et décontractée, nous rendons la nourriture audacieuse, moderne et accueillante pour tous.
-								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez également réserver votre table dans un de nos emplacements pour une experience unique. Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser avec notre service traiteur. 
+								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez également réserver votre table dans un de nos emplacements pour une experience unique. Souhaitez-vous que nous répondions à votre événement? Contactez-nous et nous vous aiderons à l'organiser avec notre service traiteur. 
 								</p>
+								<div>
+								    <p><span>Téléphone :</span> 33 825 95 49</p>
+								    <p><span>Mobile :</span> 77 845 46 85</p>
+									<p><span>Email :</span> info@rotisserie.com</p>
+								</div>
 						 </fieldset>
 						<img src="templates/fodder/images/logo.png">
 					</div>
@@ -458,9 +463,10 @@
 										
 									</dl>
 								<div class="rm-order">
-										<p><strong>Souhaitez-vous que nous répondions à votre événement? Appelez-nous et nous vous aiderons à l'organiser.</strong>
+										<p><strong>Souhaitez-vous que nous répondions à votre événement? Contactez-nous et nous vous aiderons à l'organiser.</strong>
 										  <span><span>Téléphone :</span> 33 825 95 49</span>
 										  <span><span>Mobile :</span> 77 845 46 85</span>
+										  <span><span>Email :</span> info@rotisserie.com</span>
 										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
@@ -493,8 +499,9 @@
 					            <ul>
 								 <li><b>MasterCard</b></li>
 								 <li><b>Visa</b></li> 
-								 <li><b>Orange Money</b></li>                       
-								 <li><b>Wari</b></li>
+								 <li><b>Orange Money</b></li>
+								 <li><b>Wari</b></li>                       
+								 <li><b>Joni Joni</b></li>
 								</ul>
 					         </div>
 					         <br>
