@@ -966,6 +966,7 @@ fieldset{
 	display : none;
 	width : 100%;
 	position: absolute;
+	margin-top : 15px;
 }
 
 .checkout-wizard-content {

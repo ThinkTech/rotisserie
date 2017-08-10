@@ -82,12 +82,12 @@ $(function() {
 	$(".checkout").click(function(){
 		const count = $("#cart ul li").length;
 		const message = "votre panier est vide";
-		//if(!count) {
-			//alert(message);
-		//}else {
+		if(!count) {
+			alert(message);
+		}else {
 			const wizard = $("#checkout-wizard").show();
 			wizard.css("top",$("#cart").position().top);
-		//}
+		}
 	});
 	
 	$(".wizard-close").click(function(){
