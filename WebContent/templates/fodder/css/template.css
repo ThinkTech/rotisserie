@@ -1018,7 +1018,7 @@ fieldset {
     color: #111000;
     font-size: 19px;
     line-height: 1.8em;
-    width: 80%;
+    width: 85%;
     position: relative;
     margin: auto;
     margin-bottom: 1em;
@@ -1040,12 +1040,12 @@ fieldset {
     min-height: 500px;
     background: #fff;
     padding: 10px;
-    border: 3px solid #ffa709;
 }
 
 .checkout-wizard-content p {
 	text-align: left;
     margin: 22px;
+    margin-left : 0px;
 }
 
 .checkout-wizard-content fieldset > div {
@@ -1101,7 +1101,6 @@ fieldset {
     color: #ff8d00;
     font-size: 1.5em;
     font-family: Exo;
-    letter-spacing: -2px;
     position: relative;
     left: 4px;
     padding: 7px;
@@ -1134,16 +1133,16 @@ fieldset {
 }
 
 #profile span{
-	font-size: 0.8em;
+	font-size: 0.9em;
     font-family: Arial;
     font-weight: bolder;
 }
 
 
 #profile img {
-	width : 65px;
-    height: 65px;
-    margin-bottom: 4px;
+	width: 65px;
+    height: 64px;
+    margin-bottom: 15px;
 }
 
 #profile input {
