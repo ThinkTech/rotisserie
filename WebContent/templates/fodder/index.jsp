@@ -546,7 +546,7 @@
 					   </div>
 					   <div id="checkout-wizard">
 					     <div class="checkout-wizard-content">
-					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer Votre Commande</h4>
+					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer Commande</h4>
 					        <span title="fermer l'assistant" class="wizard-close">X</span>	
 					         <div class="checkout-wizard-steps">
 					             <form  method="post">

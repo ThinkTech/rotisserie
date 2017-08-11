@@ -170,5 +170,15 @@ $(function() {
 		const span = $("<span>"+title+"</span>");
 		$(li).append(span);
 	});
-	$("#checkout-wizard").hide();	
+	var wizard = $("#checkout-wizard").hide();	
+	
+	$(window).scroll(function(){
+		  const div = wizard;
+		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
+				if(!div.is(":hidden")) {
+				  var top = $(this).scrollTop();
+				  div.css("top",top);
+				}
+		  }
+	});
 });

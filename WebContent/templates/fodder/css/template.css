@@ -1006,6 +1006,7 @@ fieldset {
 	width : 100%;
 	position: absolute;
 	margin-top : 15px;
+	z-index : 9999999;
 }
 
 #checkout-wizard fieldset{
