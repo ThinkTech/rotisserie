@@ -1037,6 +1037,7 @@ fieldset {
     min-height: 500px;
     background: #fff;
     padding: 10px;
+    border: 3px solid #ffa709;
 }
 
 .checkout-wizard-content p {
@@ -1094,7 +1095,7 @@ fieldset {
     float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-family: Exo;
     font-weight: bold;
     position: relative;
