@@ -554,16 +554,19 @@
 					             <section class="step" data-step-title="Connexion">
 									 <fieldset>
 										<h3><i class="fa fa-user"></i><span>Connexion</span></h3>
-									    <p>
-									    Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client
-									    </p>
-									     <div id="loginDiv"></div>
-									      <div id="profile" style="display:none;">
+										<div id="socialLogin">
+										  <p>Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client.</p>
+									      <div id="loginDiv"></div>
+									    </div>
+									    <div id="profile">
+									      <p>Cliquez sur deconnexion pour changer d'utilisateur.</p>
+									      <div>
 									        <img id="photo" src="" width="65px" height="65px" />           
 									        <br />			        
 									        <span id="name" ></span>
 									        <input type="button" value="Deconnexion" onclick="logoutFromGS()"/>
 									    </div>
+									   </div>
 									</fieldset>
 									
 									</section> 
@@ -763,7 +766,7 @@ gigya.socialize.showLoginUI({
     function onLogoutHandler(eventObj) {
     	user = null;
     	$("#profile").hide();
-    	$("#loginDiv").show();
+    	$("#socialLogin").show();
     }
     
     function renderUI(res) {
@@ -775,11 +778,11 @@ gigya.socialize.showLoginUI({
                 document.getElementById("photo").src
                             = "http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif";
             $("#profile").show();
-            $("#loginDiv").hide();
+            $("#socialLogin").hide();
             user = res.user;
         } else {
         	$("#profile").hide();
-        	$("#loginDiv").show();
+        	$("#socialLogin").show();
         }
     }
     
