@@ -638,10 +638,6 @@ fieldset {
     position: relative;
 }
 
-.book_table > p {
-	font-family : Exo;
-}
-
 .book_table form{
 	margin: 2.5em auto auto;
     padding-left: 2em;
@@ -729,10 +725,6 @@ fieldset {
 	min-height : 990px;
 	background-color: #ff3d00;
 	color : #111;
-}
-
-.shopping > p {
-	font-family : Exo;
 }
 
 .shopping p {
@@ -955,7 +947,7 @@ fieldset {
 }
 .delivery b {
 	color : #fff;
-	font-family : Arial;
+	font-family : Exo;
 	font-size: 1.1em;
 }
 
