@@ -785,7 +785,7 @@ gigya.socialize.showLoginUI({
     
  // Logout from Gigya platform. This method is activated when "Logout" button is clicked
     function logoutFromGS() {
-        gigya.socialize.logout(); // logout from Gigya platform
+        gigya.socialize.logout({forceProvidersLogout : true}); // logout from Gigya platform
     }
     
     $(document).ready(function(){
