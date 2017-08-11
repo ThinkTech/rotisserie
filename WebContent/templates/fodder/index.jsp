@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="templates/fodder/css/menu.css" />
 <link href='//fonts.googleapis.com/css?family=Courgette:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Satisfy:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -163,7 +164,7 @@
 						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 								<p>
-								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et avec notre grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
+								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par notre grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
 								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez aussi réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
 								</p>
 								<div>
