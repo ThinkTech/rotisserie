@@ -692,13 +692,14 @@
 <script type="text/javascript" src="templates/fodder/js/jquery.easyWizard.js"></script>
  <script type="text/javascript" src="templates/fodder/js/menu.js"></script>
 <!-- gigya.js script should only be included once -->
-<script type="text/javascript" src="http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k">
+<script type="text/javascript" src="//cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k">
 </script>
 <script type="text/javascript">
 gigya.socialize.showLoginUI({
     height: 100
-    ,width: 330
-    ,showTermsLink:false // remove 'Terms' link
+    ,width: 330,
+    enabledProviders: 'facebook,twitter,googleplus,linkedin,yahoo,instagram',
+    showTermsLink:false // remove 'Terms' link
     ,showWhatsThis: true // Pop-up a hint describing the Login Plugin, when the user rolls over the Gigya link.
     ,containerID: 'loginDiv' // The component will embed itself inside the loginDiv Div
     ,cid:''
