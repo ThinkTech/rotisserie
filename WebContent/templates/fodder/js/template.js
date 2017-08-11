@@ -103,7 +103,7 @@ $(function() {
 	    submitButtonText: "Confirmer",
 	    before : function(wizardObj,currentStep,nextStep) {
 	    	if(!user) {
-	    		alert("vous devez vous connecter.");
+	    		alert("vous devez vous connecter");
 	    		return false;
 	    	}
 	    	if(nextStep.index() > currentStep.index()) {
