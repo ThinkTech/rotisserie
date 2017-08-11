@@ -1119,12 +1119,16 @@ fieldset {
 }
 
 #profile {
+	margin-top: 25px;
+    display : none;
+}
+
+#profile span{
 	font-size: 0.8em;
     font-family: Arial;
     font-weight: bolder;
-    margin-top: 25px;
-    display : none;
 }
+
 
 #profile img {
 	width : 65px;
