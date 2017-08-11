@@ -368,6 +368,10 @@ a.rm-viewdetails:hover,
     border-radius : 5px;
 }
 
+.rm-close:hover {
+	background: #ff4d00;
+}
+
 .rm-close-modal {
 	cursor: pointer;
 	right: 21px;

@@ -1125,6 +1125,10 @@ fieldset {
     border-radius: 5px;
 }
 
+.wizard-close:hover {
+	background: #ff4d00;
+}
+
 #profile {
 	margin-top: 25px;
     display : none;
@@ -1156,6 +1160,13 @@ fieldset {
     font-size: 13px;
     font-weight : normal;
     margin-left: 15px;
+    border : 2px solid;
+}
+
+#profile input:hover {
+	background:#111;
+	color:#fff;
+	border : 2px solid;
 }
 
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
