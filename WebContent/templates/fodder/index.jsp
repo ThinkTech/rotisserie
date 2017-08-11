@@ -558,12 +558,12 @@
 									      <div id="loginDiv"></div>
 									    </div>
 									    <div id="profile">
-									      <p>Cliquez sur deconnexion pour changer d'utilisateur.</p>
+									      <p>Cliquer sur déconnexion pour changer d'utilisateur.</p>
 									      <div>
 									        <img id="photo" src="" width="65px" height="65px" />           
 									        <br />			        
 									        <span id="name" ></span>
-									        <input type="button" value="Deconnexion" onclick="logoutFromGS()"/>
+									        <input type="button" value="Déconnexion" onclick="logoutFromGS()"/>
 									    </div>
 									   </div>
 									</fieldset>
@@ -573,11 +573,20 @@
 									 <fieldset>
 										<h3><i class="fa fa-money"></i><span>Paiement</span></h3>
 									    <p>
-									    Choisissez la méthode de paiement la plus adéquate.
+									    Choisisser la méthode de paiement la plus adéquate.
 									    </p>
 									    <div>
-									        <span><input name="paiement" type="radio"><label>Payer en ligne</label></span><br>
-									        <span><input name="paiement" type="radio" checked><label>Payer à la livraison</label></span>
+									        <span>
+									        <input name="paiement" type="radio" checked>
+									        <label>Payer en ligne</label>
+									        <select>
+									           <option>Visa</option>
+									           <option>MasterCard</option>
+									           <option>Orange Money</option>
+									        </select>
+									        </span>
+									        <br>
+									        <span><input name="paiement" type="radio"><label>Payer à la livraison</label></span>
 									    </div>
 									</fieldset>
 									
