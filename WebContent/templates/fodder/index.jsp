@@ -498,11 +498,9 @@
 					         <div>
 					         <p>Regler votre facture en utilisant la méthode de paiement la plus appropriée.</p> 
 					            <ul>
+					             <li><b>Visa</b></li> 
 								 <li><b>MasterCard</b></li>
-								 <li><b>Visa</b></li> 
 								 <li><b>Orange Money</b></li>
-								 <li><b>Wari</b></li>                       
-								 <li><b>Joni Joni</b></li>
 								</ul>
 					         </div>
 					         <br>
