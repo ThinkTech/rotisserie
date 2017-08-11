@@ -1371,6 +1371,12 @@ fieldset {
 	margin:.5em 0 0;
 }
 
+.footer-left p span {
+	display : inline-block;
+	width : 100px;
+	text-align : right;
+}
+
 .footer-right p a{
 	color:#ff4d00;
 }
