@@ -1045,7 +1045,6 @@ fieldset {
 
 .checkout-wizard-content p {
 	text-align: left;
-    font-size: 1em;
     margin: 22px;
 }
 
@@ -1102,7 +1101,7 @@ fieldset {
     color: #ff8d00;
     font-size: 1.5em;
     font-family: Exo;
-    font-weight: bold;
+    letter-spacing: -2px;
     position: relative;
     left: 4px;
     padding: 7px;
@@ -1178,7 +1177,7 @@ fieldset {
     margin-right: 0px;
     font-family: Exo;
 }
-.easyWizardSteps li.current {color:#ff8d00;font-size: 1.5em;}
+.easyWizardSteps li.current {color:#ff8d00;}
 .easyWizardButtons {overflow:hidden;}
 .easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
 .easyWizardButtons .prev {
