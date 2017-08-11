@@ -365,7 +365,7 @@ a.rm-viewdetails:hover,
 	font-family : Arial Black;
 	background: #000;
     padding: 9px;
-    border-radius: 10px;
+    border-radius : 5px;
 }
 
 .rm-close-modal {

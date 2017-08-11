@@ -47,6 +47,8 @@ return datepicker.regional.fr;
 
 } ) );
 
+var user;
+
 $(window).ready(function(){
   page.wait();
   const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
@@ -100,6 +102,10 @@ $(function() {
 	    nextButton: "Suivant",
 	    submitButtonText: "Confirmer",
 	    before : function(wizardObj,currentStep,nextStep) {
+	    	if(!user) {
+	    		alert("vous devez vous connecter.");
+	    		return false;
+	    	}
 	    	if(nextStep.index() > currentStep.index()) {
 		    	var valid = true;
 		        $('input[required]',currentStep).each(function(index,element) {

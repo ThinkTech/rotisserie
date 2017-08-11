@@ -107,3 +107,4 @@ var Menu = (function() {
 	return { init : init };
 
 })();
+$(function(){Menu.init();});
