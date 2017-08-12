@@ -87,14 +87,16 @@ $(function() {
 		if(!count) {
 			alert(message);
 		}else {
-		    const wizard = $("#checkout-wizard").show();
-		    wizard.css("top",$("#cart").position().top);
-			$('html,body').animate({scrollTop:wizard.offset().top},600);
+		    const wizard = $("#checkout-wizard").css("height",$(document).height());
+		    wizard.show();
+		    wizard.css("top",$("#shopping").position().top-1);
+			$('body').css("overflow","hidden");
 		}
 	});
 	
 	$(".wizard-close").click(function(){
 		$("#checkout-wizard").fadeOut(1000);
+		$('body').css("overflow","auto");
 	});
 	const form = $("#checkout-wizard form");
 	form.easyWizard({
@@ -170,15 +172,5 @@ $(function() {
 		const span = $("<span>"+title+"</span>");
 		$(li).append(span);
 	});
-	var wizard = $("#checkout-wizard").hide();	
-	
-	$(window).scroll(function(){
-		  const div = wizard;
-		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
-				if(!div.is(":hidden")) {
-				  var top = $(this).scrollTop();
-				  div.css("top",top-30);
-				}
-		  }
-	});
+	$("#checkout-wizard").hide();	
 });

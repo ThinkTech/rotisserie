@@ -1010,9 +1010,9 @@ fieldset {
     height: 100%;
     position: absolute;
     margin-top: 15px;
-    z-index: 9999999;
+    z-index: 99999999999;
     background: rgba(0, 0, 0, 0.48);
-    padding-top: 30px;
+    padding-top: 18%;
 }
 
 #checkout-wizard fieldset{
@@ -1033,6 +1033,9 @@ fieldset {
 	margin-top: 15px;
     margin-left: 1px;
     font-family: Exo;
+    background: #f9a308;
+    padding: 10px;
+    border: 1px solid #000;
 }
 
 .checkout-wizard-content {
