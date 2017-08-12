@@ -547,22 +547,27 @@
 					   <div id="checkout-wizard">
 					     <div class="checkout-wizard-content">
 					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation</h4>
-					        <span title="fermer l'assistant" class="wizard-close">X</span>	
+					        <span title="fermer l'assistant" class="wizard-close">&nbsp;</span>	
 					         <div class="checkout-wizard-steps">
 					             <form  method="post">
-					             <section class="step" data-step-title="Connexion">
+					             <section class="step" data-step-title="Identification">
 									 <fieldset>
-										<h3><i class="fa fa-user"></i><span>Connexion</span></h3>
 										<div id="socialLogin">
 										  <p>Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client.</p>
 									      <div id="loginDiv"></div>
+									      <div id="or" class="hidden-xs">OU</div>
+									      <div class="register">
+												<input name="Email" placeholder="Email Address" type="text" required="">						
+												<input name="Password" placeholder="Password" type="password" required="">										
+												<div class="sign-up">
+													<input type="button" value="Connexion">
+												</div>
+											</div>
 									    </div>
 									    <div id="profile">
-									      <p>Cliquer sur déconnexion pour changer d'utilisateur.</p>
+									      <p>Bienvenue <span id="name" ></span></p>
 									      <div>
-									        <img id="photo" src="" width="65px" height="65px" />           
-									        <br />			        
-									        <span id="name" ></span>
+									        <img id="photo" src="" width="65px" height="65px" />           		        
 									        <input type="button" value="Déconnexion" onclick="logoutFromGS()"/>
 									    </div>
 									   </div>
@@ -571,8 +576,7 @@
 									</section> 
 								   <section class="step" data-step-title="Paiement">
 									 <fieldset>
-										<h3><i class="fa fa-money"></i><span>Paiement</span></h3>
-									    <p>
+										<p>
 									    Choisisser la méthode de paiement la plus adéquate.
 									    </p>
 									    <div>
@@ -593,8 +597,7 @@
 									</section>
 									<section class="step" data-step-title="Confirmation">
 									 <fieldset>
-										<h3><i class="fa fa-check-circle"></i><span>Confirmation</span></h3>
-									    
+										
 									    
 									</fieldset>
 									

@@ -84,21 +84,24 @@ $(function() {
 	$(".checkout").click(function(){
 		const count = $("#cart ul li").length;
 		const message = "votre panier est vide";
-		if(!count) {
-			alert(message);
-		}else {
+		//if(!count) {
+			//alert(message);
+		//}else {
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
-		    wizard.show();
-		    wizard.css("top",$("#shopping").position().top-1);
-			$('body').css("overflow","hidden");
-		}
+		    const top = $("#shopping").offset().top;
+		    $('html,body').animate({scrollTop:top},100,function(){
+		    	$("> div",wizard).css("top",top+20);
+		    	 wizard.show();
+		    });
+		    $('body').css("overflow","hidden");
+		//}
 	});
 	
 	$(".wizard-close").click(function(){
 		$("#checkout-wizard").fadeOut(1000);
 		$('body').css("overflow","auto");
 	});
-	const form = $("#checkout-wizard form");
+	const form = $(".checkout-wizard-steps > form");
 	form.easyWizard({
 	    prevButton: "Retour",
 	    nextButton: "Suivant",
@@ -110,7 +113,7 @@ $(function() {
 	    	}
 	    	if(nextStep.index() > currentStep.index()) {
 		    	var valid = true;
-		        $('input[required]',currentStep).each(function(index,element) {
+		        $('input[required]:visible',currentStep).each(function(index,element) {
 		        	const val = $(element).val();
 					if(val.trim() == '') {
 						const message = $(this).next().attr("data-info");

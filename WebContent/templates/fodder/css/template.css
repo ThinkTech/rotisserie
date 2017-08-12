@@ -1009,10 +1009,9 @@ fieldset {
 	width: 100%;
     height: 100%;
     position: absolute;
-    margin-top: 15px;
     z-index: 99999999999;
+    top : 0px;
     background: rgba(0, 0, 0, 0.48);
-    padding-top: 18%;
 }
 
 #checkout-wizard fieldset{
@@ -1026,19 +1025,20 @@ fieldset {
     margin-bottom: 1em;
     text-align: justify;
     font-family: Tahoma;
-    padding-bottom : 3.5em;
 }
 
 #checkout-wizard fieldset > h3 {
 	margin-top: 15px;
     margin-left: 1px;
     font-family: Exo;
-    background: #f9a308;
+    background: #000;
     padding: 10px;
-    border: 1px solid #000;
+    color : #fff;
+    border: 2px solid #fff;
 }
 
 .checkout-wizard-content {
+	position : relative;
     margin-left: auto;
     margin-right: auto;
     width: 82%;
@@ -1122,32 +1122,77 @@ fieldset {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    line-height: 13px;
     position: relative;
     top: 0px;
     right: 15px;
     cursor: pointer;
     font-family: Arial Black;
     background: #000;
-    padding: 9px;
-    border-radius: 5px;
+    width : 32px;
+    height : 32px;
+    background : url("../images/close.png");
 }
 
-.wizard-close:hover {
-	background: #ff4d00;
+#loginDiv {
+	display : inline-block;
+	vertical-align: top;
+}
+
+div#or {
+	display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    margin: 35px;
+    background: #FFFFFF;
+}
+
+.register {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;	
+}
+
+.register input[type="text"], .register input[type="email"], .register input[type="password"] {
+   outline: none;
+    border: 1px solid #DFDFDF;
+    background: #f7f5f3;
+    padding: 6px;
+    margin-bottom: 6px;
+    color: #212121;
+    width: 100%;
+    font-size: 14px;
+}
+
+.register input[type="button"] {
+   border: 2px solid #fff;
+    border-radius: 5px;
+    background: #ff4d00;
+    color: white;
+    padding: 8px;
+    line-height: 14px;
+    height: 37px;
+    width: 100px;
+    font-family: Exo;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: -2px;
+}
+
+.register input[type="button"]:hover {
+	background: #000;
 }
 
 #profile {
 	margin-top: 25px;
     display : none;
 }
-
-#profile span{
-	font-size: 0.9em;
-    font-family: Arial;
-    font-weight: bolder;
-}
-
 
 #profile img {
 	width: 65px;
@@ -1157,18 +1202,17 @@ fieldset {
 
 #profile input {
 	position: relative;
-    top: -2px;
+    top: 6px;
     border: 2px solid #fff;
     border-radius: 5px;
     background: #ff4d00;
-    color: white;
+    color: #fff;
     padding: 0px;
     width: 100px;
     font-family: Exo;
     font-size: 13px;
-    font-weight : normal;
+    font-weight: normal;
     margin-left: 15px;
-    border : 2px solid;
 }
 
 #profile input:hover {
@@ -1188,7 +1232,7 @@ fieldset {
     font-family: Exo;
     background: #fff;
 }
-.easyWizardSteps li.current {color:#ff8d00;}
+.easyWizardSteps li.current {color: #fff;background: #000;}
 .easyWizardButtons {overflow:hidden;}
 .easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
 .easyWizardButtons .prev {
