@@ -1107,7 +1107,7 @@ fieldset {
 	float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 1.5em;
+    font-size: 1.55em;
     font-family:Tahoma;
     position: relative;
     left: 4px;
@@ -1177,7 +1177,7 @@ div#or {
     color: white;
     padding: 8px;
     line-height: 14px;
-    height: 37px;
+    height: 39px;
     width: 100px;
     font-family: Exo;
     font-size: 15px;
@@ -1202,7 +1202,7 @@ div#or {
 
 #profile input {
 	position: relative;
-    top: 6px;
+    top: 5px;
     border: 2px solid #fff;
     border-radius: 5px;
     background: #ff4d00;
@@ -1213,6 +1213,7 @@ div#or {
     font-size: 13px;
     font-weight: normal;
     margin-left: 15px;
+    height : 39px;
 }
 
 #profile input:hover {
@@ -1250,6 +1251,7 @@ div#or {
     padding: 7px;
     width : 100px;
    font-family: Exo;
+   height : 39px;
     font-size: 15px;
 } 
 .easyWizardButtons .next, .easyWizardButtons .submit {
@@ -1267,6 +1269,7 @@ div#or {
     padding: 7px;
     width : 100px;
     font-family: Exo;
+    height : 39px;
     font-size: 15px;
 }
 

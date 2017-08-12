@@ -571,6 +571,7 @@
 									        <img id="photo" src="" width="65px" height="65px" />           		        
 									        <input type="button" value="Déconnexion" onclick="logoutFromGS()"/>
 									    </div>
+									    <h6>Cliquer sur le bouton Déconnexion pour changer d'utilisateur.</h6>
 									   </div>
 									</fieldset>
 									
@@ -582,7 +583,7 @@
 									    </p>
 									    <div>
 									        <span>
-									        <input name="paiement" type="radio" checked>
+									        <input name="paiement" type="radio">
 									        <label>Payer en ligne</label>
 									        <select>
 									           <option>Visa</option>
@@ -592,15 +593,15 @@
 									        </select>
 									        </span>
 									        <br>
-									        <span><input name="paiement" type="radio"><label>Payer à la livraison</label></span>
+									        <span><input name="paiement" type="radio" checked><label>Payer à la livraison</label></span>
 									    </div>
 									</fieldset>
 									
 									</section>
 									<section class="step" data-step-title="Confirmation">
 									 <fieldset>
-										
-									    
+										<h4>Adresse de livraison</h4>
+									    <h6>Les frais de livraison varient en fonction de votre localisation.</h6>
 									</fieldset>
 									
 									</section>
