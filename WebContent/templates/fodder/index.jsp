@@ -164,7 +164,7 @@
 						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 								<p>
-								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par une grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
+								  La Rotisserie Sénégalaise est le premier drive sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par une grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
 								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez aussi réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
 								</p>
 								<div>
@@ -467,7 +467,7 @@
 										<p><strong>Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser.</strong>
 										  <span><span>Téléphone :</span> 33 825 95 49</span>
 										  <span><span>Mobile :</span> 77 845 46 85</span>
-										  <span><span>Email :</span> info@larotisseriesenegalaise.com</span>
+										  <span>info@larotisseriesenegalaise.com</span>
 										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>

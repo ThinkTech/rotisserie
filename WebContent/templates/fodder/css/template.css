@@ -1135,6 +1135,8 @@ fieldset {
 #loginDiv {
 	display : inline-block;
 	vertical-align: top;
+	width: 330px;
+    height: 100px;
 }
 
 div#or {
