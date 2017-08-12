@@ -57,7 +57,7 @@
 					<div class="col-md-9 banner-right">
 					 	<a href="${path}">
 					 	  <h1>La Rotisserie</h1>
-					 	  <h4>le coin des gourmets</h4>
+					 	  <h4>Sénégalaise</h4>
 						</a>
 						<a href="#rm-container" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 					</div>
@@ -76,7 +76,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@rotisserie.com</p>
+												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -104,7 +104,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@rotisserie.com</p>
+												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -132,7 +132,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@rotisserie.com</p>
+												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -164,13 +164,13 @@
 						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 								<p>
-								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par notre grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
+								  La Rotisserie est le seul restaurant sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par une grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
 								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez aussi réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
 								</p>
 								<div>
 								    <p><span>Téléphone :</span> 33 825 95 49</p>
 								    <p><span>Mobile :</span> 77 845 46 85</p>
-									<p><span>Email :</span> info@rotisserie.com</p>
+									<p><span>Email :</span> info@larotisseriesenegalaise.com</p>
 								</div>
 						 </fieldset>
 						<img src="templates/fodder/images/logo.png">
@@ -467,7 +467,7 @@
 										<p><strong>Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser.</strong>
 										  <span><span>Téléphone :</span> 33 825 95 49</span>
 										  <span><span>Mobile :</span> 77 845 46 85</span>
-										  <span><span>Email :</span> info@rotisserie.com</span>
+										  <span><span>Email :</span> info@larotisseriesenegalaise.com</span>
 										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
@@ -673,7 +673,7 @@
 										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
 										  <p><span>Téléphone :</span> 33 825 95 49</p>
 										  <p><span>Mobile :</span> 77 845 46 85</p>
-										  <p><span>Email :</span> info@rotisserie.com</p>
+										  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
 										</div>
 										<div class="social">
 				        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
