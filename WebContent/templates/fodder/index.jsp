@@ -57,7 +57,7 @@
 					<div class="col-md-9 banner-right">
 					 	<a href="${path}">
 					 	  <h1>La Rotisserie</h1>
-					 	  <h4>Sénégalaise</h4>
+					 	  <h4>le coin des gourmets</h4>
 						</a>
 						<a href="#rm-container" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 					</div>
@@ -164,8 +164,8 @@
 						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 								<p>
-								  La Rotisserie Sénégalaise est le premier drive sénégalais qui propose une cuisine classique dans un style abordable et familial. Avec un nouveau concept qui épouse la cuisine française et de par une grande expérience gastronomique, nous rendons la nourriture agréable, moderne et attractive.
-								 Tous nos plats sont disponibles pour une commande en ligne, comme vous pouvez aussi réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
+								  La Rotisserie Sénégalaise, le coin des gourmets, est le premier drive sénégalais qui propose une cuisine classique dans un style abordable et familial. De par notre grande expérience gastronomique et avec un nouveau concept qui épouse la cuisine occidentale, nous rendons la nourriture agréable, moderne et attractive.
+								 Tous nos plats sont disponibles pour une commande en ligne, comme aussi, vous pouvez réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
 								</p>
 								<div>
 								    <p><span>Téléphone :</span> 33 825 95 49</p>

@@ -149,6 +149,7 @@ a.rm-button-open,
     text-transform: uppercase;
     line-height: 45px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+	font-family : Exo;
 }
 
 .rm-content h4 {
@@ -172,13 +173,13 @@ a.rm-button-open {
 	line-height: 45px;
 	margin: 10px auto;
 	display: block;
-	font-family : Tahoma;
 	font-weight : normal;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 	background: #ff4d00;
     background-size: cover;
     border-radius: 50%;
     padding: 1.5em 2em;
+    font-family : Exo;
 }
 
 a.rm-button-open:hover {

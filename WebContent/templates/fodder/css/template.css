@@ -258,7 +258,7 @@ a:focus {
 .banner-right a h4{
 	color: #fff;
     font-family: Satisfy;
-    font-size: 7em;
+    font-size: 6em;
     margin-top: 51px;
     font-weight: bold;
     font-style: italic;
@@ -979,7 +979,7 @@ fieldset {
 	left: 6px;
 	padding: 6px 14px 8px 14px;
 	background: #ff3d00;
-	font-family : Tahoma;
+	font-family : Exo;
 	font-weight : bold;
 	font-size : 13px;
 	-webkit-border-radius: 4px;
