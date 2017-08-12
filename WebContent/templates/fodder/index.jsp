@@ -555,7 +555,7 @@
 										<div id="socialLogin">
 										  <p>Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client.</p>
 									      <div id="loginDiv"></div>
-									      <div id="or" class="hidden-xs">OU</div>
+									      <div id="or">OU</div>
 									      <div class="register">
 												<input name="email" placeholder="Email" type="text" required="">						
 												<input name="password" placeholder="Mot de Passe" type="password" required="">										
