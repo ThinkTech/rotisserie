@@ -84,9 +84,9 @@ $(function() {
 	$(".checkout").click(function(){
 		const count = $("#cart ul li").length;
 		const message = "votre panier est vide";
-		if(!count) {
-			alert(message);
-		}else {
+		//if(!count) {
+			//alert(message);
+		//}else {
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = $("#shopping").offset().top;
 		    $('html,body').animate({scrollTop:top},100,function(){
@@ -94,7 +94,7 @@ $(function() {
 		    	 wizard.show();
 		    });
 		    $('body').css("overflow","hidden");
-		}
+		//}
 	});
 	
 	$(".wizard-close").click(function(){

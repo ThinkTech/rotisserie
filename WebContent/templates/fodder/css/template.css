@@ -168,6 +168,12 @@ p{
 h1,h3,h4,h5,a{
 	margin:0;
 }
+
+h5 {
+	line-height: 1.3em;
+	font-size : 0.65em;
+}
+
 ul,label{
 	margin:0;
 	padding:0;
@@ -1061,6 +1067,11 @@ fieldset {
 	margin-left : 30px;
 	font-size : 1em;
 	padding-bottom: 30px;
+}
+
+.checkout-wizard-content fieldset > h4 {
+	margin-bottom: 10px;
+	padding: 1px;
 }
 
 .checkout-wizard-content fieldset > div > span {

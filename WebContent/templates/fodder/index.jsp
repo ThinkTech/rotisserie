@@ -571,7 +571,7 @@
 									        <img id="photo" src="" width="65px" height="65px" />           		        
 									        <input type="button" value="Déconnexion" onclick="logoutFromGS()"/>
 									    </div>
-									    <h6>Cliquer sur le bouton Déconnexion pour changer d'utilisateur.</h6>
+									    <h5>Cliquer sur le bouton Déconnexion pour changer d'utilisateur.</h5>
 									   </div>
 									</fieldset>
 									
@@ -592,7 +592,6 @@
 									           <option>Tigo Cash</option>
 									        </select>
 									        </span>
-									        <br>
 									        <span><input name="paiement" type="radio" checked><label>Payer à la livraison</label></span>
 									    </div>
 									</fieldset>
@@ -601,7 +600,12 @@
 									<section class="step" data-step-title="Confirmation">
 									 <fieldset>
 										<h4>Adresse de livraison</h4>
-									    <h6>Les frais de livraison varient en fonction de votre localisation.</h6>
+										<div>
+										  <h5>HLM 2 Rue 14 N°503 <span>derrière la Mosquée</span></h5>
+										  <h5>Région : <span>Dakar</span></h5>
+										  <h5>Zone : <span>Fann</span></h5>
+										</div>
+									    <h5>Les frais de livraison varient en fonction de votre localisation.</h5>
 									</fieldset>
 									
 									</section>
