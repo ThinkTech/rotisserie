@@ -1006,11 +1006,13 @@ fieldset {
 }
 
 #checkout-wizard {
-	width : 100%;
-	height : 100%;
-	position: absolute;
-	margin-top : 15px;
-	z-index : 9999999;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 15px;
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.48);
+    padding-top: 30px;
 }
 
 #checkout-wizard fieldset{
@@ -1040,6 +1042,11 @@ fieldset {
     min-height: 500px;
     background: #fff;
     padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 
 .checkout-wizard-content p {
@@ -1099,7 +1106,7 @@ fieldset {
     float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: Exo;
     position: relative;
     left: 4px;
@@ -1172,9 +1179,11 @@ fieldset {
 	font-size: 1.3em;
     display: inline-block;
     padding: 15px;
+    margin-top: 3px;
     color: #151514;
     margin-right: 0px;
     font-family: Exo;
+    background: #fff;
 }
 .easyWizardSteps li.current {color:#ff8d00;}
 .easyWizardButtons {overflow:hidden;}

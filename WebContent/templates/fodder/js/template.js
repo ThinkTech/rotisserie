@@ -89,7 +89,7 @@ $(function() {
 		}else {
 		    const wizard = $("#checkout-wizard").show();
 		    wizard.css("top",$("#cart").position().top);
-			$('html,body').animate({scrollTop:wizard.offset().top-5},600);
+			$('html,body').animate({scrollTop:wizard.offset().top},600);
 		}
 	});
 	
@@ -177,7 +177,7 @@ $(function() {
 		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
 				if(!div.is(":hidden")) {
 				  var top = $(this).scrollTop();
-				  div.css("top",top);
+				  div.css("top",top-30);
 				}
 		  }
 	});
