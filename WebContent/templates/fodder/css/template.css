@@ -1011,7 +1011,7 @@ fieldset {
     position: absolute;
     z-index: 99999999999;
     top : 0px;
-    background: rgba(0, 0, 0, 0.48);
+    background: rgba(100, 100, 100, 0.5);
 }
 
 #checkout-wizard fieldset{
