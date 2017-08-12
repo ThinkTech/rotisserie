@@ -1104,12 +1104,11 @@ fieldset {
 
 
 .wizard-title {
-	text-transform: capitalize;
-    float: left;
+	float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 1.4em;
-    font-family: Exo;
+    font-size: 1.5em;
+    font-family:Tahoma;
     position: relative;
     left: 4px;
     padding: 7px;

@@ -163,6 +163,10 @@ $(function() {
 	    beforeSubmit: function(wizardObj) {
 	    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
 	    		$("form",wizard).easyWizard('goToStep', 1);
+	    		$("#cart ul li").remove();
+	    		$(".article-count").html(0);
+                $(".total").html(0);
+                $('body').css("overflow","auto");
 	    		alert("votre commande est en cours de livraison.");
 	    	});
 	    	return false;

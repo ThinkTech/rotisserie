@@ -501,6 +501,7 @@
 					             <li><b>Visa</b></li> 
 								 <li><b>MasterCard</b></li>
 								 <li><b>Orange Money</b></li>
+								 <li><b>Tigo Cash</b></li>
 								</ul>
 					         </div>
 					         <br>
@@ -546,7 +547,7 @@
 					   </div>
 					   <div id="checkout-wizard">
 					     <div class="checkout-wizard-content">
-					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation</h4>
+					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer l'achat</h4>
 					        <span title="fermer l'assistant" class="wizard-close">&nbsp;</span>	
 					         <div class="checkout-wizard-steps">
 					             <form  method="post">
@@ -587,6 +588,7 @@
 									           <option>Visa</option>
 									           <option>MasterCard</option>
 									           <option>Orange Money</option>
+									           <option>Tigo Cash</option>
 									        </select>
 									        </span>
 									        <br>
