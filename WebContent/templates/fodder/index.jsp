@@ -557,8 +557,8 @@
 									      <div id="loginDiv"></div>
 									      <div id="or" class="hidden-xs">OU</div>
 									      <div class="register">
-												<input name="Email" placeholder="Email Address" type="text" required="">						
-												<input name="Password" placeholder="Password" type="password" required="">										
+												<input name="email" placeholder="Email" type="text" required="">						
+												<input name="password" placeholder="Mot de Passe" type="password" required="">										
 												<div class="sign-up">
 													<input type="button" value="Connexion">
 												</div>
