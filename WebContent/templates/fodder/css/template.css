@@ -171,7 +171,7 @@ h1,h3,h4,h5,a{
 
 h5 {
 	line-height: 1.3em;
-	font-size : 0.65em;
+	font-size : 0.7em;
 }
 
 ul,label{
@@ -1027,9 +1027,9 @@ fieldset {
     width: 85%;
     position: relative;
     margin: auto;
-    margin-bottom: 1em;
     text-align: justify;
     font-family: Tahoma;
+    min-height : 340px;
 }
 
 #checkout-wizard fieldset > h3 {
@@ -1042,12 +1042,19 @@ fieldset {
     border: 2px solid #fff;
 }
 
+#checkout-wizard fieldset h5 a,#checkout-wizard fieldset h5 a:visited {
+	color : #ff4d00;
+	display: block;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
 .checkout-wizard-content {
 	position : relative;
     margin-left: auto;
     margin-right: auto;
     width: 82%;
-    min-height: 500px;
     background: #fff;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -1065,13 +1072,18 @@ fieldset {
 
 .checkout-wizard-content fieldset > div {
 	margin-left : 30px;
-	font-size : 1em;
-	padding-bottom: 30px;
+	font-size : 0.9em;
 }
 
-.checkout-wizard-content fieldset > h4 {
-	margin-bottom: 10px;
+.checkout-wizard-content fieldset h4 {
+	margin-bottom: 8px;
 	padding: 1px;
+}
+
+.checkout-wizard-content fieldset > div > h5 {
+	font-family: tahoma;
+    font-size: 13px;
+    line-height: 1.8em;
 }
 
 .checkout-wizard-content fieldset > div > span {
@@ -1080,6 +1092,17 @@ fieldset {
 	display : block;
 }
 
+.checkout-wizard-content fieldset > div > span > span{
+	width: 170px;
+    margin-right: 5px;
+	display : inline-block;
+	text-align : right;
+}
+
+.checkout-wizard-content fieldset h6 {
+    font-size: 13px;
+    line-height: 1.7em;
+}
 
 .checkout-wizard-content fieldset span input {
 	margin-right : 6px;
@@ -1099,7 +1122,6 @@ fieldset {
 .checkout-wizard-steps {
 	clear : both;
 	padding : 20px;
-	min-height : 440px;
 	width : 100%;
 	position: relative;
     top: -5px;
@@ -1233,6 +1255,45 @@ div#or {
 	border : 2px solid;
 }
 
+.shipping-address,.shopping-payment {
+	width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.shipping-address {
+	background: #fff;
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ff4d00;
+    margin-top : 15px;
+}
+
+.shopping-payment h4 {
+	margin-top: 16px;
+    line-height: 1em;
+}
+
+.shopping-amount {
+   margin-top : 25px; 	
+}
+
+.shopping-amount > span {
+	line-height : 1.8em;
+	width : 100%;
+	display : block;
+	font-size : 0.92em;
+}
+
+.shopping-amount > span > span{
+	width: 170px;
+    margin-right: 5px;
+	display : inline-block;
+	text-align : right;
+}
+
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {
 	font-size: 1.3em;
@@ -1243,6 +1304,7 @@ div#or {
     margin-right: 0px;
     font-family: Exo;
     background: #fff;
+    width : 200px;
 }
 .easyWizardSteps li.current {color: #fff;background: #000;}
 .easyWizardButtons {overflow:hidden;}
