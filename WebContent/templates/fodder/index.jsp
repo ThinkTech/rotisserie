@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>La Rotisserie</title>
+<title>La Rotisserie Sénégalaise</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="rotisserie" />
@@ -14,8 +14,8 @@
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
-<meta property="og:title" content="La Rotisserie - Site Officiel"/>
-<meta property="og:description" content="Bienvenue sur le site officiel de la Rôtisserie"/>
+<meta property="og:title" content="La Rotisserie Sénégalaise - Site Officiel"/>
+<meta property="og:description" content="Bienvenue sur le site officiel de la Rotisserie Sénégalaise"/>
 <meta property="og:image" content="${baseUrl}/templates/fodder/images/banner.jpg"/>
 
 </head>
