@@ -104,9 +104,9 @@ $(function() {
 	});
 	const form = $(".checkout-wizard-steps > form");
 	form.easyWizard({
-	    prevButton: "Retour",
+	    prevButton: "Pr\u0117c\u0117dent",
 	    nextButton: "Suivant",
-	    submitButtonText: "Confirmer",
+	    submitButtonText: "Terminer",
 	    before : function(wizardObj,currentStep,nextStep) {
 	    	if(!user) {
 	    		alert("vous devez vous connecter");
