@@ -177,8 +177,8 @@ $(function() {
                 $('body').css("overflow","auto");
                 $('html,body').animate({scrollTop:0},600,function(){
                 	alert("votre commande est en cours de livraison.",function(){
-                		$(".banner-right h1").removeClass().addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-                    	$(".banner-right h4").removeClass().addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+                		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+                    	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
                 	});
                 });
 	    	});
