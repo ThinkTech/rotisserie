@@ -255,7 +255,7 @@ a:focus {
 	color: #fff;
     font-family: Satisfy;
     font-size: 6.5em;
-    margin-top: -54px;
+    margin-top: -32px;
     margin-left: -160px;
     font-weight: bold;
     font-style: italic;
@@ -264,8 +264,8 @@ a:focus {
 .banner-right a h4{
 	color: #fff;
     font-family: Satisfy;
-    font-size: 6em;
-    margin-top: 51px;
+    font-size: 4.75em;
+    margin-top: 18px;
     font-weight: bold;
     font-style: italic;
 }
@@ -274,7 +274,7 @@ a:focus {
 	font-size: 1.1em;
     padding: 9px;
     color: #fefefe;
-    width: 197px;
+    width: 152px;
     margin-top: 49px;
     float: right;
     right: 16px;
@@ -403,6 +403,7 @@ li.item1 {
 
 .banner-bottom-left1 .social {
 	margin-top : 5px;
+	text-align: center;
 }
 
 .banner-bottom-left1 .social a, .banner-bottom-left1 .social a:visited {
@@ -751,8 +752,6 @@ fieldset {
       margin-top:40px;
       width : 38%;
       display : inline-block;
-      overflow:hidden;
-      background : #eee;
       -webkit-border-radius:4px 4px 0 0;
          -moz-border-radius:4px 4px 0 0;
               border-radius:4px 4px 0 0;
@@ -765,6 +764,10 @@ fieldset {
               transition:all 0.4s;
 }
 
+.shoppingCart > div {
+	background: #eee;
+}
+
 .shoppingCart summary{
       padding:12px 16px 14px 4px;
       overflow:hidden;
@@ -772,7 +775,7 @@ fieldset {
 }
 
 .shoppingCart > div:first-of-type {
-	margin-bottom : 50px;
+	min-height: 100px;
 }
 .shoppingCart h4{
     float: left;
@@ -860,17 +863,14 @@ fieldset {
 }
 
 .shoppingCart p {
-	padding: 13px 10px;
+	padding: 10px 10px;
     padding-bottom: 0px;
-	overflow: hidden;
-	background: #eee;
-	-webkit-transition: background 0.2s;
-	-moz-transition: background 0.2s;
-	-o-transition: background 0.2s;
-	transition: background 0.2s;
-	 font-family : Tahoma;
-       font-size : 13px;
-      border-top: 1px solid #ffa709;
+    height: 38px;
+    overflow: hidden;
+    background: #eee;
+    font-family: Tahoma;
+    font-size: 13px;
+    border-top: 1px solid #ffa709;
 }
 
 .shoppingCart:hover p {
@@ -888,10 +888,6 @@ fieldset {
 	font-weight: bold;
     font-size: 13px;
     font-family : Arial;
-}
-
-.shoppingCart:hover p span:first-child {
-	display: none;
 }
 
 .shoppingCart p span:last-child {
@@ -975,40 +971,40 @@ fieldset {
 }
 
 .checkout {
-	opacity: 0;
 	display: block;
-	position: absolute;
-	color: #fff;
-	text-decoration: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	bottom: 4px;
-	left: 6px;
-	padding: 6px 14px 8px 14px;
-	background: #ff3d00;
-	font-family : Exo;
-	font-weight : bold;
-	font-size : 13px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-transition: opacity 0.6s;
-	-moz-transition: opacity 0.6s;
-	-o-transition: opacity 0.6s;
-	transition: opacity 0.6s;
-	cursor : pointer;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    height: 35px;
+    width: 91px;
+    margin-top: 0px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 16px;
+    background: #ffa709;
+    font-family: Exo;
+    font-weight: bold;
+    font-size: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+    cursor: pointer;
+    border: 2px solid #fff;
 }
 
 .checkout:focus {
 	color : #fff;
 }
 .checkout:hover {
-	background: #ff3d00;
+	background: #000;
 	color : #fff;
 }
 
-.shoppingCart:hover .checkout {
-	opacity: 1;
-}
 
 #checkout-wizard {
 	width: 100%;
@@ -1070,7 +1066,7 @@ fieldset {
 }
 
 .checkout-wizard-content fieldset > div {
-	margin-left : 30px;
+	margin-left : 25px;
 	font-size : 0.9em;
 }
 
@@ -1082,7 +1078,7 @@ fieldset {
 .checkout-wizard-content fieldset > div > h5 {
 	font-family: monospace;
     font-size: 13px;
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 
 .checkout-wizard-content fieldset > div > span {
@@ -1307,7 +1303,8 @@ div#or {
 
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {
-	font-size: 1.3em;
+	font-size: 1.1em;
+    font-weight: bold;
     display: inline-block;
     padding: 15px;
     margin-top: 3px;
