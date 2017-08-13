@@ -173,7 +173,7 @@
 
             this.find('.easyWizardWrapper').stop(true, true).animate({
                 'margin-left': thisSettings.width * (step - 1) * -1
-            }, 10,function () {
+            },1,function () {
                 $activeStep.css({ height: '1px' });
             });
 
