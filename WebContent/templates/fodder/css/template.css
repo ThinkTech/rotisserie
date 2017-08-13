@@ -1067,7 +1067,6 @@ fieldset {
 .checkout-wizard-content p {
 	text-align: left;
     margin: 22px;
-    margin-left : 0px;
 }
 
 .checkout-wizard-content fieldset > div {
@@ -1081,13 +1080,13 @@ fieldset {
 }
 
 .checkout-wizard-content fieldset > div > h5 {
-	font-family: tahoma;
+	font-family: monospace;
     font-size: 13px;
     line-height: 1.8em;
 }
 
 .checkout-wizard-content fieldset > div > span {
-	line-height : 2em;
+	line-height : 4em;
 	width : 100%;
 	display : block;
 }
@@ -1102,6 +1101,7 @@ fieldset {
 .checkout-wizard-content fieldset h6 {
     font-size: 13px;
     line-height: 1.7em;
+    font-family: Exo;
 }
 
 .checkout-wizard-content fieldset span input {
@@ -1109,9 +1109,9 @@ fieldset {
 }
 
 .checkout-wizard-content fieldset label{
-	font-size: 0.9em;
+	font-size: 1em;
     position: relative;
-    top: -1px;
+    top: 0px;
     font-family: Exo;
     letter-spacing: 0;
     color: #903417;
@@ -1266,32 +1266,43 @@ div#or {
 .shipping-address {
 	background: #fff;
     padding: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
     width: 40%;
     border: 1px solid #ff4d00;
     margin-top : 15px;
 }
 
 .shopping-payment h4 {
-	margin-top: 16px;
+	margin-top: 8px;
     line-height: 1em;
 }
 
 .shopping-amount {
-   margin-top : 25px; 	
+   margin-top : 25px; 
+   font-family : monospace;	
 }
 
 .shopping-amount > span {
-	line-height : 1.8em;
+	line-height : 1.7em;
 	width : 100%;
 	display : block;
 	font-size : 0.92em;
 }
 
-.shopping-amount > span > span{
-	width: 170px;
+.shopping-amount > span > span:first-of-type{
+	width: 173px;
     margin-right: 5px;
-	display : inline-block;
-	text-align : right;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.shopping-amount > span > span:last-of-type{
+	width: 110px;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
 }
 
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}

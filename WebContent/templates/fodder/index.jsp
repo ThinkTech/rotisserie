@@ -600,16 +600,15 @@
 									<section class="step" data-step-title="Confirmation">
 									 <fieldset>
 										<div class="shipping-address">
-										  <h4><i class="fa fa-motorcycle" aria-hidden="true"></i>Adresse de livraison</h4>
+										  <h4><i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse de livraison</b></h4>
 										  <h5>HLM 2 Rue 14 N°503 <span>derrière la Mosquée</span></h5>
-										  <h5>Région : <span>Dakar</span></h5>
+										  <h5>Dakar</h5>
 										  <h5>Zone : <span>Fann</span></h5>
 										  <h5><a>[modifier]</a></h5>
 										</div>
 										<div class="shopping-payment">
-										  <h3><i class="fa fa-money" aria-hidden="true"></i>Paiement</h3>
 										  <div>
-										     <h4><i class="fa fa-motorcycle" aria-hidden="true"></i><b>Paiement à la livraison</b></h4>
+										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement à la livraison</b></h4>
 										     <h6>Payez en toute sécurité avec le paiement à la livraison! Cette méthode de paiement vous permet de régler le montant de votre commande en espèces, plus les frais de livraison.</h6>
 										  </div>
 										  <div class="shopping-amount">
