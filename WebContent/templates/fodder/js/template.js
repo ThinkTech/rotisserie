@@ -49,16 +49,17 @@ return datepicker.regional.fr;
 
 var user;
 
+const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
+				'rollIn', 'zoomIn', 'slideInUp', 'bounceInUp', 'pulse',
+				'rubberBand', 'shake', 'headshake', 'jackInTheBox',
+				'flash', 'swing', 'fadeInUpBig', 'rotateInDownLeft',
+				'rotateInDownRight', 'rotateInUpLeft', 'rotateInUpRight',
+				'zoomInDown', 'zoomInLeft', 'zoomInRight', 'zoomInUp',
+				'bounceIn', 'bounceInDown', 'bounceInLeft',
+				'bounceInRight', 'bounceInUp' ];
+
 $(window).ready(function(){
   page.wait();
-  const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
-					'rollIn', 'zoomIn', 'slideInUp', 'bounceInUp', 'pulse',
-					'rubberBand', 'shake', 'headshake', 'jackInTheBox',
-					'flash', 'swing', 'fadeInUpBig', 'rotateInDownLeft',
-					'rotateInDownRight', 'rotateInUpLeft', 'rotateInUpRight',
-					'zoomInDown', 'zoomInLeft', 'zoomInRight', 'zoomInUp',
-					'bounceIn', 'bounceInDown', 'bounceInLeft',
-					'bounceInRight', 'bounceInUp' ];
 	$(".banner-right h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 	$(".banner-right h4").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
   $('.flexslider').flexslider({
@@ -168,7 +169,10 @@ $(function() {
                 $(".total").html(0);
                 $('body').css("overflow","auto");
                 $('html,body').animate({scrollTop:0},600,function(){
-                	alert("votre commande est en cours de livraison.");
+                	alert("votre commande est en cours de livraison.",function(){
+                		$(".banner-right h1").removeClass().addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+                    	$(".banner-right h4").removeClass().addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+                	});
                 });
 	    	});
 	    	return false;
