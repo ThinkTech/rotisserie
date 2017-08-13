@@ -202,7 +202,7 @@
 
 							<div class="rm-back">
 								<div class="rm-content">
-									<h4>Petit Déjeuner</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Petit Déjeuner</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="1" data-price="3000" data-thumb="templates/fodder/images/5.jpg">Café expresso</a></dt>
 										<dd class="price">1000</dd>
@@ -239,7 +239,7 @@
 										
 									</dl>
 
-									<h4>Entrées</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Entrées</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Salade pasta et chicken</a></dt>
 										<dd class="price">1500</dd>
@@ -258,7 +258,7 @@
 										
 									</dl>
 									
-									<h4>Pasta</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Pasta</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Spaghetti bolognaise</a></dt>
 										<dd class="price">2000</dd>
@@ -277,7 +277,7 @@
 										
 									</dl>
 									
-									<h4>Accompagnements</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Accompagnements</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Frites</a></dt>
 										<dd class="price">2000</dd>
@@ -311,7 +311,7 @@
 						<div class="rm-middle">
 							<div class="rm-inner">
 								<div class="rm-content">
-									<h4>Plats Chauds</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Plats Chauds</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="5000" data-thumb="templates/fodder/images/10.jpg">Filet de boeuf rôti</a></dt>
 										<dd class="price">5000</dd>
@@ -338,7 +338,7 @@
 										<dd class="price">2500</dd>
 										
 									</dl>
-									<h4>Pizzas</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Pizzas</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pizza margarita</a></dt>
 										<dd class="price">2000</dd>
@@ -356,7 +356,7 @@
 										<dd class="price">2000</dd>
 										
 									</dl>
-									<h4>Sandwichs Specials</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>Sandwichs Specials</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="1500" data-thumb="templates/fodder/images/10.jpg">Breakfast</a></dt>
 										<dd class="price">1500</dd>
@@ -374,7 +374,7 @@
 										<dd class="price">2000</dd>
 										
 									</dl>
-									<h4>FastFood</h4>
+									<h4><i class="fa fa-cutlery" aria-hidden="true"></i>FastFood</h4>
 									<dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="600" data-thumb="templates/fodder/images/10.jpg">Fataya Complet</a></dt>
 										<dd class="price">600</dd>
@@ -415,7 +415,7 @@
 							<div class="rm-back">
 								<span title="fermer la carte" class="rm-close">X</span>
 								<div class="rm-content">
-									   <h4>Enfants</h4>
+									   <h4><i class="fa fa-cutlery" aria-hidden="true"></i>Enfants</h4>
 									   <dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Crêpes</a></dt>
 										<dd class="price">2000</dd>
@@ -439,7 +439,7 @@
 										<dd class="price">2000</dd>
 										
 									</dl>
-									   <h4>Desserts</h4>
+									   <h4><i class="fa fa-cutlery" aria-hidden="true"></i>Desserts</h4>
 									      <dl>
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="1000" data-thumb="templates/fodder/images/10.jpg">Coupe de glace</a></dt>
 										<dd class="price">1000</dd>
@@ -609,7 +609,7 @@
 										</div>
 										<div class="shopping-payment">
 										  <div class="payment visa-payment">
-										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Visa</b></h4>
+										     <h4><i class="fa fa-cc-visa" aria-hidden="true"></i><b>Paiement Visa</b></h4>
 										     <ol>
 												<li>
 												   Entrer votre numéro de carte de crédit .
@@ -623,7 +623,7 @@
 											</ol>
 										  </div>
 										  <div class="payment mastercard-payment">
-										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
+										     <h4><i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
 										     <ol>
 												<li>
 												   Entrer votre numéro de carte de crédit .
@@ -637,7 +637,7 @@
 											</ol>
 										  </div>
 										  <div class="payment orange-payment">
-										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
+										     <h4><i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
 										     <ol>
 												<li>
 												   Composer le #144#391#.
@@ -654,7 +654,7 @@
 												</ol>
 										  </div>
 										  <div class="payment tigo-payment">
-										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Tigo Cash</b></h4>
+										     <h4><i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement Tigo Cash</b></h4>
 										     <ol>
 												<li>
 												   Entrer votre numéro de téléphone Tigo.
