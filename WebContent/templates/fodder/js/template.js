@@ -178,12 +178,5 @@ $(function() {
 	    	return false;
 	    }
 	});
-	$.each($(".easyWizardSteps li",form),function(index,li){
-		const section = $("section[data-step="+(index+1)+"]");
-		const title = section.attr("data-step-title");
-		$(li).html("<span>"+(index+1)+"</span> . ");
-		const span = $("<span>"+title+"</span>");
-		$(li).append(span);
-	});
 	$("#checkout-wizard").hide();	
 });
