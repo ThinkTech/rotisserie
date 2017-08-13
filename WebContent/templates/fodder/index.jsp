@@ -4,7 +4,7 @@
 <title>La Rotisserie Sénégalaise</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="rotisserie" />
+<meta name="keywords" content="rotisserie,poulet,restaurant,commander en ligne" />
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fodder/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" type="text/css" href="templates/fodder/css/menu.css" />
