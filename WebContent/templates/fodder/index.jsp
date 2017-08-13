@@ -541,7 +541,7 @@
 					             <span>Articles : <strong class="article-count">0</strong></span> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
 					           </p>
 					         </div>
-					         <a title="Procéder à la commande" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a>
+					         <a title="acheter" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a>
 					      </div>
 					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    
 					   </div>
