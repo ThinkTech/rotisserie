@@ -859,7 +859,7 @@ fieldset {
 .shoppingCart li strong {
 	display: block;
 	float: right;
-	font-size : 12px;
+	font-size : 13px;
 }
 
 .shoppingCart p {
@@ -1252,7 +1252,6 @@ div#or {
 }
 
 .shipping-address,.shopping-payment {
-	width: 46%;
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
@@ -1267,6 +1266,20 @@ div#or {
     width: 40%;
     border: 1px solid #ff4d00;
     margin-top : 15px;
+}
+
+.shopping-payment {
+	width: 51%;
+}
+
+.shopping-payment ol {
+	margin-left : 38px;
+}
+
+.shopping-payment li {
+	font-size: 13px;
+    line-height: 1.7em;
+    font-family: Exo;
 }
 
 .shopping-payment h4 {

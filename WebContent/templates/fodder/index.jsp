@@ -579,20 +579,20 @@
 								   <section class="step" data-step-title="Paiement">
 									 <fieldset>
 										<p>
-									    Choisisser la méthode de paiement la plus adéquate.
+									    Choisisser le mode de paiement le plus adéquat.
 									    </p>
 									    <div>
 									        <span>
-									        <input name="paiement" type="radio">
+									        <input name="payment" value="online" type="radio">
 									        <label>Payer en ligne</label>
-									        <select>
-									           <option>Visa</option>
-									           <option>MasterCard</option>
-									           <option>Orange Money</option>
-									           <option>Tigo Cash</option>
+									        <select name="method">
+									           <option value="visa">Visa</option>
+									           <option value="mastercard">MasterCard</option>
+									           <option value="orange">Orange Money</option>
+									           <option value="tigo">Tigo Cash</option>
 									        </select>
 									        </span>
-									        <span><input name="paiement" type="radio" checked><label>Payer à la livraison</label></span>
+									        <span><input name="payment" value="delivery" type="radio" checked><label>Payer à la livraison</label></span>
 									    </div>
 									</fieldset>
 									
@@ -607,9 +607,71 @@
 										  <h5><a>[modifier]</a></h5>
 										</div>
 										<div class="shopping-payment">
-										  <div>
+										  <div class="payment visa-payment">
+										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Visa</b></h4>
+										     <ol>
+												<li>
+												   Entrer votre numéro de carte de crédit .
+												</li>
+												<li>
+												   Effectuer le paiement.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+											</ol>
+										  </div>
+										  <div class="payment mastercard-payment">
+										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
+										     <ol>
+												<li>
+												   Entrer votre numéro de carte de crédit .
+												</li>
+												<li>
+												   Effectuer le paiement.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+											</ol>
+										  </div>
+										  <div class="payment orange-payment">
+										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
+										     <ol>
+												<li>
+												   Composer le #144#391#.
+												</li>
+												<li>
+												   Choisisser l'option 1-Génération d'un code.
+												</li>
+												<li>
+												   Entrer votre code secret Orange Money.
+												</li>
+												<li>
+												   Conserver le code reçu par SMS pour régler votre commande.
+												</li>
+												</ol>
+										  </div>
+										  <div class="payment tigo-payment">
+										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement Tigo Cash</b></h4>
+										     <ol>
+												<li>
+												   Entrer votre numéro de téléphone Tigo.
+												</li>
+												<li>
+												  Réception SMS de la requête de paiement.
+												</li>
+												<li>
+												   Taper #150#, puis entrer le code PIN Tigo Cash.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+												</ol>
+										  </div>
+										  <div class="payment delivery-payment">
 										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement à la livraison</b></h4>
-										     <h6>Payez en toute sécurité avec le paiement à la livraison! Cette méthode de paiement vous permet de régler le montant de votre commande en espèces, plus les frais de livraison.</h6>
+										     <h6>Payer en toute sécurité avec le paiement à la livraison! Ce mode de paiement vous permet de régler le montant de votre commande en espèces, plus les frais de livraison.</h6>
 										  </div>
 										  <div class="shopping-amount">
 										     <span><span>Commande : </span><span><b>30 000 FCFA</b></span></span> 

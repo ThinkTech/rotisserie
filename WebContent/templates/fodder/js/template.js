@@ -85,9 +85,9 @@ $(function() {
 	$(".checkout").click(function(){
 		const count = $("#cart ul li").length;
 		const message = "votre panier est vide";
-		if(!count) {
-			alert(message);
-		}else {
+		//if(!count) {
+			//alert(message);
+		//}else {
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = $("#shopping").offset().top;
 		    $('html,body').animate({scrollTop:top},100,function(){
@@ -95,7 +95,7 @@ $(function() {
 		    	 wizard.show();
 		    });
 		    $('body').css("overflow","hidden");
-		}
+		//}
 	});
 	
 	$(".wizard-close").click(function(){
@@ -155,11 +155,18 @@ $(function() {
 	    	}
 	    },
 	    after : function(wizardObj,prevStep,currentStep) {
-	    	setTimeout(function(){ 
-	    		var input = currentStep.find("input.error");
-	    		input = input.length ? input : currentStep.find("input:first");
-	    		input.focus(); 
-	    		}, 1000);
+	    	const payment = $(".shopping-payment",currentStep);
+	    	console.log(payment.length);
+	    	if(payment.length) {
+	    		$(".payment",currentStep).hide();
+	    		var input = prevStep.find("input[name='payment']:checked");
+	    		var val = input.val();
+	    		if(val=="online") {
+	    			input = prevStep.find("select[name='method']");
+	    			val = input.val();
+	    		}
+	    		$("."+val+"-payment",currentStep).show();
+	    	}
 	    },
 	    beforeSubmit: function(wizardObj) {
 	    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
@@ -177,6 +184,9 @@ $(function() {
 	    	});
 	    	return false;
 	    }
+	});
+	form.find("select[name='method']").click(function(){
+		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
 	$("#checkout-wizard").hide();	
 });
