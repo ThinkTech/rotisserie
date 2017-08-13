@@ -496,7 +496,7 @@
 					      <div class="delivery">
 					         <h3><i class="fa fa-credit-card" aria-hidden="true"></i>Payer en ligne</h3>
 					         <div>
-					         <p>Regler votre facture en utilisant la méthode de paiement la plus appropriée.</p> 
+					         <p>Choisisser le mode de paiement le plus adéquat pour régler votre commande.</p> 
 					            <ul>
 					             <li><b>Visa</b></li> 
 								 <li><b>MasterCard</b></li>
@@ -507,7 +507,7 @@
 					         <br>
 						     <h3><i class="fa fa-motorcycle" aria-hidden="true"></i>Payer à la livraison</h3>
 						     <div>
-						     <p>Nos frais de livraison varient suivant votre zone de domiciliation.</p>
+						     <p>Nos frais de livraison varient suivant votre localisation.</p>
 								<ul>
 								 <li><b>Zone 1 : Centre ville à Malick Sy : 500 CFA</b></li>
 								 <li><b>Zone 2 : Malick Sy à Fann : 1000 CFA</b></li> 
@@ -579,7 +579,7 @@
 								   <section class="step" data-step-title="Paiement">
 									 <fieldset>
 										<p>
-									    Choisisser le mode de paiement le plus adéquat.
+									    Choisisser le mode de paiement le plus adéquat pour régler votre commande.
 									    </p>
 									    <div>
 									        <span>

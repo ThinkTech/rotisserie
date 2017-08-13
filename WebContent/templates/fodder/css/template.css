@@ -532,6 +532,7 @@ fieldset {
     color: #111000;
     width: 86%;
     position: relative;
+    top : -11px;
     margin: auto;
     margin-bottom: 1em;
     border: 1px solid #ff4d00;
@@ -781,9 +782,8 @@ fieldset {
     float: left;
     color: #fff;
     cursor: pointer;
-    font-family: arial;
-    font-size: 1.1em;
-    font-weight: bold;
+    font-family: Arial Black;
+    font-size: 1em;
 }
 .shoppingCart:hover h4{
        color:#fff;
@@ -858,8 +858,10 @@ fieldset {
 
 .shoppingCart li strong {
 	display: block;
-	float: right;
-	font-size : 13px;
+    float: right;
+    font-size: 12.5px;
+    font-weight: bold;
+    font-family: Exo;
 }
 
 .shoppingCart p {
@@ -881,18 +883,17 @@ fieldset {
 
 .shoppingCart p span {
 	display: block;
+	font-weight: bold;
+    font-size: 13px;
+    font-family : Exo;
 }
 
 .shoppingCart p span:first-child {
 	float: left;
-	font-weight: bold;
-    font-size: 13px;
-    font-family : Arial;
 }
 
 .shoppingCart p span:last-child {
 	float: right;
-	font-family : monospace;
 }
 
 .scroll .fa-gift {
