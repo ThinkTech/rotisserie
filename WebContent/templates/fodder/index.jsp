@@ -604,6 +604,7 @@
 										  <h5>HLM 2 Rue 14 N°503 <span>derrière la Mosquée</span></h5>
 										  <h5>Dakar</h5>
 										  <h5>Zone : <span>Fann</span></h5>
+										  <h5>Téléphone : <span>775593264</span></h5>
 										  <h5><a>[modifier]</a></h5>
 										</div>
 										<div class="shopping-payment">
