@@ -1034,7 +1034,7 @@ fieldset {
 
 #checkout-wizard fieldset h5 a,#checkout-wizard fieldset h5 a:visited {
 	color : #ff4d00;
-	display: block;
+	display: inline-block;
     padding: 5px;
     padding-top: 10px;
     padding-left: 0px;
@@ -1260,6 +1260,10 @@ div#or {
     width: 40%;
     border: 1px solid #ff4d00;
     margin-top : 15px;
+}
+
+.shipping-address a {
+	cursor : pointer;
 }
 
 .shopping-payment {
