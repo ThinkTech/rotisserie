@@ -853,6 +853,10 @@ fieldset {
 	font-size : 12px;
 }
 
+.shoppingCart li span span { 
+	width : 295px;
+}
+
 .shoppingCart li strong {
 	display: block;
     float: right;
