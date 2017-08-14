@@ -164,7 +164,7 @@
 						<h3 class="title"><i class="fa fa-question-circle" aria-hidden="true"></i>À PROPOS</h3>
 						  <fieldset>
 								<p>
-								  La Rotisserie Sénégalaise, le coin des gourmets, est le premier drive sénégalais qui propose une cuisine classique dans un style abordable et familial. De par notre grande expérience gastronomique et avec un nouveau concept qui épouse la cuisine occidentale, nous rendons la nourriture agréable, moderne et attractive.
+								  La Rotisserie, le coin des gourmets, est le premier drive sénégalais qui propose une cuisine classique dans un style abordable et familial. De par notre grande expérience gastronomique et avec un nouveau concept qui épouse la cuisine occidentale, nous rendons la nourriture agréable, moderne et attractive.
 								 Tous nos plats sont disponibles pour une commande en ligne, comme aussi, vous pouvez réserver votre table pour une dégustation unique dans un de nos emplacements. Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser avec notre service traiteur. 
 								</p>
 								<div>
