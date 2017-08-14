@@ -436,8 +436,23 @@ li.item1 {
     filter: saturate(6);
 }
 
-h5 .fa {
+h5 .fa, b .fa {
 	margin-right : 8px;
+}
+
+b .fa {
+	width : 19px;
+	color : #ffa709;
+}
+
+b .fa-mobile {
+	margin-left: 5px;
+    font-size: 21px;
+    margin-right: 3px;
+}
+
+b .fa-cc-discover {
+    font-size: 14px;
 }
 
 .banner-bottom-right{

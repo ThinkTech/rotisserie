@@ -498,12 +498,12 @@
 					         <div>
 					         <p>Choisisser le mode de paiement le plus adéquat pour régler votre commande.</p> 
 					            <ul>
-					             <li><b>Visa</b></li> 
-								 <li><b>MasterCard</b></li>
-								 <li><b>American Express</b></li>
-								 <li><b>Discover</b></li>
-								 <li><b>Orange Money</b></li>
-								 <li><b>Tigo Cash</b></li>
+					             <li><b><i class="fa fa-cc-visa" aria-hidden="true"></i>Visa</b></li> 
+								 <li><b><i class="fa fa-cc-mastercard" aria-hidden="true"></i>MasterCard</b></li>
+								 <li><b><i class="fa fa-credit-card" aria-hidden="true"></i>American Express</b></li>
+								 <li><b><i class="fa fa-cc-discover" aria-hidden="true"></i>Discover</b></li>
+								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Orange Money</b></li>
+								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Tigo Cash</b></li>
 								</ul>
 					         </div>
 					         <br>
