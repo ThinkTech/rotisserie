@@ -500,6 +500,8 @@
 					            <ul>
 					             <li><b>Visa</b></li> 
 								 <li><b>MasterCard</b></li>
+								 <li><b>American Express</b></li>
+								 <li><b>Discover</b></li>
 								 <li><b>Orange Money</b></li>
 								 <li><b>Tigo Cash</b></li>
 								</ul>
@@ -588,6 +590,8 @@
 									        <select name="method">
 									           <option value="visa">Visa</option>
 									           <option value="mastercard">MasterCard</option>
+									           <option value="express">American Express</option>
+									           <option value="discover">Discover</option>
 									           <option value="orange">Orange Money</option>
 									           <option value="tigo">Tigo Cash</option>
 									        </select>
@@ -626,6 +630,36 @@
 										  </div>
 										  <div class="payment mastercard-payment">
 										     <h4><i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
+										     <ol>
+												<li>
+												   Cliquer sur le bouton Visa Checkout.
+												</li>
+												<li>
+												   Effectuer le paiement de votre commande.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+											</ol>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+										  </div>
+										  <div class="payment express-payment">
+										     <h4><i class="fa fa-credit-card" aria-hidden="true"></i><b>Paiement American Express</b></h4>
+										     <ol>
+												<li>
+												   Cliquer sur le bouton Visa Checkout.
+												</li>
+												<li>
+												   Effectuer le paiement de votre commande.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+											</ol>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+										  </div>
+										  <div class="payment discover-payment">
+										     <h4><i class="fa fa-cc-discover" aria-hidden="true"></i><b>Paiement Discover</b></h4>
 										     <ol>
 												<li>
 												   Cliquer sur le bouton Visa Checkout.
