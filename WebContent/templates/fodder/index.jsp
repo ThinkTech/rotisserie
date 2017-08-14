@@ -76,7 +76,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
+												  <p><span>Email :</span> info@larotisserie.sn</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -104,7 +104,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
+												  <p><span>Email :</span> info@larotisserie.sn</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -132,7 +132,7 @@
 												<div>
 												  <p><span>Téléphone :</span> 33 825 95 49</p>
 												  <p><span>Mobile :</span> 77 845 46 85</p>
-												  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
+												  <p><span>Email :</span> info@larotisserie.sn</p>
 												</div>
 										  		<div class="social">
 						        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -170,7 +170,7 @@
 								<div>
 								    <p><span>Téléphone :</span> 33 825 95 49</p>
 								    <p><span>Mobile :</span> 77 845 46 85</p>
-									<p><span>Email :</span> info@larotisseriesenegalaise.com</p>
+									<p><span>Email :</span> info@larotisserie.sn</p>
 								</div>
 						 </fieldset>
 						<img src="templates/fodder/images/logo.png">
@@ -467,7 +467,7 @@
 										<p><strong>Souhaitez-vous que nous répondions à vos événements? Contactez-nous et nous vous aiderons à les organiser.</strong>
 										  <span><span>Téléphone :</span> 33 825 95 49</span>
 										  <span><span>Mobile :</span> 77 845 46 85</span>
-										  <span>info@larotisseriesenegalaise.com</span>
+										  <span>info@larotisserie.sn</span>
 										</p>
 										<img src="templates/fodder/images/logo.png">
 									</div>
@@ -790,7 +790,7 @@
 										<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Contactez-Nous</h4>
 										  <p><span>Téléphone :</span> 33 825 95 49</p>
 										  <p><span>Mobile :</span> 77 845 46 85</p>
-										  <p><span>Email :</span> info@larotisseriesenegalaise.com</p>
+										  <p><span>Email :</span> info@larotisserie.sn</p>
 										</div>
 										<div class="social">
 				        					<a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
