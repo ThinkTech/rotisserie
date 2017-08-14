@@ -602,9 +602,10 @@
 										<div class="shipping-address">
 										  <h4><i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse de livraison</b></h4>
 										  <h5>HLM 2 Rue 14 N°503 <span>derrière la Mosquée</span></h5>
-										  <h5>Dakar</h5>
-										  <h5>Zone : <span>Fann</span></h5>
-										  <h5>Téléphone : <span>775593264</span></h5>
+										  <h5><span>Région : </span>Dakar</h5>
+										  <h5><span>Zone : </span>Fann</h5>
+										  <h5><span>Téléphone : </span>775593264</h5>
+										  <h5><span>email : </span>lamine.ba@thinktech.sn</h5>
 										  <h5><a>[modifier]</a></h5>
 										</div>
 										<div class="shopping-payment">
@@ -615,7 +616,7 @@
 												   Cliquer sur le bouton Visa Checkout.
 												</li>
 												<li>
-												   Effectuer le paiement.
+												   Effectuer le paiement de votre commande.
 												</li>
 												<li>
 												   Réception SMS de la confirmation de paiement.
@@ -630,7 +631,7 @@
 												   Cliquer sur le bouton Visa Checkout.
 												</li>
 												<li>
-												   Effectuer le paiement.
+												   Effectuer le paiement de votre commande.
 												</li>
 												<li>
 												   Réception SMS de la confirmation de paiement.
@@ -896,20 +897,28 @@ function onVisaCheckoutReady(){
   apikey: "08KVINP86Q3BTEZCWND221472mVDyZ-Mtv3lphRRo8igJRidY",
   paymentRequest:{
     currencyCode: "USD",
-    subtotal: "11.00"
+    subtotal: "11.00",
+    total : "11.00"
   },
   settings: {
 	  locale: "fr_FR",
 	  displayName: "La Rotisserie",
-	  websiteUrl: "${baseUrl}"
-  }
+	  websiteUrl: "${baseUrl}",
+	  shipping: {
+		  collectShipping : "false"
+	  },
+	  review: {
+		  message: "Effectuer le paiement de votre commande",
+		  buttonAction : "Pay"
+	  }	
+  } 
   });
-  V.on("payment.success", function(payment){
-	
+  V.on("payment.success", function(response){
+	payment.done = true;
   });
-  V.on("payment.cancel", function(payment){ 
+  V.on("payment.cancel", function(response){ 
   });
-  V.on("payment.error", function(payment, error){ 
+  V.on("payment.error", function(response, error){ 
   });
 }
 </script>

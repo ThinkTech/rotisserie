@@ -48,7 +48,7 @@ return datepicker.regional.fr;
 } ) );
 
 var user;
-
+const payment = {};
 const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'rollIn', 'zoomIn', 'slideInUp', 'bounceInUp', 'pulse',
 				'rubberBand', 'shake', 'headshake', 'jackInTheBox',
@@ -88,6 +88,7 @@ $(function() {
 		if(!count) {
 			alert(message);
 		}else {
+			payment.done = false;
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = $("#shopping").offset().top;
 		    $('html,body').animate({scrollTop:top},100,function(){
@@ -155,33 +156,39 @@ $(function() {
 	    	}
 	    },
 	    after : function(wizardObj,prevStep,currentStep) {
-	    	const payment = $(".shopping-payment",currentStep);
-	    	console.log(payment.length);
-	    	if(payment.length) {
+	    	const div = $(".shopping-payment",currentStep);
+	    	if(div.length) {
 	    		$(".payment",currentStep).hide();
 	    		var input = prevStep.find("input[name='payment']:checked");
 	    		var val = input.val();
 	    		if(val=="online") {
 	    			input = prevStep.find("select[name='method']");
 	    			val = input.val();
+	    			payment.done = false;
+	    		}else {
+	    			payment.done = true;
 	    		}
 	    		$("."+val+"-payment",currentStep).show();
 	    	}
 	    },
 	    beforeSubmit: function(wizardObj) {
-	    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
-	    		$("form",wizard).easyWizard('goToStep', 1);
-	    		$("#cart ul li").remove();
-	    		$(".article-count").html(0);
-                $(".total").html(0);
-                $('body').css("overflow","auto");
-                $('html,body').animate({scrollTop:0},600,function(){
-                	alert("votre commande est en cours de livraison.",function(){
-                		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-                    	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-                	});
-                });
-	    	});
+	    	if(payment.done) {
+		    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
+		    		$("form",wizard).easyWizard('goToStep', 1);
+		    		$("#cart ul li").remove();
+		    		$(".article-count").html(0);
+	                $(".total").html(0);
+	                $('body').css("overflow","auto");
+	                $('html,body').animate({scrollTop:0},600,function(){
+	                	alert("votre commande est en cours de livraison.",function(){
+	                		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+	                    	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+	                	});
+	                });
+		    	});
+	    	}else {
+	    		alert("vous devez effectuer le paiement.");
+	    	}
 	    	return false;
 	    }
 	});
