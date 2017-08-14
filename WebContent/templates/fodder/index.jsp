@@ -587,7 +587,7 @@
 									        <label>Payer en ligne</label>
 									        <select name="method">
 									           <option value="visa">Visa</option>
-									           <option value="mastercard">MasterCard</option>
+									           <option value="visa">MasterCard</option>
 									           <option value="orange">Orange Money</option>
 									           <option value="tigo">Tigo Cash</option>
 									        </select>
@@ -612,7 +612,7 @@
 										     <h4><i class="fa fa-cc-visa" aria-hidden="true"></i><b>Paiement Visa</b></h4>
 										     <ol>
 												<li>
-												   Entrer votre numéro de carte de crédit .
+												   Cliquer sur le bouton Visa Checkout.
 												</li>
 												<li>
 												   Effectuer le paiement.
@@ -621,20 +621,8 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-										  </div>
-										  <div class="payment mastercard-payment">
-										     <h4><i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
-										     <ol>
-												<li>
-												   Entrer votre numéro de carte de crédit .
-												</li>
-												<li>
-												   Effectuer le paiement.
-												</li>
-												<li>
-												   Réception SMS de la confirmation de paiement.
-												</li>
-											</ol>
+									<img alt="Visa Checkout" class="v-button" role="button"
+src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
 										  </div>
 										  <div class="payment orange-payment">
 										     <h4><i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
@@ -888,7 +876,33 @@ gigya.socialize.showLoginUI({
     });
     
  </script>
-     		
+<script type="text/javascript">
+function onVisaCheckoutReady(){
+  V.init( {
+  apikey: "08KVINP86Q3BTEZCWND221472mVDyZ-Mtv3lphRRo8igJRidY",
+  paymentRequest:{
+    currencyCode: "USD",
+    subtotal: "11.00"
+  },
+  settings: {
+	  locale: "fr_FR",
+	  displayName: "La Rotisserie",
+	  websiteUrl: "${baseUrl}"
+  }
+  });
+  V.on("payment.success", function(payment){
+	
+  });
+  V.on("payment.cancel", function(payment){ 
+  });
+  V.on("payment.error", function(payment, error){ 
+  });
+}
+</script>
+<script type="text/javascript"
+src="https://sandbox-assets.secure.checkout.visa.com/
+checkout-widget/resources/js/integration/v1/sdk.js">
+</script>     		
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons" async defer></script>
 </body>
 </html>

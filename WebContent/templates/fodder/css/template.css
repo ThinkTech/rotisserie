@@ -1004,7 +1004,7 @@ fieldset {
 	width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 99999999999;
+    z-index: 999;
     top : 0px;
     background: rgba(100, 100, 100, 0.5);
 }
@@ -1312,6 +1312,7 @@ div#or {
     white-space: nowrap;
 }
 
+
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {
 	font-size: 1.1em;
@@ -1555,6 +1556,7 @@ div#or {
 .scrollToTop {
 	background : #ff4d00;
 	border: 1px solid #fff;
+	z-index : 99;
 }
 
 .scrollToTop:hover, .scrollToTop:focus {
