@@ -180,14 +180,14 @@ $(function() {
 	                $(".total").html(0);
 	                $('body').css("overflow","auto");
 	                $('html,body').animate({scrollTop:0},600,function(){
-	                	alert("votre commande est en cours de livraison.",function(){
+	                	alert("votre commande est en cours de livraison",function(){
 	                		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 	                    	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 	                	});
 	                });
 		    	});
 	    	}else {
-	    		alert("vous devez effectuer le paiement.");
+	    		alert("vous devez effectuer le paiement de votre commande");
 	    	}
 	    	return false;
 	    }

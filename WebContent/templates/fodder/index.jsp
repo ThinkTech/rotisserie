@@ -898,7 +898,11 @@ function onVisaCheckoutReady(){
   paymentRequest:{
     currencyCode: "USD",
     subtotal: "11.00",
-    total : "11.00"
+    shippingHandling: "2.00",
+    tax: "0.00",
+    discount: "0.00",
+    giftWrap: "0.00",
+    total : "13.00"
   },
   settings: {
 	  locale: "fr_FR",
@@ -908,7 +912,7 @@ function onVisaCheckoutReady(){
 		  collectShipping : "false"
 	  },
 	  review: {
-		  message: "Effectuer le paiement de votre commande",
+		  message: "Effectuer le paiement de votre commande.",
 		  buttonAction : "Pay"
 	  }	
   } 
