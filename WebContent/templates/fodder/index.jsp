@@ -587,7 +587,7 @@
 									        <label>Payer en ligne</label>
 									        <select name="method">
 									           <option value="visa">Visa</option>
-									           <option value="visa">MasterCard</option>
+									           <option value="mastercard">MasterCard</option>
 									           <option value="orange">Orange Money</option>
 									           <option value="tigo">Tigo Cash</option>
 									        </select>
@@ -621,8 +621,22 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-									<img alt="Visa Checkout" class="v-button" role="button"
-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+										  </div>
+										  <div class="payment mastercard-payment">
+										     <h4><i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
+										     <ol>
+												<li>
+												   Cliquer sur le bouton Visa Checkout.
+												</li>
+												<li>
+												   Effectuer le paiement.
+												</li>
+												<li>
+												   Réception SMS de la confirmation de paiement.
+												</li>
+											</ol>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
 										  </div>
 										  <div class="payment orange-payment">
 										     <h4><i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
