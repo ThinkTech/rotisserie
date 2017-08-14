@@ -79,7 +79,8 @@ var Menu = (function() {
 					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 					var number = $modal.find('input').val();
                     li.find('span span').html(number+" "+title).attr("title","prix : "+price);
-                    li.find('.price').html(number * parseInt(price));
+                    const amount = number * parseInt(price);
+                    li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
                     li.find(".trash").click(function(){
                     	const message = "voulez-vous supprimer cet article?";
                 		confirm(message, function() {
@@ -87,17 +88,17 @@ var Menu = (function() {
                 			$(".article-count").html(ul.find("li").length);
                 			total = 0;
                 			$.each($("li .price",ul),function(index,element){
-                            	total += parseInt($(element).html());
+                            	total += parseInt($(element).attr("amount"));
                             });
-                            $(".total").html(total);
+                            $(".total").html(total.toLocaleString("fr-FR"));
                 		});
                 	});
                     ul.append(li);
                     $(".article-count").html(ul.find("li").length);
                     $.each($("li .price",ul),function(index,element){
-                    	total += parseInt($(element).html());
+                    	total += parseInt($(element).attr("amount"));
                     });
-                    $(".total").html(total);
+                    $(".total").html(total.toLocaleString("fr-FR"));
 				});
 			
 			}, 0 );

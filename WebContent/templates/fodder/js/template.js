@@ -129,47 +129,6 @@ $(function() {
 	    		alert("vous devez vous connecter");
 	    		return false;
 	    	}
-	    	if(nextStep.index() > currentStep.index()) {
-		    	var valid = true;
-		        $('input[required]:visible',currentStep).each(function(index,element) {
-		        	const val = $(element).val();
-					if(val.trim() == '') {
-						const message = $(this).next().attr("data-info");
-						alert(message,function(){
-							$(element).focus();
-						});
-					    return valid = false;
-					}
-		        });
-		        if(!valid) return valid;
-		        const email = $("input[type=email]",currentStep);
-		        if(email.length) {
-		        	var re = /\S+@\S+\.\S+/;
-			        valid = re.test(email.val());
-			        if(!valid) {
-			        	alert(i18n("email-invalid"),function(){
-							$(email).focus();
-						});
-			        }
-		        }
-		        if(!valid) return valid;
-		        const password = $("#password",currentStep);
-				const confirm = $("#confirm",currentStep);
-				if(password.length && password.val() != confirm.val()) {
-					alert(i18n("password-mismatch"),function(){
-						password.focus();
-					});
-					valid = false;
-				}
-				const value = password.length ? password.val() : null;
-				if(value && (value.length < 8 || value.length >= 100)) {
-					alert(password.next().attr("data-info"),function(){
-						password.focus();
-					});
-					valid = false;
-				}
-		        return valid;
-	    	}
 	    },
 	    after : function(wizardObj,prevStep,currentStep) {
 	    	const div = $(".shopping-payment",currentStep);
@@ -202,4 +161,8 @@ $(function() {
 		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
 	$("#checkout-wizard").hide();	
+	$.each($(".price",),function(index,element){
+    	const price = parseInt($(element).html());
+    	$(element).html(price.toLocaleString("fr-FR"));
+    });
 });
