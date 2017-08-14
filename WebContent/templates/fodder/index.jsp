@@ -207,7 +207,7 @@
 										<dt><a  class="rm-viewdetails" data-id="1" data-price="3000" data-thumb="templates/fodder/images/5.jpg">Café expresso</a></dt>
 										<dd class="price">1000</dd>
 										  
-										<dt><a  class="rm-viewdetails" data-id="2" data-price="500" data-thumb="templates/fodder/images/6.jpg">Café expresso</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="2" data-price="500" data-thumb="templates/fodder/images/6.jpg">Café au lait</a></dt>
 										<dd class="price">500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="3" data-price="500" data-thumb="templates/fodder/images/12.jpg">Chocolat chaud</a></dt>
