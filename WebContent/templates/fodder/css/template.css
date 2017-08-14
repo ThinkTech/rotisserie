@@ -1072,7 +1072,7 @@ fieldset {
 .checkout-wizard-content fieldset > div > h5 {
 	font-family: monospace;
     font-size: 12.4px;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 .checkout-wizard-content fieldset > div > span {
@@ -1253,7 +1253,7 @@ div#or {
 }
 
 .shipping-address {
-	background: #fff;
+	background: #fcf8e3;
     padding: 10px;
     padding-left: 15px;
     padding-bottom: 5px;

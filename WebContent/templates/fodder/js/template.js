@@ -58,6 +58,22 @@ const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
 				'bounceInRight', 'bounceInUp' ];
 
+const closeWizard = function() {
+	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
+		$("form",wizard).easyWizard('goToStep', 1);
+		$("#cart ul li").remove();
+		$(".article-count").html(0);
+        $(".total").html(0);
+        $('body').css("overflow","auto");
+        $('html,body').animate({scrollTop:0},600,function(){
+        	alert("votre commande est en cours de livraison",function(){
+        		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+            	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+        	});
+        });
+	});
+};
+
 $(window).ready(function(){
   page.wait();
 	$(".banner-right h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
@@ -173,21 +189,11 @@ $(function() {
 	    },
 	    beforeSubmit: function(wizardObj) {
 	    	if(payment.done) {
-		    	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
-		    		$("form",wizard).easyWizard('goToStep', 1);
-		    		$("#cart ul li").remove();
-		    		$(".article-count").html(0);
-	                $(".total").html(0);
-	                $('body').css("overflow","auto");
-	                $('html,body').animate({scrollTop:0},600,function(){
-	                	alert("votre commande est en cours de livraison",function(){
-	                		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-	                    	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-	                	});
-	                });
-		    	});
+		    	closeWizard();
 	    	}else {
-	    		alert("vous devez effectuer le paiement de votre commande");
+	    		alert("vous devez effectuer le paiement de votre commande",function(){
+	    			$(".v-button").click();
+	    		});
 	    	}
 	    	return false;
 	    }

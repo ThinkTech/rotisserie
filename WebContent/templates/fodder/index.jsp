@@ -919,6 +919,7 @@ function onVisaCheckoutReady(){
   });
   V.on("payment.success", function(response){
 	payment.done = true;
+	closeWizard();
   });
   V.on("payment.cancel", function(response){ 
   });
