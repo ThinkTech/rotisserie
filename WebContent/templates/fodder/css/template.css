@@ -964,13 +964,6 @@ fieldset {
     font-weight: bold;
 }
 
-.delivery h3.calendar {
-	margin-top : 12px;
-}
-
-.delivery > h3:first-of-type {
-	margin-top : 1px;
-}
 .delivery b {
 	color : #fff;
 	font-family : Exo;

@@ -518,7 +518,8 @@
 								 <li><b>Zone 4 : Fann  : 2000 CFA</b></li>
 								</ul>
 							</div>
-							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
+							 <br>
+							<h3><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
 							<p>Notre équipe de livreurs de par leur experience, vous promettent un service de qualité.</p>
 							  <ul>
