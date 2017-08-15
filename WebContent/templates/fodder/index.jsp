@@ -46,6 +46,7 @@
 								<ul class="cute">
 									<li><a href="#about" title="à propos" class="scroll"><i class="fa fa-question-circle" aria-hidden="true"></i><span>À PROPOS</span></a></li>
 									<li><a href="#rm-container" title="notre carte" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i><span>Notre Carte</span></a></li>
+									<li><a href="#shopping" title="passer votre commande" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Passer votre commande</span></a></li>
 									<li><a href="#reservation" title="réserver une table" class="scroll"><i class="fa fa-lock" aria-hidden="true"></i><span>Réserver votre table</span></a></li>
 									<li><a href="#places" title="nos emplacements" class="scroll"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Nos Emplacements</span></a></li>
 									<li><a href="#schedules" title="nos horaires" class="scroll"><i class="fa fa-calendar" aria-hidden="true"></i><span>Nos Horaires</span></a></li>

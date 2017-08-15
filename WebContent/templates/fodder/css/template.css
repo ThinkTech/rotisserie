@@ -320,6 +320,7 @@ ul.cute li{
     margin-right: 0px;
     position: relative;
     top: 6px;
+    left: -8px;
     color: #fff;
     display : inline-block;
     width : 44px;
@@ -354,6 +355,7 @@ ul.cute li{
 .menu ul li a span {
 	display : inline-block;
 	font-size: 135%;
+	margin-left: -19px;
 }
 
 .menu ul li a:hover{
