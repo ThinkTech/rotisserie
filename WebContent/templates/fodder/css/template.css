@@ -957,14 +957,13 @@ fieldset {
 .delivery h3 {
 	color: #fff;
     margin-bottom: 10px;
-    font-size: 1.8em;
-    font-family: Satisfy;
+    font-size: 1.4em;
+    font-family: Exo;
     font-weight: bold;
 }
 
 .delivery h3.calendar {
-	font-size : 1.6em;
-	margin-top : 17px;
+	margin-top : 12px;
 }
 
 .delivery > h3:first-of-type {
