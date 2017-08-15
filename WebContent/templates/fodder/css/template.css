@@ -1011,7 +1011,7 @@ fieldset {
 	color : #fff;
 }
 .checkout:hover {
-	background: #000;
+	background: #3a0b03;
 	color : #fff;
 }
 
@@ -1027,7 +1027,7 @@ fieldset {
 
 #checkout-wizard fieldset{
 	padding: 1.5em;
-    color: #3a0b03000;
+    color: #3a0b03;
     font-size: 19px;
     line-height: 1.8em;
     width: 85%;
@@ -1384,7 +1384,7 @@ div#or {
 }
 
 .easyWizardButtons .prev:hover,.easyWizardButtons .next:hover,.easyWizardButtons .submit:hover {
-    background:#3a0b03;
+    background:#000;
 	color:#fff;
 	border : 2px solid;
 }

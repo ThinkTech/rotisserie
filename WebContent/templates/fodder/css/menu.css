@@ -156,7 +156,7 @@ a.rm-button-open,
 	margin: 0 0 10px 0;
     font-size: 15px;
     padding: 10px;
-    color: #323b4c;
+    color: #3a0b03;
     letter-spacing: 2px;
     font-family: Courgette;
     background: #ffa709;
@@ -293,21 +293,24 @@ a.rm-button-open:hover {
     line-height: 1.69em;
     text-shadow: 1px 1px 0 #fff, 2px 2px 0 #E6B741;
     padding: 0px;
-    margin-bottom: 4px;
     font-family : Exo;
+    color : #3a0b03;
 }
 
 .rm-modal p {
-	font-size: 15px;
-	margin-bottom : 15px;
-	font-family : monospace;
+	font-size: 14px;
+    margin-bottom: 15px;
+    font-family: monospace;
+    color: #5e3731;
+    text-shadow: 0 0 #F3E115;
 }
 
 .rm-modal input {
 	float: right;
-    width: 46px;
+    width: 40px;
     font-size: 1em;
     font-family : monospace;
+    border: 1px solid #f3efe7;
 }
 
 .rm-modal a { 
@@ -343,15 +346,22 @@ a.rm-viewdetails,
     padding: 6px;
     color: #fff;
     font-size: 13px;
+    border-radius: 5px;
+    width: 93px;
+    height: 32px;
 }
 
 a.rm-viewdetails {
 	cursor : pointer;
 }
 
-a.rm-viewdetails:hover,
-.rm-modal a:hover {
+a.rm-viewdetails:hover {
 	color: #ffad00;
+}
+
+.rm-modal a:hover {
+	color: #fff;
+    background: #000;;
 }
 
 .rm-close {
