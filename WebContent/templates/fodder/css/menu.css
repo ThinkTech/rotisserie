@@ -218,7 +218,7 @@ a.rm-button-open:hover {
 	font-size: 13px;
 	padding: 4px 5px 15px;
 	line-height: 15px;
-	color: #333;
+	color: #5e3731;
 }
 
 .rm-content dl dd.price {
@@ -230,7 +230,7 @@ a.rm-button-open:hover {
     display: inline-block;
     width: 70px;
     vertical-align: top;
-    text-shadow: 0 0 black;
+    text-shadow: 0 0 #F3E115;
     text-align: right;
 }
 
@@ -241,6 +241,7 @@ a.rm-button-open:hover {
     font-size: 13px;
     font-family: Arial;
     border-radius: 20px;
+    color : #5e3731;
 }
 
 .rm-order p > span {
@@ -328,7 +329,7 @@ a.rm-button-open:hover {
 
 a.rm-viewdetails,
 .rm-modal a {
-	color: #331001;
+	color: #3a0b03;
 	font-weight: 500;
 	font-family: monospace;
     font-size: 1em;
