@@ -293,11 +293,13 @@ a.rm-button-open:hover {
     text-shadow: 1px 1px 0 #fff, 2px 2px 0 #E6B741;
     padding: 0px;
     margin-bottom: 4px;
+    font-family : Exo;
 }
 
 .rm-modal p {
 	font-size: 15px;
 	margin-bottom : 15px;
+	font-family : monospace;
 }
 
 .rm-modal input {
@@ -352,18 +354,12 @@ a.rm-viewdetails:hover,
 }
 
 .rm-close {
-	text-transform: uppercase;
 	display: block;
 	position: absolute;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 500;
 	top: -40px;
 	opacity: 0;
 	right: -1px;
 	cursor: pointer;
-	font-family : Arial Black;
-	background: #000;
     width : 32px;
     height : 32px;
     background : url("../images/close.png");
@@ -375,14 +371,9 @@ a.rm-viewdetails:hover,
 	top: 21px;
 	display: block;
 	position: absolute;
-	width: 16px;
-	height: 16px;
-	background: #2a323f;
-	color: white;
-	text-align: center;
-	line-height: 14px;
-	font-size: 15px;
-	font-family: Arial, sans-serif;
+	width : 32px;
+    height : 32px;
+    background : url("../images/close.png");
 }
 
 

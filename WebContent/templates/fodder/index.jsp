@@ -414,7 +414,7 @@
 							</div>
 
 							<div class="rm-back">
-								<span title="fermer la carte" class="rm-close">X</span>
+								<span title="fermer la carte" class="rm-close"></span>
 								<div class="rm-content">
 									   <h4>Enfants</h4>
 									   <dl>
