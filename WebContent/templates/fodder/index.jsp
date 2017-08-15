@@ -558,10 +558,11 @@
 									      <div id="loginDiv"></div>
 									      <div id="or">OU</div>
 									      <div class="register">
-												<input name="email" placeholder="Email" type="text" required="">						
-												<input name="password" placeholder="Mot de Passe" type="password" required="">										
+												<input name="email" placeholder="Email" type="text" required>						
+												<input name="password" placeholder="Mot de Passe" type="password" required>										
 												<div class="sign-up">
-													<input type="button" value="Connexion">
+													<input type="button" value="Connexion" title="connexion">
+													<a title="créér un compte"><i class="fa fa-user" aria-hidden="true"></i>créér un compte</a>
 												</div>
 											</div>
 									    </div>
@@ -569,9 +570,9 @@
 									      <p>Bienvenue <span id="name" ></span></p>
 									      <div>
 									        <img id="photo" src="" width="65px" height="65px" />           		        
-									        <input type="button" value="Déconnexion" onclick="logoutFromGS()"/>
+									        <input type="button" title="déconnexion" value="Déconnexion" onclick="logoutFromGS()"/>
 									    </div>
-									    <h5>Cliquer sur le bouton Déconnexion pour changer d'utilisateur.</h5>
+									    <h5>Cliquer sur le bouton déconnexion pour changer d'utilisateur.</h5>
 									   </div>
 									</fieldset>
 									

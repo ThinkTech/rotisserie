@@ -1151,7 +1151,7 @@ fieldset {
 	float: left;
     display: inline-block;
     color: #ff8d00;
-    font-size: 1.55em;
+    font-size: 1.54em;
     font-family:Tahoma;
     position: relative;
     left: 4px;
@@ -1231,6 +1231,12 @@ div#or {
 
 .register input[type="button"]:hover {
 	background: #000;
+}
+
+.register a, .register a:visited {
+	cursor : pointer;
+	font-size : 13px;
+	color: #ff4d00;
 }
 
 #profile {
