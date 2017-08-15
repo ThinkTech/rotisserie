@@ -517,18 +517,16 @@
 								 <li><b>Zone 4 : Fann  : 2000 CFA</b></li>
 								</ul>
 							</div>
-							<div>
-							<p>Notre équipe de livreurs de par leur experience, vous promettent un service de qualité.</p>
 							<h3 class="calendar"><i class="fa fa-calendar" aria-hidden="true"></i>Horaires de livraison</h3>
 							<div>
+							<p>Notre équipe de livreurs de par leur experience, vous promettent un service de qualité.</p>
 							  <ul>
 								  <li><b>lundi au jeudi  : 10:00 - 22:00</b></li>
 								  <li><b>vendredi et samedi : 10:00 - 23:00</b></li>
-								</ul>
-							</div>
+							 </ul>
 						  </div>
 					      </div>
-					      <div id="cart" class="shoppingCart" open>
+					      <div id="cart" class="shoppingCart">
 					         <summary>
 					            <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
 					            <span class="arrow"></span>
