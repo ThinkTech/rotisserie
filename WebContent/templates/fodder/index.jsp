@@ -605,11 +605,11 @@
 									 <fieldset>
 										<div class="shipping-address">
 										  <h4><i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse de livraison</b></h4>
-										  <h5>HLM 2 Rue 14 N°503 <span>derrière la Mosquée</span></h5>
-										  <h5><span>Région : </span>Dakar</h5>
-										  <h5><span>Zone : </span>Fann</h5>
-										  <h5><span>Téléphone : </span>775593264</h5>
-										  <h5><span>email : </span>lamine.ba@thinktech.sn</h5>
+										  <h5><span><i class="fa fa-map-marker" aria-hidden="true"></i>HLM 2 Rue 14 N°503</span> <span>derrière la Mosquée</span></h5>
+										  <h5><span><i class="fa fa-map-marker" aria-hidden="true"></i>Région : </span>Dakar</h5>
+										  <h5><span><i class="fa fa-map-marker" aria-hidden="true"></i>Zone : </span>Fann</h5>
+										  <h5><span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone : </span>775593264</h5>
+										  <h5><span><i class="fa fa-envelope" aria-hidden="true"></i>email : </span>lamine.ba@thinktech.sn</h5>
 										  <h5><a>[modifier]</a></h5>
 										</div>
 										<div class="shopping-payment">
@@ -626,7 +626,8 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=VISA"/>
+									       <a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i class="fa fa-question" aria-hidden="true"></i>Aide</a>
 										  </div>
 										  <div class="payment mastercard-payment">
 										     <h4><i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement MasterCard</b></h4>
@@ -641,7 +642,8 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=MASTERCARD"/>
+									       <a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i class="fa fa-question" aria-hidden="true"></i>Aide</a>
 										  </div>
 										  <div class="payment express-payment">
 										     <h4><i class="fa fa-credit-card" aria-hidden="true"></i><b>Paiement American Express</b></h4>
@@ -656,7 +658,8 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=AMEX"/>
+									       <a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i class="fa fa-question" aria-hidden="true"></i>Aide</a>
 										  </div>
 										  <div class="payment discover-payment">
 										     <h4><i class="fa fa-cc-discover" aria-hidden="true"></i><b>Paiement Discover</b></h4>
@@ -671,7 +674,8 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 											</ol>
-									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+									       <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=DISCOVER"/>
+									       <a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i class="fa fa-question" aria-hidden="true"></i>Aide</a>
 										  </div>
 										  <div class="payment orange-payment">
 										     <h4><i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement Orange Money</b></h4>
