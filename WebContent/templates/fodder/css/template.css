@@ -550,15 +550,14 @@ fieldset {
 
 .about-main fieldset{
 	padding: 2.5em;
-    color: #3a0b03000;
+    color: #3a0b03;
     width: 86%;
     position: relative;
-    top : -11px;
+    top: -11px;
     margin: auto;
     margin-bottom: 1em;
-    border: 1px solid #ff4d00;
     background: #fdfdfd url(../images/white_paperboard.jpg);
-    box-shadow: inset 0 0 0 16px #FF5722, inset 0 0 0 17px #ffa709, inset 0 0 0 18px #FF5722, inset 0 0 0 19px #ffa709, inset 0 0 0 20px #FF5722, inset 0 0 0 21px #ffa709;
+    box-shadow: inset 0 0 0 16px #3a0b03, inset 0 0 0 17px #ffa709, inset 0 0 0 18px #3a0b03, inset 0 0 0 19px #ffa709, inset 0 0 0 20px #FF5722, inset 0 0 0 21px #ffa709;
 }
 
 .about-main fieldset div{ 
@@ -582,8 +581,8 @@ fieldset {
 	text-align : right;
 }
 .about-main fieldset p {
-   font-family: monospace;
-    line-height: 2em;
+   font-family: Exo;
+    line-height: 2.2em;
     font-size: 16px;
     text-align: justify;
     color : #3a0b03;
