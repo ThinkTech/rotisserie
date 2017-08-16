@@ -845,7 +845,7 @@ fieldset {
 }
 
 .shoppingCart li:nth-child(odd){ 
-	background : #eee;
+	background : #efe7e7;
 }
 
 .shoppingCart:hover li{
