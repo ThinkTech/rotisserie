@@ -286,9 +286,6 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Potatoes</a></dt>
 										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Nuggets</a></dt>
-										<dd class="price">2000</dd>
-										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Pommes noisettes</a></dt>
 										<dd class="price">2000</dd>
 										
@@ -314,7 +311,7 @@
 								<div class="rm-content">
 									<h4>Plats Chauds</h4>
 									<dl>
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="5000" data-thumb="templates/fodder/images/10.jpg">Filet de boeuf rôti</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="5000" data-thumb="templates/fodder/images/10.jpg">Filet de boeuf roti</a></dt>
 										<dd class="price">5000</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Emincé de boeuf</a></dt>
@@ -323,7 +320,7 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Wok de boeuf </a></dt>
 										<dd class="price">2500</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Poulet rôti</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Poulet roti</a></dt>
 										<dd class="price">2000</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">1/2 poulet</a></dt>
@@ -337,6 +334,13 @@
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Pilon de poulet panné</a></dt>
 										<dd class="price">2500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Pilon de poulet roti</a></dt>
+										<dd class="price">2500</dd>
+										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2500" data-thumb="templates/fodder/images/10.jpg">Cuisses de poulet roti</a></dt>
+										<dd class="price">2500</dd>
+										
 										
 									</dl>
 									<h4>Pizzas</h4>
@@ -421,6 +425,10 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Crêpes</a></dt>
 										<dd class="price">2000</dd>
 										
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Nuggets</a></dt>
+										<dd class="price">2000</dd>
+										
+										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Biscuits</a></dt>
 										<dd class="price">2000</dd>
 										
@@ -451,7 +459,7 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="3000" data-thumb="templates/fodder/images/10.jpg">Profiterol</a></dt>
 										<dd class="price">3000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="3500" data-thumb="templates/fodder/images/10.jpg">rôti au chocolat</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="3500" data-thumb="templates/fodder/images/10.jpg">roti au chocolat</a></dt>
 										<dd class="price">3500</dd>
 										
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">feuilletée de pommes</a></dt>
