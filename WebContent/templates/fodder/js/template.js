@@ -125,10 +125,10 @@ $(function() {
 	    nextButton: "Suivant",
 	    submitButtonText: "Terminer",
 	    before : function(wizardObj,currentStep,nextStep) {
-	    	if(!user) {
-	    		alert("vous devez vous connecter");
-	    		return false;
-	    	}
+	    	//if(!user) {
+	    		//alert("vous devez vous connecter");
+	    		//return false;
+	    	//}
 	    },
 	    after : function(wizardObj,prevStep,currentStep) {
 	    	const div = $(".shopping-payment",currentStep);
