@@ -161,7 +161,7 @@ $(function() {
 		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
 	$("#checkout-wizard").hide();	
-	$.each($(".price",),function(index,element){
+	$.each($(".price"),function(index,element){
     	const price = parseInt($(element).html());
     	$(element).html(price.toLocaleString("fr-FR"));
     });
