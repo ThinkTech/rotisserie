@@ -843,6 +843,11 @@ fieldset {
        font-family : monospace;
        font-size : 13px;
 }
+
+.shoppingCart li:nth-child(odd){ 
+	background : #eee;
+}
+
 .shoppingCart:hover li{
        height:auto;
        padding:10px 10px;
