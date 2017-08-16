@@ -347,7 +347,7 @@ a.rm-viewdetails,
     color: #fff;
     font-size: 13px;
     border-radius: 5px;
-    width: 93px;
+    width: auto;
     height: 32px;
 }
 

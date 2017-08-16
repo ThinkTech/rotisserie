@@ -64,7 +64,7 @@ const closeWizard = function() {
 		$("#cart ul li").remove();
 		$(".article-count").html(0);
         $(".total").html(0);
-        $('body').css("overflow","auto");
+        $('body').css("overflow-y","auto");
         $('html,body').animate({scrollTop:0},600,function(){
         	alert("votre commande est en cours de livraison",function(){
         		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
@@ -111,13 +111,13 @@ $(function() {
 		    	$("> div",wizard).css("top",top+20);
 		    	 wizard.show();
 		    });
-		    $('body').css("overflow","hidden");
+		    $('body').css("overflow-y","hidden");
 		}
 	});
 	
 	$(".wizard-close").click(function(){
 		const wizard = $("#checkout-wizard").fadeOut(100);
-		$('body').css("overflow","auto");
+		$('body').css("overflow-y","auto");
 	});
 	const form = $(".checkout-wizard-steps > form");
 	form.easyWizard({

@@ -155,11 +155,10 @@ html, body{
     background: #ffa709;
     font-family: 'Courgette', sans-serif;
     color : #3a0b03;
-    
 }
 body{
 	opacity : 0;
-	 
+	overflow-x : hidden; 
 }
 p{
 	margin:0;
