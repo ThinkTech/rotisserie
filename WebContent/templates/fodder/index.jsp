@@ -160,6 +160,7 @@
 						</div>
 					</section>
 				</div>
+			</div>
 			    <tiles:insertAttribute name="content"/>	
 							<!-- contact -->
 			   <div id="contact" class="contact">
