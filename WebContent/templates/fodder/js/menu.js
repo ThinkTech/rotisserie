@@ -56,7 +56,6 @@ var Menu = (function() {
 				id = recipe.data('id'),
 				price = recipe.data('price'),
 				description = recipe.parent().next().text();
-                console.log("id "+id);
 			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><input type="number" min="1" value="1"/><a title="commander"><i class="fa fa-shopping-cart"></i>Commander</a><span class="rm-close-modal"></span></div>');
 
 			$modal.appendTo( $container );
