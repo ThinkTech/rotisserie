@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<base href="${path}"/>
 <title>La Rotisserie</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -344,7 +345,6 @@ function onVisaCheckoutReady(){
   });
   V.on("payment.success", function(response){
 	payment.done = true;
-	closeWizard();
   });
   V.on("payment.cancel", function(response){ 
   });

@@ -400,7 +400,7 @@
 					         <h4 class="wizard-title"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer l'achat</h4>
 					        <span title="fermer l'assistant" class="wizard-close">&nbsp;</span>	
 					         <div class="checkout-wizard-steps">
-					             <form  method="post">
+					             <form action="saveOrder" method="post">
 					             <section class="step" data-step-title="Identification">
 									 <fieldset>
 										<div id="socialLogin">

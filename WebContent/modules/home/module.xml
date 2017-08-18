@@ -2,6 +2,6 @@
   <type>front-end</type>
   <main>true</main>
   <actions>
-   
+   	<action url="saveOrder" method="saveOrder"/>
   </actions>
 </module>

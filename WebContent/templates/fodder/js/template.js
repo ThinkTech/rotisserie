@@ -65,12 +65,19 @@ const closeWizard = function() {
 		$(".article-count").html(0);
         $(".total").html(0);
         $('body').css("overflow-y","auto");
-        $('html,body').animate({scrollTop:0},600,function(){
-        	alert("votre commande est en cours de livraison",function(){
-        		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-            	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-        	});
-        });
+        $('html,body').animate({scrollTop:0},300);
+	});
+	const form = $("form",wizard);
+	const url = form.attr("action");
+	const data = form.serialize();
+	app.post(url,data, function(response) {
+		alert("votre commande est en cours de livraison",function(){
+    		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+        	$(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+        	
+    	});
+	}, function(error) {
+		alert("error");
 	});
 };
 
