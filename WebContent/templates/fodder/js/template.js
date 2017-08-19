@@ -33,7 +33,6 @@ const closeWizard = function() {
 };
 
 $(function() {
-		
 	head.load("templates/fodder/js/bundle.js","templates/fodder/js/jquery.easyWizard.js",function() { 
 		  page.wait();
 		  $(".banner-right h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
@@ -48,15 +47,13 @@ $(function() {
 				});
 			}
 		  });
-		  
-		$(".scroll").click(function(event){		
+		  $(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},600);
-		});	
-		
-		$("#datepicker").attr("placeholder",new Date().toLocaleDateString("fr"));
-		$( "#datepicker" ).datepicker();
-		$(".checkout").click(function(){
+		  });	
+		  $("#datepicker").attr("placeholder",new Date().toLocaleDateString("fr"));
+		  $( "#datepicker" ).datepicker();
+		  $(".checkout").click(function(){
 			const count = $("#cart ul li").length;
 			const message = "votre panier est vide";
 			if(!count) {
@@ -71,24 +68,23 @@ $(function() {
 			    });
 			    $('body').css("overflow-y","hidden");
 			}
-		});
-		
-		$(".wizard-close").click(function(){
+		  });
+		  $(".wizard-close").click(function(){
 			const wizard = $("#checkout-wizard").fadeOut(100);
 			$('body').css("overflow-y","auto");
-		});
-		const form = $(".checkout-wizard-steps > form");
-		form.easyWizard({
+		  });
+		  const form = $(".checkout-wizard-steps > form");
+		  form.easyWizard({
 		    prevButton: "Pr\u0117c\u0117dent",
 		    nextButton: "Suivant",
 		    submitButtonText: "Terminer",
-		    before : function(wizardObj,currentStep,nextStep) {
+		    before: function(wizardObj,currentStep,nextStep) {
 		    	//if(!user) {
 		    		//alert("vous devez vous connecter");
 		    		//return false;
 		    	//}
 		    },
-		    after : function(wizardObj,prevStep,currentStep) {
+		    after: function(wizardObj,prevStep,currentStep) {
 		    	const div = $(".shopping-payment",currentStep);
 		    	if(div.length) {
 		    		$(".payment",currentStep).hide();
@@ -114,26 +110,23 @@ $(function() {
 		    	}
 		    	return false;
 		    }
-		});
-		form.find("select[name='method']").click(function(){
+		  });
+		  form.find("select[name='method']").click(function(){
 			form.find("input[name='payment'][value='online']").prop("checked",true);
-		});
-		$("#checkout-wizard").hide();	
-		$.each($(".price"),function(index,element){
+		  });
+		  $("#checkout-wizard").hide();	
+		  $.each($(".price"),function(index,element){
 	    	const price = parseInt($(element).html());
 	    	$(element).html(price.toLocaleString("fr-FR"));
-	    });
-		$.each($("img"),function(index,element){
+	      });
+		  $.each($("img"),function(index,element){
 	    	$(element).attr("src",$(element).data("src"));
-	    });	
+	      });	
 	});
-	
-	
 	head.load("templates/fodder/js/menu.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
 			"templates/fodder/js/social.js","templates/fodder/js/visa.js",
 			"https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
 	function() { 
 	});
-	
 });
