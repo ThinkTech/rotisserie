@@ -614,13 +614,13 @@
 								</form>
 							</div>
 						</div>
-					<!-- //reserve -->	
-					<div id="places" class="places">
-					   <h3 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i>Nos Emplacements</h3>
-					</div>
-					<div id="schedules" class="schedules">
-					   <h3 class="title"><i class="fa fa-calendar" aria-hidden="true"></i>Nos Horaires</h3>
-					</div>
-					<div id="partners" class="partners">
-					   <h3 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i>Nos Partenaires</h3>
-					</div>
+	<!-- //reserve -->	
+	<div id="places" class="places">
+	   <h3 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i>Nos Emplacements</h3>
+	</div>
+	<div id="schedules" class="schedules">
+	   <h3 class="title"><i class="fa fa-calendar" aria-hidden="true"></i>Nos Horaires</h3>
+	</div>
+	<div id="partners" class="partners">
+	   <h3 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i>Nos Partenaires</h3>
+	</div>
