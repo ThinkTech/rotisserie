@@ -34,13 +34,7 @@ const closeWizard = function() {
 
 $(function() {
 		
-	head.load("templates/fodder/js/bundle.js",
-			"templates/fodder/js/jquery.easyWizard.js","templates/fodder/js/menu.js",
-			"http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
-			"templates/fodder/js/social.js","templates/fodder/js/visa.js",
-			"https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
-			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
-		function() { 
+	head.load("templates/fodder/js/bundle.js","templates/fodder/js/jquery.easyWizard.js",function() { 
 		  page.wait();
 		  $(".banner-right h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 		  $(".banner-right h4").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
@@ -133,4 +127,13 @@ $(function() {
 	    	$(element).attr("src",$(element).data("src"));
 	    });	
 	});
+	
+	
+	head.load("templates/fodder/js/menu.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
+			"templates/fodder/js/social.js","templates/fodder/js/visa.js",
+			"https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
+	function() { 
+	});
+	
 });
