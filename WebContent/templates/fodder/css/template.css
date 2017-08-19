@@ -1327,7 +1327,8 @@ div#or {
 #order-confirmation {
 	top : 120px;
 	position : absolute;
-    width : 100%;	
+    width : 100%;
+    display : none;	
 }
 
 #order-confirmation > div {
