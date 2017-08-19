@@ -14,7 +14,7 @@
 <link href='//fonts.googleapis.com/css?family=Courgette:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Satisfy:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
+<link rel="shortcut icon" href="templates/fodder/images/logo.png"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="La Rotisserie - Site Officiel"/>
@@ -207,6 +207,6 @@
 <i id="offline-message" data-info="pas de connexion internet"></i>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/metamorphosis.js"></script>
-<script type="text/javascript" src="templates/fodder/js/template.js"></script>     		
+<script type="text/javascript" src="templates/fodder/js/template.js" async defer></script>     		
 </body>
 </html>
