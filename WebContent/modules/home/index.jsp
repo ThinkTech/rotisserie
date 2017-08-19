@@ -14,7 +14,7 @@
 									<p><span>Email :</span> info@larotisserie.sn</p>
 								</div>
 						 </fieldset>
-						<img src="templates/fodder/images/logo.png">
+						<img data-src="templates/fodder/images/logo.png">
 					</div>
 					<!-- menu -->
 						<div id="menu" class="menu1">
@@ -36,7 +36,7 @@
 
 									<a href="#" title="voir la carte" class="rm-button-open">Voir la Carte</a>
 									
-                                 <img src="templates/fodder/images/logo.png">
+                                 <img data-src="templates/fodder/images/logo.png">
                                  
 								</div><!-- /rm-content -->
 							</div><!-- /rm-front -->
@@ -318,7 +318,7 @@
 										  <span><span>Mobile :</span> 77 845 46 85</span>
 										  <span>info@larotisserie.sn</span>
 										</p>
-										<img src="templates/fodder/images/logo.png">
+										<img data-src="templates/fodder/images/logo.png">
 									</div>
 								</div><!-- /rm-content -->
 							</div><!-- /rm-back -->

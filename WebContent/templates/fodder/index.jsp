@@ -89,7 +89,7 @@
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/slide_2.jpg" alt=" " class="img-responsive" />
+												<img data-src="templates/fodder/images/slide_2.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -117,7 +117,7 @@
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/slide_1.jpg" alt=" " class="img-responsive" />
+												<img data-src="templates/fodder/images/slide_1.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -145,7 +145,7 @@
 				    							</div>
 											</div>
 											<div class="banner-bottom-left2">
-												<img src="templates/fodder/images/slide_3.jpg" alt=" " class="img-responsive" />
+												<img data-src="templates/fodder/images/slide_3.jpg" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>

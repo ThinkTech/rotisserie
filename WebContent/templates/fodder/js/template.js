@@ -128,8 +128,9 @@ $(function() {
 		$.each($(".price"),function(index,element){
 	    	const price = parseInt($(element).html());
 	    	$(element).html(price.toLocaleString("fr-FR"));
-	    });		
+	    });
+		$.each($("img"),function(index,element){
+	    	$(element).attr("src",$(element).data("src"));
+	    });	
 	});
-
-	
 });
