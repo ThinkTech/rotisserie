@@ -16,11 +16,10 @@
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fodder/images/banner.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
- <meta property="og:url" content="${baseUrl}"/>
+<meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="La Rotisserie - Site Officiel"/>
 <meta property="og:description" content="Bienvenue sur le site officiel de la Rotisserie"/>
 <meta property="og:image" content="${baseUrl}/templates/fodder/images/banner.jpg"/>
-
 </head>
 	
 <body>
