@@ -205,15 +205,8 @@
 			<!-- //about -->
 <!-- //banner-body -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
-<script src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/metamorphosis.js"></script>
-<script type="text/javascript" src="templates/fodder/js/template.js"></script>
-<script type="text/javascript" src="templates/fodder/js/jquery.easyWizard.js"></script>
-<script type="text/javascript" src="templates/fodder/js/menu.js"></script>
-<script type="text/javascript" src="//cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k"></script>
-<script type="text/javascript" src="templates/fodder/js/social.js"></script>
-<script type="text/javascript" src="templates/fodder/js/visa.js"></script>
-<script type="text/javascript" src="https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js"></script>     		
-<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons" async defer></script>
+<script type="text/javascript" src="templates/fodder/js/template.js"></script>     		
 </body>
 </html>
