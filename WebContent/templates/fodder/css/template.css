@@ -567,6 +567,7 @@ fieldset {
     background: #ffa709;
     padding: 20px;
     border-radius : 10px;
+    border : 2px solid #ff3d00;
 }
 .about-main fieldset div p{
     font-size: 1.1em;
