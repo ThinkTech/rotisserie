@@ -1324,6 +1324,72 @@ div#or {
     white-space: nowrap;
 }
 
+#order-confirmation {
+	top : 120px;
+	position : absolute;
+    width : 100%;	
+}
+
+#order-confirmation > div {
+	padding : 10px;
+	width : 500px;
+    margin : auto;
+    height : 220px;
+    background: #fcf8e3;
+    border: 1px solid #ff3d00;
+    border-radius: 6px;
+    outline: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    margin : auto;
+}
+
+#order-confirmation > div div {
+	margin : auto;
+	width : 320px;
+}
+
+#order-confirmation h1 {
+	font-size : 1.4em;
+	margin-top : 5px;
+	font-family : Exo;
+	color : #111;
+	margin-bottom : 5px;
+}
+
+#order-confirmation p {
+	font-size : 0.9em;
+	padding : 10px;
+	line-height : 2em;
+	margin-bottom : 10px;
+}
+
+
+#order-confirmation a {
+	font-size: 1em;
+    padding: 9px;
+    color: #fefefe;
+    width: 152px;
+    display : inline-block;
+    border: 2px solid #fff;
+    border-radius: 38px;
+    background: #ff3d00;
+    font-weight : bold;
+    margin-right : 3px;
+    text-align : center;
+    cursor : pointer;
+}
+
+
+#order-confirmation a:hover,#order-confirmation a:visited {
+    border: 2px solid #fff;
+    background: #111;
+    color:#fff;
+}
+
+
+#order-confirmation a .fa {
+	margin-right : 5px;
+}
 
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {

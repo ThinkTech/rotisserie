@@ -624,3 +624,16 @@
 	<div id="partners" class="partners">
 	   <h3 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i>Nos Partenaires</h3>
 	</div>
+	<div id="order-confirmation">
+	   <div>
+	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation</h1>
+	     <p>
+	     Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
+	     connecter à votre compte pour suivre son evolution ainsi que pour consulter l'historique de vos commandes. 
+	     </p>
+	     <div>
+	        <a title="connexion"><i class="fa fa-user" aria-hidden="true"></i>Connexion</a>
+	        <a title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
+	     </div>
+	   </div>
+	</div>
