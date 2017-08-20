@@ -351,8 +351,8 @@
 								 <li><b><i class="fa fa-cc-mastercard" aria-hidden="true"></i>MasterCard</b></li>
 								 <li><b><i class="fa fa-credit-card" aria-hidden="true"></i>American Express</b></li>
 								 <li><b><i class="fa fa-cc-discover" aria-hidden="true"></i>Discover</b></li>
-								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Orange Money</b></li>
 								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Tigo Cash</b></li>
+								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Orange Money</b></li>
 								</ul>
 					         </div>
 					         <br>
@@ -408,11 +408,12 @@
 									      <div id="loginDiv"></div>
 									      <div id="or">OU</div>
 									      <div class="register">
+									            <a title="créér un compte"><i class="fa fa-user" aria-hidden="true"></i>créér un compte</a>
 												<input name="email" placeholder="Email" type="text" required>						
 												<input name="password" placeholder="Mot de Passe" type="password" required>										
 												<div class="sign-up">
 													<input type="button" value="Connexion" title="connexion">
-													<a title="créér un compte"><i class="fa fa-user" aria-hidden="true"></i>créér un compte</a>
+													<a title="mot de passe oublié"><i class="fa fa-key" aria-hidden="true"></i>mot de passe oublié?</a>
 												</div>
 											</div>
 									    </div>
