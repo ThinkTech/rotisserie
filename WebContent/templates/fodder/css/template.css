@@ -1807,12 +1807,6 @@ div#or {
 	.book_table {
 		min-height: 610px;
 	}
-	.mail-sub input[type="submit"] {
-		background: url(../images/17.png) no-repeat 25px 15px #D5D5D5;
-	}
-	.mail-sub input[type="submit"]:hover {
-		background: url(../images/17.png) no-repeat 25px 15px #fff;
-	}
 	.map-grids {
 		left: 5.5%;
 		width: 90%;
@@ -1912,14 +1906,6 @@ div#or {
 	.banner-body {
 		padding: 1.2em 0;
 	}
-	.banner-right {
-		background: url(../images/banner.jpg) no-repeat -60px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
-	}
 	.banner-bottom-right h5 {
 		font-size: 1.1em;
 	}
@@ -1995,13 +1981,6 @@ div#or {
 	.mail-sub form {
 		width: 100%;
 	}
-	.mail-sub input[type="submit"] {
-		background: url(../images/17.png) no-repeat 16px 12px #D5D5D5;
-		padding: 8px 0px;
-	}
-	.mail-sub input[type="submit"]:hover {
-		background: url(../images/17.png) no-repeat 16px 12px #fff;
-	}
 	.book_table input[type="submit"] {
 		padding: 8px 0px;
 	}
@@ -2060,12 +2039,6 @@ div#or {
 	}
 	.banner-right {
 		min-height: 260px;
-		background: url(../images/banner.jpg) no-repeat -83px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
 	}
 	.banner-left{
 		height: 260px;
