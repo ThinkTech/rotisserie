@@ -284,7 +284,7 @@
 										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Tartes miniatures</a></dt>
 										<dd class="price">2000</dd>
 										
-										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Miniatures gâteaux</a></dt>
+										<dt><a  class="rm-viewdetails" data-id="4" data-price="2000" data-thumb="templates/fodder/images/10.jpg">Gâteaux miniatures</a></dt>
 										<dd class="price">2000</dd>
 										
 									</dl>
