@@ -127,7 +127,7 @@ $(function() {
 		  $("#confirmation-close").click(function(){
 			  $(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 		      $(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-		      $("#order-confirmation").hide();		
+		      $("#order-confirmation").fadeOut(10O0).removeAttr('class').addClass("animated zoomOut");;		
 		 });
 	});
 	head.load("templates/fodder/js/menu.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
