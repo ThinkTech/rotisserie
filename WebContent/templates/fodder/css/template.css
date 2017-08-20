@@ -285,6 +285,7 @@ a:focus {
     border-radius: 38px;
     background: #ff3d00;
     font-weight : bold;
+    font-family : Exo;
 }
 
 .banner-left{
@@ -1333,11 +1334,10 @@ div#or {
 }
 
 #order-confirmation > div {
-	padding : 10px;
 	width : 500px;
     margin : auto;
     height : 220px;
-    background: #fcf8e3;
+    background: #fefefe;
     border: 1px solid #ff3d00;
     border-radius: 6px;
     outline: 0;
@@ -1351,23 +1351,25 @@ div#or {
 }
 
 #order-confirmation h1 {
-	font-size : 1.4em;
-	margin-top : 5px;
-	font-family : Exo;
-	color : #111;
-	margin-bottom : 5px;
+	font-size: 1.25em;
+    padding: 10px;
+    background: #fe3c00;
+    color: white;
+    margin-bottom: 5px;
+    font-family : Exo;
+    font-weight : bold;
 }
 
 #order-confirmation p {
 	font-size : 0.9em;
 	padding : 10px;
 	line-height : 2em;
-	margin-bottom : 10px;
+	margin-bottom : 5px;
 }
 
 
 #order-confirmation a {
-	font-size: 1em;
+	font-size: 0.97em;
     padding: 9px;
     color: #fefefe;
     width: 152px;
@@ -1379,6 +1381,7 @@ div#or {
     margin-right : 3px;
     text-align : center;
     cursor : pointer;
+    font-family : Exo;
 }
 
 

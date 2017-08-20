@@ -19,8 +19,8 @@
 					<!-- menu -->
 						<div id="menu" class="menu1">
 							<div class="mnu1">
-							<h3 class="title"><i class="fa fa-gift" aria-hidden="true"></i>Notre Carte</h3>
-							   <section class="main">
+							<h3 class="title"><i class="fa fa-gift" aria-hidden="true"></i>Menu À la Carte</h3>
+					<section class="main">
 
 				<div id="rm-container" class="rm-container">
 
@@ -629,11 +629,11 @@
 	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation</h1>
 	     <p>
 	     Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
-	     connecter à votre compte pour suivre son evolution ainsi que pour consulter l'historique de vos commandes. 
+	     connecter à votre compte pour suivre son evolution ou pour consulter l'historique de vos commandes. 
 	     </p>
 	     <div>
 	        <a title="connexion"><i class="fa fa-user" aria-hidden="true"></i>Connexion</a>
-	        <a title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
+	        <a id="confirmation-close" title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
 	     </div>
 	   </div>
 	</div>

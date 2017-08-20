@@ -9,22 +9,21 @@ const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
 				'bounceInRight', 'bounceInUp' ];
 
-const closeWizard = function() {
+const saveOrder = function() {
 	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
 		$(".article-count").html(0);
         $(".total").html(0);
         $('body').css("overflow-y","auto");
-        $('html,body').animate({scrollTop:0},300);
 	});
 	const form = $("form",wizard);
 	const url = form.attr("action");
 	const data = form.serialize();
 	app.post(url,data, function(response) {
-		$(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-        $(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-        $("#order-confirmation").show();
+		$('html,body').animate({scrollTop:0},600,function(){
+			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInUp");
+		});
 	}, function(error) {
 		alert("error");
 	});
@@ -100,11 +99,16 @@ $(function() {
 		    },
 		    beforeSubmit: function(wizardObj) {
 		    	if(payment.done) {
-			    	closeWizard();
+			    	saveOrder();
 		    	}else {
-		    		alert("vous devez effectuer le paiement de votre commande",function(){
+		    		const checked = form.find("input[name='payment'][value='online']").is(":checked");
+		    		if(checked) {
+		    		  alert("vous devez effectuer le paiement de votre commande",function(){
 		    			$(".v-button").click();
-		    		});
+		    		  });
+		    		}else {
+		    			saveOrder();
+		    		}
 		    	}
 		    	return false;
 		    }
@@ -119,7 +123,12 @@ $(function() {
 	      });
 		  $.each($("img"),function(index,element){
 	    	$(element).attr("src",$(element).data("src"));
-	      });	
+	      });
+		  $("#confirmation-close").click(function(){
+			  $(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+		      $(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+		      $("#order-confirmation").hide();		
+		 });
 	});
 	head.load("templates/fodder/js/menu.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
 			"templates/fodder/js/social.js","templates/fodder/js/visa.js",
