@@ -22,7 +22,7 @@ const saveOrder = function() {
 	const data = form.serialize();
 	app.post(url,data, function(response) {
 		$('html,body').animate({scrollTop:0},600,function(){
-			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInUp");
+			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
 	}, function(error) {
 		alert("error");
@@ -127,7 +127,7 @@ $(function() {
 		  $("#confirmation-close").click(function(){
 			  $(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 		      $(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
-		      $("#order-confirmation").fadeOut(10O0).removeAttr('class').addClass("animated zoomOut");;		
+		      $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 		 });
 	});
 	head.load("templates/fodder/js/menu.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
