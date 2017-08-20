@@ -1319,18 +1319,29 @@ div#or {
     padding: 10px;
     background: #fe3c00;
     color: white;
-    margin-bottom: 5px;
     font-family : Exo;
     font-weight : bold;
 }
 
 #order-confirmation p {
-	font-size : 0.9em;
-	padding : 10px;
-	line-height : 2em;
-	margin-bottom : 5px;
+	font-size: 0.9em;
+    padding: 9px;
+    line-height: 2em;
+    padding-bottom: 13px;
+    vertical-align: top;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
 }
 
+#order-confirmation p .fa {
+	font-size: 2em;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    margin-left: -8px;
+    color: #fd3b00;
+}
 
 #order-confirmation a {
 	font-size: 0.97em;

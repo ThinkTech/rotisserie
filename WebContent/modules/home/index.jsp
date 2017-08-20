@@ -628,8 +628,7 @@
 	<div id="order-confirmation">
 	   <div>
 	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation</h1>
-	     <p>
-	     Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
+	     <p><i class="fa fa-info-circle" aria-hidden="true"></i> Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
 	     connecter à votre compte pour suivre son evolution ou pour consulter l'historique de vos commandes. 
 	     </p>
 	     <div>
