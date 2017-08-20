@@ -1707,17 +1707,13 @@ div#or {
 /*-- //services --*/
 /*-----start-responsive-design------*/
 @media (max-width:1280px){
-	.banner-body {
-		padding: 3em 0;
-	}
+	
 }
 @media (max-width: 1024px){
 	fieldset {
 		width: 77%;
 	}
-	.banner-body {
-		padding: 2.5em 0;
-	}
+	
 	.banner-right {
 		min-height: 525px;
 	}
