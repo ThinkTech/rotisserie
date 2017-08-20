@@ -1643,6 +1643,25 @@ div#or {
 	border: 1px solid #ff3d00;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ff3d00;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-button {
+  background: #ff3d00;
+  height: 15px;
+  border-radius: 50%;
+}
+
+
 #loader {
     border-top: 16px solid #ff3d00;
     margin : auto;
