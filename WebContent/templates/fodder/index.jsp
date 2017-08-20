@@ -19,7 +19,7 @@
 <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="La Rotisserie - Site Officiel"/>
 <meta property="og:description" content="Bienvenue sur le site officiel de la Rotisserie"/>
-<meta property="og:image" content="${baseUrl}/templates/fodder/images/banner.jpg"/>
+<meta property="og:image" content="${baseUrl}/templates/fodder/images/logo.png"/>
 </head>
 	
 <body>
