@@ -368,10 +368,6 @@ li.item1 {
 	background-image : url(../images/chicken_1.jpeg);
 	background-color: #ffa709;
 	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
 	height: 390px;
 	overflow : hidden;
 }
@@ -693,10 +689,6 @@ fieldset {
 	color:#3a0b03;
 	border:2px solid #ff4d00;
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-o-border-radius: 5px;
-	-ms-border-radius: 5px;
 	font-family : Exo;
 }
 .book_table input[type="time"]{
@@ -771,16 +763,8 @@ fieldset {
       margin-top:31px;
       width : 38%;
       display : inline-block;
-      -webkit-border-radius:4px 4px 0 0;
-         -moz-border-radius:4px 4px 0 0;
-              border-radius:4px 4px 0 0;
-      -webkit-box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-         -moz-box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-              box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-      -webkit-transition:all 0.4s;
-         -moz-transition:all 0.4s;
-           -o-transition:all 0.4s;
-              transition:all 0.4s;
+      border-radius:4px 4px 0 0;
+      box-shadow:0 2px 3px 1px rgba(0,0,0,0);
 }
 
 .shoppingCart > div {
@@ -842,8 +826,6 @@ fieldset {
 .shoppingCart:hover li{
        height:auto;
        padding:10px 10px;
-       -webkit-box-shadow:inset 0 1px 0 #fff;
-       -moz-box-shadow:inset 0 1px 0 #fff;
        box-shadow:inset 0 1px 0 #fff;
 }
 
@@ -926,16 +908,8 @@ fieldset {
       overflow:hidden;
       vertical-align : top;
       margin-right : 5%;
-      -webkit-border-radius:4px 4px 0 0;
-         -moz-border-radius:4px 4px 0 0;
-              border-radius:4px 4px 0 0;
-      -webkit-box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-         -moz-box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-              box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-      -webkit-transition:all 0.4s;
-         -moz-transition:all 0.4s;
-           -o-transition:all 0.4s;
-              transition:all 0.4s;
+      border-radius:4px 4px 0 0;
+      box-shadow:0 2px 3px 1px rgba(0,0,0,0);
 }
 
 .delivery ul {
