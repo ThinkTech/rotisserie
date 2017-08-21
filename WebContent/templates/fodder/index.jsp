@@ -31,16 +31,18 @@
 		<div class="container">
 			<!-- banner -->
 				<div class="banner">
-				    <div class="social">
-    				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-					   <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-					   <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-					   <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				    </div>
-				    <div class="user">
-				       <a><span>Connexion</span></a>
-				       <span>|</span>
-				       <a><span>Inscription</span></a>
+				    <div class="banner-top">
+					    <div class="social">
+	    				   <a href="https://www.facebook.com/La-Rotisserie-754864788055175/" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						   <a title="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						   <a title="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						   <a title="email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					    </div>
+					    <div class="user">
+					       <a><span>Connexion</span></a>
+					       <span>|</span>
+					       <a><span>Inscription</span></a>
+					    </div>
 				    </div>
 					<div class="col-md-3 banner-left">
 						 <ul class="menu">

@@ -185,7 +185,7 @@ a:focus {
 }
 /*-- banner-body --*/
 .banner-body{
-	padding:2.2em 0;
+	padding:0.3em 0;
 	background: #ffa709;
 }
 
@@ -212,22 +212,18 @@ a:focus {
 }
 
 .banner .social {
-	position: absolute;
-    top: 9px;
-    left: 102px;
-    margin-top : 0;
+    display: inline-block;
 }
 
-.banner > .social a,.banner > .social a:visited {
+.banner-top > .social a,.banner-top > .social a:visited {
 	font-size : 1.03em;
 	color : #3a0b03;
 	cursor : pointer;
 }
 
 .user {
-	position: absolute;
-    top: 9px;
-    right: 99px;
+	float: right;
+    display: inline-block;
 }
 
 .user a, .user a:visited {
@@ -1793,9 +1789,6 @@ div#or {
   .banner-right a.scroll {
     font-size: 1em;
   }
-  .flex-control-nav {
-    top: 104%;
-  }
   .banner-bottom-right h5 {
     font-size: 1.5em;
   }
@@ -1807,12 +1800,6 @@ div#or {
   }
   .book_table input[type="text"], select, .book_table input[type="email"], .book_table textarea, .book_table input[type="time"] {
     font-size: 12px;
-  }
-  .banner .social {
-    left: 38px;
-  }
-  .user {
-    right: 36px;
   }
   .checkout-wizard-steps {
     padding-left: 0px;
