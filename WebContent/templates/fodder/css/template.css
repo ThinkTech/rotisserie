@@ -805,6 +805,11 @@ fieldset {
        border-bottom-color:#000;
        transform:rotate(-180deg);
 }
+
+.shoppingCart .scroll{
+	float : right;
+}
+
 .shoppingCart ul{
        list-style:none;
        position:relative;
@@ -994,7 +999,7 @@ fieldset {
 }
 
 #checkout-wizard fieldset{
-	padding: 1.5em;
+	padding: 1em;
     color: #3a0b03;
     font-size: 19px;
     line-height: 1.8em;
@@ -1714,50 +1719,168 @@ div#or {
 /*-- //services --*/
 /*-----start-responsive-design------*/
 @media (max-width:1280px){
-	
+  .menu ul li a {
+    font-size: 0.6em;
+  }	
+  .menu ul li a span {
+    margin-left: -27px;
+  }
+  .rm-content dl dt {
+    font-size: 12px;
+    width: 66%;
+  }
+  .rm-content h2 {
+    font-size: 27px;
+  }
+  .rm-content h3 {
+    font-size: 23px;
+  }
+  a.rm-button-open {
+    color: #3a0b03;
+    font-size: 19px;
+    line-height: 42px
+  }
+  .about-main fieldset p {
+    font-size: 14px;
+  }
+  .about-main fieldset div p {
+    font-size: 14px;
+  }
+  h3.title {
+    font-size: 1.4em;
+  }
+  .rm-content h4 {
+    margin: 0 0 3px 0;
+  }
+  .rm-content h4:not(:first-child) {
+    margin-top: 0px;
+  }
+  .rm-content h4 {
+    margin: 0 0 3px 0;
+    margin-left: -1px;
+    font-size: 13px;
+    padding: 5px;
+  }
+  .shopping p,.reserve p {
+    font-size: 0.9em;
+  }
+  .delivery h3 {
+    font-size: 1.3em;
+  }
+  .delivery b {
+    font-size: 1em;
+  }
+  .shoppingCart li span span {
+    width: 211px;
+    font-size: 11px;
+  }
+  .shoppingCart li strong {
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+  }
+  .shoppingCart p span {
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .checkout {
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  .shoppingCart h4 {
+    font-size: 1.1em;
+  }
+  .banner-right a h1 {
+    font-size: 5.5em;
+  }
+  .banner-right a h4 {
+    font-size: 3.75em;
+  }
+  .banner-right a.scroll {
+    font-size: 1em;
+  }
+  .flex-control-nav {
+    top: 104%;
+  }
+  .banner-bottom-right h5 {
+    font-size: 1.5em;
+  }
+  .banner-bottom-right p {
+    font-size: 12px;
+  }
+  .book_table label {
+    font-size: 0.9em;
+  }
+  .book_table input[type="text"], select, .book_table input[type="email"], .book_table textarea, .book_table input[type="time"] {
+    font-size: 12px;
+  }
+  .banner .social {
+    left: 38px;
+  }
+  .user {
+    right: 36px;
+  }
+  .checkout-wizard-steps {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  div#or {
+    margin: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .register {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: -22px;
+  }
+  .checkout-wizard-content fieldset > div {
+    font-size: 0.8em;
+  }
+  .checkout-wizard-content fieldset > div > h5 {
+    font-size: 11.4px;
+  }
+  .checkout-wizard-content fieldset h6 {
+    font-size: 12.5px;
+  }
+  .checkout-wizard-content fieldset h4 {
+    font-size: 14px;
+  }
+  .shopping-amount > span {
+    font-size: 0.88em;
+  }
+  .easyWizardSteps li {
+    font-size: 1em;
+  }
+  .wizard-title {
+    font-size: 1.34em;
+  }
+  #order-confirmation p {
+    font-size: 0.82em;
+ }
+ #order-confirmation a {
+    font-size: 0.9em;
+    padding: 9px;
+ }
+ #order-confirmation h1 {
+    font-size: 1.15em;
+ }
+ #order-confirmation > div {
+    height: 210px;
+ }
 }
 @media (max-width: 1024px){
+	 .user {
+       right: 29px;
+     }
 	fieldset {
 		width: 77%;
-	}
-	
-	.banner-right {
-		min-height: 525px;
-	}
-	.banner-left{
-		height: 525px;
-	}
-	li.item1 {
-		padding: 3em 0 0 3em;
-	}
-	.banner-bottom {
-		padding: 2em;
-	}
-	.about-main h3, .menu1 h3, .book_table h3, .map-grids h3 {
-		width: 37%;
-	}
-	.mnu1 {
-		padding: 0 2em 5em;
-	}
-	.about-main {
-		padding: 0 2em 5em;
-	}
-	.book_table form {
-		width: 85%;
 	}
 	.book_table input[type="text"], select, .book_table input[type="email"], .book_table textarea, .book_table input[type="time"] {
 		width: 47.65%;
 	}
-	.map-grids {
-		left: 7.5%;
-		width: 85%;
-	}
-	.map-grids h4 {
-		margin: 3em 0 .5em;
-	}
-	.map-color {
-		min-height: 875px;
-	}
+	.rm-content dl dt {font-size: 11px;width: 64%;}
 }
 @media (max-width:768px){
 	.banner-left {

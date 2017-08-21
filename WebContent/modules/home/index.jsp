@@ -392,8 +392,8 @@
 					           </p>
 					         </div>
 					         <a title="acheter" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a>
-					      </div>
-					      <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>    
+					         <a title="retour à la carte" href="#rm-container" class="scroll"><i class="fa fa-gift" aria-hidden="true"></i></a>
+					      </div> 
 					   </div>
 					   <div id="checkout-wizard">
 					     <div class="checkout-wizard-content">

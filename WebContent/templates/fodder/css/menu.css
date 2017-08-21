@@ -534,11 +534,6 @@ a.rm-viewdetails:hover {
 
 /* Media Queries */
 
-@media screen and (max-width: 1110px) {
-	.rm-container {
-		height: 800px;
-	}
-}
 
 @media screen and (max-width: 960px) {
 	.rm-container {
