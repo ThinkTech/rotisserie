@@ -661,7 +661,7 @@ fieldset {
 	background:#fff;
 	font-size:14px;
 	color:#3a0b03;
-	border:2px solid #ff4d00;
+	border:1px solid #ff4d00;
 	border-radius: 5px;
 	font-family : Exo;
 }
@@ -1134,7 +1134,7 @@ div#or {
 
 .register input[type="text"], .register input[type="email"], .register input[type="password"] {
    outline: none;
-    border: 1px solid #DFDFDF;
+    border:1px solid #ff4d00;
     background: #fff;
     padding: 6px;
     margin-bottom: 6px;
