@@ -18,9 +18,7 @@ const saveOrder = function() {
         $('body').css("overflow-y","auto");
 	});
 	const form = $("form",wizard);
-	const url = form.attr("action");
-	const data = form.serialize();
-	app.post(url,data, function(response) {
+	app.post(form.attr("action"),form.serialize(),function(response) {
 		$('html,body').animate({scrollTop:0},100,function(){
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
