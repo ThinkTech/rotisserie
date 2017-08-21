@@ -1130,13 +1130,14 @@ div#or {
     display: inline-block;
     vertical-align: top;
     width: 40%;	
+    margin-top : -22px;
 }
 
 .register input[type="text"], .register input[type="email"], .register input[type="password"] {
    outline: none;
     border:1px solid #ff4d00;
     background: #fff;
-    padding: 6px;
+    padding: 4px;
     margin-bottom: 6px;
     color: #212121;
     width: 100%;
