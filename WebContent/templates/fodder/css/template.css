@@ -1790,12 +1790,6 @@ div#or {
   .shoppingCart h4 {
     font-size: 1.1em;
   }
-  .banner-right a h1 {
-    font-size: 5.5em;
-  }
-  .banner-right a h4 {
-    font-size: 3.75em;
-  }
   .banner-right a.scroll {
     font-size: 1em;
   }
@@ -1871,16 +1865,14 @@ div#or {
  }
 }
 @media (max-width: 1024px){
-	 .user {
-       right: 29px;
-     }
-	fieldset {
-		width: 77%;
-	}
+	.user {right: 29px;}
+	fieldset {width: 77%;}
 	.book_table input[type="text"], select, .book_table input[type="email"], .book_table textarea, .book_table input[type="time"] {
 		width: 47.65%;
 	}
 	.rm-content dl dt {font-size: 11px;width: 64%;}
+	.banner-right a h1 {font-size: 5.5em;}
+    .banner-right a h4 {font-size: 3.75em;}
 }
 @media (max-width:768px){
 	.banner-left {
