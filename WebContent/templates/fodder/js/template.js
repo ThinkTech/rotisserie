@@ -121,9 +121,6 @@ $(function() {
 	    	const price = parseInt($(element).html());
 	    	$(element).html(price.toLocaleString("fr-FR"));
 	      });
-		  $.each($("img"),function(index,element){
-	    	$(element).attr("src",$(element).data("src"));
-	      });
 		  $("#confirmation-close").click(function(){
 			  $(".banner-right h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 		      $(".banner-right h4").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
