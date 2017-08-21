@@ -10,7 +10,7 @@ const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceInRight', 'bounceInUp' ];
 
 const saveOrder = function() {
-	const wizard = $("#checkout-wizard").fadeOut(1000,function(){
+	const wizard = $("#checkout-wizard").fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
 		$(".article-count").html(0);
@@ -21,7 +21,7 @@ const saveOrder = function() {
 	const url = form.attr("action");
 	const data = form.serialize();
 	app.post(url,data, function(response) {
-		$('html,body').animate({scrollTop:0},600,function(){
+		$('html,body').animate({scrollTop:0},100,function(){
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
 	}, function(error) {
