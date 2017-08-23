@@ -351,6 +351,7 @@
 								 <li><b><i class="fa fa-cc-mastercard" aria-hidden="true"></i>MasterCard</b></li>
 								 <li><b><i class="fa fa-credit-card" aria-hidden="true"></i>American Express</b></li>
 								 <li><b><i class="fa fa-cc-discover" aria-hidden="true"></i>Discover</b></li>
+								 <li><b><i class="fa fa-paypal" aria-hidden="true"></i>PayPal</b></li>
 								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Tigo Cash</b></li>
 								 <li><b><i class="fa fa-mobile" aria-hidden="true"></i>Orange Money</b></li>
 								</ul>
@@ -442,6 +443,7 @@
 									           <option value="mastercard">MasterCard</option>
 									           <option value="express">American Express</option>
 									           <option value="discover">Discover</option>
+									           <option value="paypal">PayPal</option>
 									           <option value="orange">Orange Money</option>
 									           <option value="tigo">Tigo Cash</option>
 									        </select>
@@ -560,6 +562,12 @@
 												   Réception SMS de la confirmation de paiement.
 												</li>
 												</ol>
+										  </div>
+										  <div class="payment paypal-payment">
+										     <h4><i class="fa fa-paypal" aria-hidden="true"></i><b>Paiement PayPal</b></h4>
+										     <ol>
+												
+											</ol>
 										  </div>
 										  <div class="payment delivery-payment">
 										     <h4><i class="fa fa-money" aria-hidden="true"></i><b>Paiement à la livraison</b></h4>

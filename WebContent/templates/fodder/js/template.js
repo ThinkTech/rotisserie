@@ -99,11 +99,18 @@ $(function() {
 		    	if(payment.done) {
 			    	saveOrder();
 		    	}else {
-		    		const checked = form.find("input[name='payment'][value='online']").is(":checked");
+		    		const radio = form.find("input[name='payment'][value='online']");
+		    		const checked = radio.is(":checked");
 		    		if(checked) {
-		    		  alert("vous devez effectuer le paiement de votre commande",function(){
-		    			$(".v-button").click();
-		    		  });
+		    		  const select = form.find("select[name='method']")
+		    		  const val = select.val();
+		    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
+		    			  alert("vous devez effectuer le paiement de votre commande",function(){
+				    			$(".v-button").click();
+				    	  });  
+		    		  }else {
+		    			  saveOrder();
+		    		  }    		  
 		    		}else {
 		    			saveOrder();
 		    		}

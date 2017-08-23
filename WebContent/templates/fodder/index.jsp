@@ -197,6 +197,10 @@
 									    <h4><i class="fa fa-share-alt" aria-hidden="true"></i>Partagez</h4>
 										<div class="share-this sharethis-inline-share-buttons"></div>
 										<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
+										 <br>
+										<div class="payment-methods">
+										 <img data-src="templates/fodder/images/payment-methods.png">
+										</div>
 									</div>
 									<div class="clearfix"> </div>
 								</div>

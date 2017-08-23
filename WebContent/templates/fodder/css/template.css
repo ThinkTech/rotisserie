@@ -423,8 +423,12 @@ b .fa-mobile {
     margin-right: 3px;
 }
 
-b .fa-cc-discover {
+b .fa-cc-discover{
     font-size: 14px;
+}
+
+b  .fa-paypal {
+    font-size: 20px;
 }
 
 .banner-bottom-right{
@@ -1584,6 +1588,10 @@ div#or {
 }
 .footer-right p a:hover{
 	color:#fff;
+}
+
+.payment-methods {
+	text-align : center;
 }
 
 /*-- //footer --*/
