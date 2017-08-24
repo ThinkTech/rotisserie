@@ -764,6 +764,11 @@ fieldset {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.shoppingCart .scroll {
+	float : right;
+}
+
 .shoppingCart:hover h4{
        color:#fff;
 }
