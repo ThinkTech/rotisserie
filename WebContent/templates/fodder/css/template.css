@@ -767,24 +767,6 @@ fieldset {
 .shoppingCart:hover h4{
        color:#fff;
 }
-.arrow{
-       float:right;
-       width:0;
-       height:0;
-       margin-top:7px;
-       border-right:4px solid #000;
-       border-bottom:4px solid #000;
-       border-left:4px solid #000;
-       cursor : pointer;
-}
-.shoppingCart:hover .arrow{
-       border-bottom-color:#000;
-       transform:rotate(-180deg);
-}
-
-.shoppingCart .scroll{
-	float : right;
-}
 
 .shoppingCart ul{
        list-style:none;
