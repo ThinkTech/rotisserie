@@ -1353,7 +1353,7 @@ div#or {
     background: #fff;
     width : 200px;
 }
-.easyWizardSteps li.current {color: #fff;background: #000;}
+.easyWizardSteps li.current {color: #fff;background: #ff4d00;}
 .easyWizardButtons {overflow:hidden;}
 .easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
 .easyWizardButtons .prev {
