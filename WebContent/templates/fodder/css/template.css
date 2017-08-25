@@ -1112,17 +1112,18 @@ div#or {
     text-align: center;
     font-size: 12px;
     margin: 35px;
+    margin-left : 35px;
     background: #FFFFFF;
 }
 
-.register {
+.checkout-wizard-content .register {
     display: inline-block;
     vertical-align: top;
     width: 40%;	
     margin-top : -22px;
 }
 
-.register input[type="text"], .register input[type="email"], .register input[type="password"] {
+.checkout-wizard-content .register input[type="text"],.checkout-wizard-content .register input[type="email"],.checkout-wizard-content .register input[type="password"] {
    outline: none;
     border:1px solid #ff4d00;
     background: #fff;
@@ -1134,7 +1135,7 @@ div#or {
     font-size: 14px;
 }
 
-.register input[type="button"] {
+.checkout-wizard-content .register input[type="button"] {
    border: 2px solid #fff;
     border-radius: 5px;
     background: #ff4d00;
@@ -1149,11 +1150,11 @@ div#or {
     margin-left: -2px;
 }
 
-.register input[type="button"]:hover {
+.checkout-wizard-content .register input[type="button"]:hover {
 	background: #000;
 }
 
-.register a, .register a:visited {
+.checkout-wizard-content .register a,.checkout-wizard-content .register a:visited {
 	cursor : pointer;
 	font-size : 13px;
 	color: #ff4d00;
@@ -1780,10 +1781,10 @@ div#or {
   }
   div#or {
     margin: 35px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  .register {
+  .checkout-wizard-content .register {
     display: inline-block;
     vertical-align: top;
     width: 33%;
