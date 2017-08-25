@@ -13,7 +13,7 @@ function onVisaCheckoutReady(){
   settings: {
 	  locale: "fr_FR",
 	  displayName: "La Rotisserie",
-	  websiteUrl: "${baseUrl}",
+	  websiteUrl: "http://rotisserie.mircloud.host",
 	  shipping: {
 		  collectShipping : "false"
 	  },
@@ -25,7 +25,7 @@ function onVisaCheckoutReady(){
   });
   V.on("payment.success", function(response){
 	payment.done = true;
-	closeWizard();
+	saveOrder();
   });
   V.on("payment.cancel", function(response){ 
   });
